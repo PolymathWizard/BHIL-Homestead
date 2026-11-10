@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/PolymathWizard/BHIL-HOMESTEAD/schemas/inventory.schema.json",
+  "title": "HOMESTEAD site inventory",
+  "type": "object",
+  "required": ["homestead_version", "source", "pages", "brand", "patterns", "summary"],
+  "properties": {
+    "homestead_version": {"type": "string"},
+    "source": {
+      "type": "object",
+      "required": ["input", "mode"],
+      "properties": {
+        "input": {"type": "string"},
+        "mode": {"type": "string", "enum": ["url", "file"]},
+        "fetched_pages": {"type": "integer", "minimum": 0}
+      }
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["url", "title", "headings", "nav_links", "ctas"],
+        "properties": {
+          "url": {"type": "string"},
+          "title": {"type": "string"},
+          "lang": {"type": "string"},
+          "meta_description": {"type": "string"},
+          "headings": {"type": "array", "items": {"type": "object"}},
+          "nav_links": {"type": "array", "items": {"type": "object"}},
+          "footer_links": {"type": "array", "items": {"type": "object"}},
+          "ctas": {"type": "array", "items": {"type": "object"}},
+          "forms": {"type": "array", "items": {"type": "object"}},
+          "images": {"type": "array", "items": {"type": "object"}},
+          "embeds": {"type": "array", "items": {"type": "string"}},
+          "scripts": {"type": "array", "items": {"type": "string"}},
+          "word_count": {"type": "integer", "minimum": 0}
+        }
+      }
+    },
+    "brand": {
+      "type": "object",
+      "required": ["colors", "fonts"],
+      "properties": {
+        "name_guess": {"type": "string"},
+        "colors": {"type": "array", "items": {"type": "object", "required": ["hex", "count"]}},
+        "fonts": {"type": "array", "items": {"type": "object", "required": ["family", "category"]}},
+        "web_fonts_loaded": {"type": "boolean"},
+        "logo_candidates": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "modern_pattern", "evidence"],
+        "properties": {
+          "id": {"type": "string"},
+          "modern_pattern": {"type": "string"},
+          "evidence": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["page_count", "pattern_count"],
+      "properties": {
+        "page_count": {"type": "integer", "minimum": 1},
+        "pattern_count": {"type": "integer", "minimum": 0},
+        "nav_item_count": {"type": "integer", "minimum": 0},
+        "tone_notes": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

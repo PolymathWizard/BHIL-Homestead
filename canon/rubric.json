@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "scale": [0, 1, 2],
+  "max_score": 40,
+  "bands": [
+    {"verdict": "SHIP", "min": 34, "max": 40, "action": "Ship. Record the scorecard with the build."},
+    {"verdict": "REVISE", "min": 26, "max": 33, "action": "Revise every row that scored below 2, then re-score."},
+    {"verdict": "REBUILD", "min": 0, "max": 25, "action": "Re-lock the era and rebuild from the mapping step."}
+  ],
+  "hard_gates": [
+    {"row": 17, "min": 1, "reason": "Autoplaying audio fails WCAG 1.4.2 regardless of total score."},
+    {"row": 18, "min": 2, "reason": "Safe Mode ships on every build."},
+    {"row": 16, "min": 1, "reason": "Motion over flash thresholds fails WCAG 2.3.1 regardless of total score."}
+  ],
+  "rows": [
+    {"row": 1, "check": "Era locked to one preset", "0": "Mixed", "1": "Mostly consistent", "2": "Fully consistent or explicitly time-capsuled", "lint": ["HL022"]},
+    {"row": 2, "check": "Canvas width matches era", "0": "Fluid or responsive", "1": "Fixed but wrong width", "2": "Fixed at era width", "lint": ["HL023", "HL008"]},
+    {"row": 3, "check": "Colors", "0": "Off-palette", "1": "Mostly web-safe", "2": "All flat colors web-safe (presets A to C)", "lint": ["HL020"]},
+    {"row": 4, "check": "Fonts", "0": "Web fonts", "1": "System fonts, wrong era", "2": "Era-correct system fonts only", "lint": ["HL001"]},
+    {"row": 5, "check": "Layout engine look", "0": "Flex or grid feel", "1": "Tables but too tidy", "2": "Visible table borders and spacer quirks", "lint": ["HL005", "HL024"]},
+    {"row": 6, "check": "Images", "0": "Retina or SVG", "1": "Downscaled", "2": "Dithered GIF or artifacted JPEG", "lint": ["HL007", "HL025"]},
+    {"row": 7, "check": "Widgets present", "0": "None", "1": "Some", "2": "Full era set", "lint": ["HL021"]},
+    {"row": 8, "check": "Widgets era-correct", "0": "Anachronistic", "1": "Minor slips", "2": "All era-correct", "lint": ["HL022"]},
+    {"row": 9, "check": "Copy voice", "0": "Modern marketing", "1": "Partially rewritten", "2": "Fully era-voiced", "lint": ["HL011", "HL006"]},
+    {"row": 10, "check": "Navigation", "0": "Modern header", "1": "Retro-styled modern", "2": "Frames emulation, shared borders, image map, or text links", "lint": []},
+    {"row": 11, "check": "Brand legibility", "0": "Unrecognizable", "1": "Recognizable with effort", "2": "Instantly recognizable", "lint": []},
+    {"row": 12, "check": "Content parity", "0": "Under half of the IA mapped", "1": "Most mapped", "2": "All key IA and CTAs mapped", "lint": []},
+    {"row": 13, "check": "View Source", "0": "Modern framework output", "1": "Mixed", "2": "Period-style markup and comments", "lint": ["HL010", "HL026", "HL027"]},
+    {"row": 14, "check": "Lived-in details", "0": "None", "1": "Some", "2": "Last updated, visitor count, a broken-component placeholder, or under construction pages", "lint": []},
+    {"row": 15, "check": "Browser badges", "0": "Missing", "1": "Generic", "2": "Era-matched", "lint": []},
+    {"row": 16, "check": "Motion", "0": "None, or modern easing, or over flash thresholds", "1": "Retro but excessive", "2": "Era-appropriate GIF and marquee use, under flash thresholds", "lint": ["HL014", "HL013"]},
+    {"row": 17, "check": "Audio", "0": "Autoplays", "1": "Click-to-play, wrong format", "2": "Click-to-play period-style track with a visible control", "lint": ["HL012"]},
+    {"row": 18, "check": "Safe Mode", "0": "None", "1": "Partial", "2": "Full toggle covering motion, audio, and contrast", "lint": ["HL015"]},
+    {"row": 19, "check": "Accessibility basics", "0": "Fails", "1": "Partial", "2": "Alt text, keyboard navigation, and a text-only link", "lint": ["HL019"]},
+    {"row": 20, "check": "Legal hygiene", "0": "Uncleared assets", "1": "Partial", "2": "Asset log, font plan, and disclaimer as needed", "lint": ["HL009"]}
+  ]
+}

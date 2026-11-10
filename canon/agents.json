@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "pattern": "CADRE: one orchestrator session over tool-isolated subagents. The orchestrator owns the engagement folder, sequencing, and human checkpoints. Subagents own one phase each and hand back a contract, not a conversation.",
+  "orchestrator": {"name": "orchestrator", "model": "opus", "entry": "/homestead", "owns": ["phase 0", "checkpoints", "writing auditor output to 06-qa"]},
+  "agents": [
+    {"name": "site-surveyor", "phase": 1, "model": "sonnet", "tools": ["Read", "Write", "Bash", "WebFetch", "Glob"], "forbidden": ["Edit"], "writes": "engagements/<slug>/01-inventory/", "contract": "inventory.json valid against schemas/inventory.schema.json plus notes.md"},
+    {"name": "era-archivist", "phase": 2, "model": "sonnet", "tools": ["Read", "Write", "WebSearch", "WebFetch", "Glob"], "forbidden": ["Bash", "Edit"], "writes": "engagements/<slug>/02-era-spec.json", "contract": "era spec valid against schemas/era-spec.schema.json with two or more reference URLs"},
+    {"name": "component-mapper", "phase": 3, "model": "sonnet", "tools": ["Read", "Write", "Edit", "Bash", "Glob"], "forbidden": ["WebFetch", "WebSearch"], "writes": "engagements/<slug>/03-mapping.md and 03-copy-deck.md", "contract": "every detected pattern has a map, merge, or drop decision; copy deck passes HL011"},
+    {"name": "asset-smith", "phase": 4, "model": "sonnet", "tools": ["Read", "Write", "Bash", "Glob"], "forbidden": ["WebSearch", "Edit"], "writes": "engagements/<slug>/04-asset-log.csv and 05-build/images/", "contract": "every file in images is in the asset log with source, license, and era check"},
+    {"name": "period-builder", "phase": 5, "model": "sonnet", "tools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep"], "forbidden": ["WebSearch", "WebFetch"], "writes": "engagements/<slug>/05-build/", "contract": "era_lint exits 0 for every page"},
+    {"name": "authenticity-auditor", "phase": 6, "model": "sonnet", "tools": ["Read", "Glob", "Grep", "Bash"], "forbidden": ["Write", "Edit", "WebSearch", "WebFetch"], "writes": "nothing; returns the scorecard JSON and notes to the orchestrator", "contract": "complete 20-row scorecard with evidence per row and a verdict from tools/rubric.py"}
+  ]
+}

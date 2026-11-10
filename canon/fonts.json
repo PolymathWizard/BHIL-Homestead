@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "policy": "Reference installed system fonts through font-family stacks or the font face attribute. Never use @font-face for presets A to E. The Core fonts were never licensed for web embedding (C-031) and Comic Sans webfont licensing is sold separately (C-032).",
+  "categories": [
+    {"id": "serif", "detect": ["serif", "georgia", "merriweather", "playfair", "lora", "garamond", "times", "source serif", "libre baskerville", "dm serif", "fraunces"], "stacks": {"A": "Times New Roman, Times, serif", "B": "Times New Roman, Times, serif", "C": "Book Antiqua, Times New Roman, serif", "D": "Georgia, Times New Roman, serif", "E": "Georgia, Times New Roman, serif", "F": "Times New Roman, Times, serif"}},
+    {"id": "sans", "detect": ["inter", "roboto", "helvetica", "arial", "open sans", "lato", "poppins", "montserrat", "source sans", "nunito", "manrope", "dm sans", "plus jakarta", "ibm plex sans", "geist", "system-ui", "sans-serif", "segoe"], "stacks": {"A": "Times New Roman, Times, serif", "B": "Arial, Helvetica, sans-serif", "C": "Verdana, Arial, Helvetica, sans-serif", "D": "Verdana, Tahoma, Arial, sans-serif", "E": "Verdana, Arial, sans-serif", "F": "Verdana, Arial, sans-serif"}},
+    {"id": "display", "detect": ["oswald", "bebas", "anton", "archivo black", "league gothic", "impact", "black"], "stacks": {"A": "Times New Roman, Times, serif", "B": "Arial Black, Arial, sans-serif", "C": "Impact, Arial Black, sans-serif", "D": "Arial Black, Arial, sans-serif", "E": "Impact, Arial Black, sans-serif", "F": "Arial Black, Arial, sans-serif"}},
+    {"id": "playful", "detect": ["comic", "fredoka", "baloo", "quicksand", "pacifico", "caveat", "patrick hand", "chewy"], "stacks": {"A": "Times New Roman, Times, serif", "B": "Comic Sans MS, cursive", "C": "Comic Sans MS, cursive", "D": "Comic Sans MS, cursive", "E": "Comic Sans MS, cursive", "F": "Comic Sans MS, cursive"}},
+    {"id": "mono", "detect": ["mono", "code", "courier", "consolas", "menlo", "jetbrains", "fira code", "source code", "ibm plex mono"], "stacks": {"A": "Courier New, Courier, monospace", "B": "Courier New, Courier, monospace", "C": "Courier New, Courier, monospace", "D": "Courier New, Courier, monospace", "E": "Courier New, Courier, monospace", "F": "Courier New, Courier, monospace"}}
+  ]
+}

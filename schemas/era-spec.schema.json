@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/PolymathWizard/BHIL-HOMESTEAD/schemas/era-spec.schema.json",
+  "title": "HOMESTEAD era spec card",
+  "type": "object",
+  "required": ["preset", "year", "host_context", "target_browser", "canvas_width_px", "palette_mode", "base_bg", "fonts", "layout_mode", "nav_style", "required_widgets", "forbidden_elements", "voice_rules", "motion_budget", "audio", "easter_eggs", "time_capsule", "reference_urls"],
+  "properties": {
+    "preset": {"type": "string", "enum": ["A", "B", "C", "D", "E", "F"]},
+    "preset_name": {"type": "string"},
+    "year": {"type": "integer", "minimum": 1993, "maximum": 2030},
+    "host_context": {"type": "string"},
+    "target_browser": {"type": "string"},
+    "canvas_width_px": {"type": ["integer", "null"]},
+    "palette_mode": {"type": "string", "enum": ["browser-default", "web-safe-216", "theme", "full"]},
+    "base_bg": {"type": "string"},
+    "palette": {"type": "object"},
+    "fonts": {"type": "object", "required": ["body", "heading", "display", "mono"]},
+    "layout_mode": {"type": "string"},
+    "nav_style": {"type": "string"},
+    "required_widgets": {"type": "array", "items": {"type": "string"}},
+    "required_any": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}},
+    "forbidden_elements": {"type": "array", "items": {"type": "string"}},
+    "voice_rules": {"type": "array", "items": {"type": "string"}},
+    "motion_budget": {"type": "integer", "minimum": 0, "maximum": 12},
+    "audio": {"type": "string", "enum": ["none", "click-to-play", "none-or-click-to-play"]},
+    "easter_eggs": {"type": "array", "items": {"type": "string"}},
+    "time_capsule": {"type": "boolean"},
+    "time_capsule_story": {"type": "string"},
+    "allowed_extra_widgets": {"type": "array", "items": {"type": "string"}},
+    "reference_urls": {"type": "array", "items": {"type": "string"}},
+    "asset_policy": {"type": "string", "enum": ["originals-only", "archive-allowed"]}
+  }
+}

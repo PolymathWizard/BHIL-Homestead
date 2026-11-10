@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "techniques": [
+    {"id": "T01", "technique": "Table layouts, nested tables, cellpadding, cellspacing, bgcolor", "era": "1996-2005", "renders_today": "yes", "emulation": "Use as-is. The single biggest authenticity signal.", "claims": []},
+    {"id": "T02", "technique": "Spacer GIFs (1x1 transparent, stretched with width and height)", "era": "1996-2002", "renders_today": "yes", "emulation": "Use as-is. tools/gifsmith.py emits spacer.gif.", "claims": []},
+    {"id": "T03", "technique": "font face, size, and color attributes; center; b; i; u", "era": "1995-2002", "renders_today": "yes", "emulation": "Use as-is. Obsolete but rendered.", "claims": []},
+    {"id": "T04", "technique": "body background, bgcolor, text, link, vlink, alink attributes", "era": "1995-2003", "renders_today": "yes", "emulation": "Use as-is.", "claims": []},
+    {"id": "T05", "technique": "marquee", "era": "1996-2008", "renders_today": "yes", "emulation": "Use, with the safety layer linked so Safe Mode can stop it.", "claims": ["C-006"]},
+    {"id": "T06", "technique": "blink", "era": "1994-2000", "renders_today": "no", "emulation": "Keep the element in source. homestead-safe.css animates it at one cycle per second and stops it in Safe Mode and under reduced motion.", "claims": ["C-007"]},
+    {"id": "T07", "technique": "bgsound and embed with autostart MIDI", "era": "1996-2002", "renders_today": "no autoplay", "emulation": "Keep the original line inside an HTML comment. Play a pre-rendered WAV of an original or public-domain tune only after a click.", "claims": ["C-022"]},
+    {"id": "T08", "technique": "Framesets", "era": "1996-2001", "renders_today": "disputed", "emulation": "Do not ship real framesets. Emulate with fixed tables or iframes styled as panes.", "claims": ["C-009"]},
+    {"id": "T09", "technique": "Client-side image maps (map, area)", "era": "1996-2003", "renders_today": "yes", "emulation": "Use as-is with alt text on every area.", "claims": []},
+    {"id": "T10", "technique": "Java applets (hover buttons, banner ad manager)", "era": "1997-2001", "renders_today": "no", "emulation": "JavaScript image swap. A gray applet-loading box may stay as flavor.", "claims": ["C-018", "C-019"]},
+    {"id": "T11", "technique": "Flash intros with Skip Intro", "era": "1998-2005", "renders_today": "no", "emulation": "HTML and CSS animation on a fixed 550 by 400 stage, or an original SWF through Ruffle.", "claims": ["C-008"]},
+    {"id": "T12", "technique": "JavaScript status bar scroller (window.status)", "era": "1997-2001", "renders_today": "no", "emulation": "Period scroller that rotates text inside a form text field, paused in Safe Mode.", "claims": []},
+    {"id": "T13", "technique": "Cursor trails and falling snow DHTML", "era": "1998-2003", "renders_today": "yes", "emulation": "Use, disabled in Safe Mode and under prefers-reduced-motion.", "claims": []},
+    {"id": "T14", "technique": "webbot comments, GENERATOR meta tags, _vti_cnf folders", "era": "1997-2003", "renders_today": "source only", "emulation": "Include in source for View Source authenticity.", "claims": ["C-017", "C-018"]},
+    {"id": "T15", "technique": "User CSS pasted into a profile field", "era": "2004-2009", "renders_today": "yes", "emulation": "A style block placed inside the About Me cell that overrides the default profile tables with !important.", "claims": ["C-020", "C-039"]}
+  ]
+}

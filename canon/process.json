@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "framework_name": "Retro-Web Redesign Architecture (RWRA)",
+  "core_principle": "A retro redesign is a translation, not a costume. Lock one era, inventory the modern site, map every component to its period equivalent, build in period markup, then let a separate auditor grade it.",
+  "phases": [
+    {"id": 0, "name": "Intake", "question": "What are we redesigning, for whom, and under what rights?",
+     "steps": ["Capture the target URL or saved HTML", "Record purpose: client, portfolio, commentary, or internal", "Record audience and deliverable: static mock, live site, screenshots, or video", "Choose the asset policy: originals-only or archive-allowed", "Note legal context: own brand, client brand, or third-party brand"],
+     "worksheet": "templates/intake.md", "outputs": ["00-intake.md"], "agent": "orchestrator", "prompt": "P01", "tools": ["tools/scaffold.py"]},
+    {"id": 1, "name": "Site survey", "question": "What does the modern site actually contain?",
+     "steps": ["Fetch the top page and up to ten same-origin pages", "Extract navigation, information architecture, headings, CTAs, forms, embeds, and scripts", "Extract brand colors and font families from markup and stylesheets", "Detect modern patterns against canon/mapping.json signals", "Capture tone of voice notes and screenshot references"],
+     "worksheet": "templates/inventory.schema.json", "outputs": ["01-inventory/inventory.json", "01-inventory/notes.md"], "agent": "site-surveyor", "prompt": "P02", "tools": ["tools/survey.py"]},
+    {"id": 2, "name": "Era lock", "question": "Which single era will this site live in?",
+     "steps": ["Recommend a preset from purpose, brand, and audience", "Set year, browser, canvas width, palette mode, fonts, and layout mode", "Copy required widgets and forbidden elements from the preset", "Set motion budget, audio mode, and easter eggs", "Pull two or three reference pages from the archives for the preset", "Decide whether a time capsule story is intended and write it down"],
+     "worksheet": "templates/era-spec-cards", "outputs": ["02-era-spec.json"], "agent": "era-archivist", "prompt": "P03", "tools": []},
+    {"id": 3, "name": "Component mapping", "question": "What does each modern component become?",
+     "steps": ["Generate the mapping worksheet from the inventory and era spec", "Decide map, merge, or drop for every detected pattern", "Cap navigation at five to eight items and plan the sitemap", "Plan lived-in details", "Write the era copy deck in the preset voice"],
+     "worksheet": "templates/mapping-worksheet.md", "outputs": ["03-mapping.md", "03-copy-deck.md"], "agent": "component-mapper", "prompt": "P04", "tools": ["tools/map.py"]},
+    {"id": 4, "name": "Asset sourcing and generation", "question": "What images, colors, and sounds does the build need, and are we allowed to use them?",
+     "steps": ["Snap brand colors to the web-safe cube and log the deltas", "Rebuild the logo as a WordArt-style or beveled GIF", "Downscale and dither photos", "Generate buttons, badges, counters, rules, tiles, and glitter with original tooling", "Render the click-to-play track", "Log every asset with source, license, and era check"],
+     "worksheet": "templates/asset-log.csv", "outputs": ["04-asset-log.csv", "05-build/images/"], "agent": "asset-smith", "prompt": "P06", "tools": ["tools/websafe.py", "tools/gifsmith.py", "tools/dither.py", "tools/chiptune.py"]},
+    {"id": 5, "name": "Build", "question": "Does the page look and read like it was made then, and behave safely now?",
+     "steps": ["Start from the preset kit and the safety layer", "Write period markup at the canvas width", "Place every mapped component and widget marker", "Wire Safe Mode, click-to-play audio, and the text-only page", "Lint after every file and fix errors before moving on"],
+     "worksheet": "kits/", "outputs": ["05-build/"], "agent": "period-builder", "prompt": "P07", "tools": ["tools/era_lint.py"]},
+    {"id": 6, "name": "Authenticity and safety QA", "question": "Would a 1998 visitor believe it, and is it safe for a 2026 visitor?",
+     "steps": ["Run the anachronism lint against the era spec", "Run the GIF timing audit", "Score the 40-point rubric without reading the builder's notes", "Check View Source, the text-only page, and keyboard paths", "Check the asset log and legal notes", "Issue SHIP, REVISE, or REBUILD with rows to fix"],
+     "worksheet": "templates/scorecard.json", "outputs": ["06-qa/scorecard.json", "06-qa/qa-notes.md"], "agent": "authenticity-auditor", "prompt": "P09", "tools": ["tools/era_lint.py", "tools/gif_audit.py", "tools/rubric.py"]}
+  ]
+}
