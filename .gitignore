@@ -3,8 +3,8 @@ engagements/*
 !engagements/.gitkeep
 
 # Build outputs
-site/
-site-src/
+/site/
+/site-src/
 *.tar.gz
 *.bundle
 

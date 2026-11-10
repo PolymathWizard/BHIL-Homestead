@@ -16,6 +16,7 @@ Stdlib only.
 
 import argparse
 import os
+import re
 import shutil
 import sys
 
@@ -51,6 +52,31 @@ def resolve_index_collisions():
                     handle.write(new_text)
 
 
+def resolve_root_readme_links():
+    """The root README.md publishes as index.md, so a relative link that
+    resolves to the root README (for example ../../README.md from the figure
+    kit) would dangle on the site. Point those links at index.md instead."""
+    link = re.compile(r"\]\(((?:\.\./)+)README\.md(#[^)]*)?\)")
+    for root, _dirs, names in os.walk(SITE_SRC):
+        for name in names:
+            if not name.endswith(".md"):
+                continue
+            path = os.path.join(root, name)
+            depth = len(os.path.relpath(root, SITE_SRC).split(os.sep)) if root != SITE_SRC else 0
+            with open(path, "r", encoding="utf-8") as handle:
+                text = handle.read()
+
+            def fix(m):
+                if len(m.group(1)) // 3 != depth:
+                    return m.group(0)
+                return "](%sindex.md%s)" % (m.group(1), m.group(2) or "")
+
+            new_text = link.sub(fix, text)
+            if new_text != text:
+                with open(path, "w", encoding="utf-8") as handle:
+                    handle.write(new_text)
+
+
 def assemble():
     if os.path.isdir(SITE_SRC):
         shutil.rmtree(SITE_SRC)
@@ -65,6 +91,7 @@ def assemble():
         if os.path.isdir(src):
             shutil.copytree(src, os.path.join(SITE_SRC, folder), ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
     resolve_index_collisions()
+    resolve_root_readme_links()
     count = sum(len(files) for _r, _d, files in os.walk(SITE_SRC))
     print("build_site: assembled %d files into site-src/" % count)
 

@@ -1,0 +1,87 @@
+/* BHIL Brand Guidelines v1.0 tokens for the documentation site (not for period builds).
+   Terminal Navy frames the page, BH Blue carries links and rules, Newsreader sets
+   headlines, IBM Plex Sans the body, IBM Plex Mono the eyebrows. Square corners,
+   hairlines, no shadows. */
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap");
+
+:root {
+  --bhil-navy: #0D1B2E;
+  --bhil-ink: #0A0A0A;
+  --bhil-paper: #FFFFFF;
+  --bhil-paper-3: #F3F3F0;
+  --bhil-blue: #4FA3D1;
+  --bhil-blue-2: #2E80B0;
+  --bhil-blue-3: #1E3A5F;
+  --bhil-blue-bright: #6CC0E8;
+  --bhil-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --bhil-mono: "IBM Plex Mono", "Courier New", Courier, monospace;
+}
+
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--bhil-navy);
+  --md-primary-fg-color--light: var(--bhil-blue-3);
+  --md-primary-fg-color--dark: var(--bhil-ink);
+  --md-accent-fg-color: var(--bhil-blue-2);
+  --md-typeset-a-color: var(--bhil-blue-2);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--bhil-navy);
+  --md-primary-fg-color--light: var(--bhil-blue-3);
+  --md-primary-fg-color--dark: var(--bhil-ink);
+  --md-accent-fg-color: var(--bhil-blue-bright);
+  --md-default-bg-color: var(--bhil-navy);
+  --md-typeset-a-color: var(--bhil-blue-bright);
+}
+
+/* Brand strip: a hairline of BH Blue under the header and above the footer. */
+.md-header { border-bottom: 2px solid var(--bhil-blue); box-shadow: none; }
+.md-footer { border-top: 2px solid var(--bhil-blue); }
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: var(--bhil-serif);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.md-typeset h1 { color: inherit; }
+
+.md-typeset table:not([class]) {
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid var(--bhil-blue-3);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--bhil-paper-3);
+  color: var(--bhil-navy);
+  font-family: var(--bhil-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background-color: var(--bhil-blue-3);
+  color: var(--bhil-paper);
+}
+
+.md-typeset code,
+.md-typeset pre,
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Kit figures: full width, hairline frame. */
+.md-typeset p > img[src*="assets/figures/"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--bhil-blue-3);
+}
