@@ -68,10 +68,13 @@ Snap the brand colors during the survey so the era archivist can see how the bra
 python3 tools/websafe.py snap --from-inventory engagements/acme/01-inventory/inventory.json
 ```
 
-| Original | Snapped | Method |
-|---|---|---|
-| `#1B4FD8` (BHIL cobalt) | `#3366CC` | per-channel |
-| `#6D28D9` (Nimbus violet) | `#6633CC` | per-channel |
+| Original | Per-channel | Snapped | Method | Delta E |
+|---|---|---|---|---|
+| `#1B4FD8` (BHIL cobalt) | `#3366CC` | `#3366FF` | perceptual | 11.54 |
+| `#6D28D9` (Nimbus violet) | `#6633CC` | `#6600CC` | perceptual | 7.58 |
+| `#10B981` (Nimbus green) | `#00CC99` | `#00CC99` | per-channel | 7.88 |
+
+Rounding each channel comes first. When that moves the color more than delta E 10 (CIE76), the tool takes the perceptually nearest web-safe color instead, which is why cobalt and violet do not keep their per-channel values.
 
 ## Related reading
 

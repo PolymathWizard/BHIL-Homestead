@@ -62,7 +62,7 @@ Product pages was a false positive in the survey (the modern nav simply has a Pr
 
 ## Phase 4: Assets
 
-Every image and sound is generated from each build's `recipe.json` by `tools/gifsmith.py`. Brand violet snapped to `#6633CC` and sky to `#0099FF` for the web-safe presets:
+Every image and sound is generated from each build's `recipe.json` by `tools/gifsmith.py`. For the web-safe presets, brand violet snaps to `#6600CC` and sky to `#3399CC`. Rounding each channel would give `#6633CC` and `#0099FF`, but both move more than delta E 10, so the snap rule picks the perceptually nearest web-safe color instead:
 
 ```bash
 python3 tools/websafe.py snap "#6D28D9" "#0EA5E9"

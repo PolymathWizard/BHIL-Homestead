@@ -7,7 +7,7 @@
   "canvas_width_px": 760,
   "palette_mode": "theme",
   "base_bg": "#FFFFFF with images/tile-ledger.gif",
-  "palette": {"bg": "#FFFFFF", "text": "#000033", "link": "#003399", "vlink": "#663399", "alink": "#CC0000", "brand": "#6633CC", "brand_accent": "#0099FF", "border": "#CCCCFF"},
+  "palette": {"bg": "#FFFFFF", "text": "#000033", "link": "#003399", "vlink": "#663399", "alink": "#CC0000", "brand": "#6600CC", "brand_accent": "#3399CC", "border": "#CCCCFF"},
   "fonts": {"body": "Verdana, Arial, Helvetica, sans-serif", "heading": "Book Antiqua, Times New Roman, serif", "display": "Impact, Arial Black, sans-serif", "mono": "Courier New, Courier, monospace"},
   "layout_mode": "shared-borders",
   "nav_style": "Left shared border with beveled Ledger Blue buttons and hover image swaps; text link row in the bottom border.",

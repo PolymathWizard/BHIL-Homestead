@@ -1,5 +1,5 @@
 file,kind,source,source_url,license,generator_or_author,era_check,notes
-images/title.gif,wordart,generated,,CC BY 4.0,tools/gifsmith.py wordart,pass,Brand violet snapped to 6633CC and shades on the web-safe cube
+images/title.gif,wordart,generated,,CC BY 4.0,tools/gifsmith.py wordart,pass,Brand violet snapped to 6600CC and shades on the web-safe cube
 images/screenshot.gif,appwindow,generated,,CC BY 4.0,tools/gifsmith.py appwindow,pass,Replaces the modern hero video and dashboard
 images/stars-tile.gif,stars,generated,,CC BY 4.0,tools/gifsmith.py stars,pass,Static tile; no animated backgrounds
 images/rainbow-rule.gif,rainbow,generated,,CC BY 4.0,tools/gifsmith.py rainbow,pass,Web-safe bands

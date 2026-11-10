@@ -99,7 +99,7 @@ One row per file in `04-asset-log.csv`:
 | license | CC BY 4.0 |
 | generator_or_author | tools/gifsmith.py wordart |
 | era_check | pass |
-| notes | Brand violet snapped to 6633CC |
+| notes | Brand violet snapped to 6600CC |
 
 ## Asset policies
 

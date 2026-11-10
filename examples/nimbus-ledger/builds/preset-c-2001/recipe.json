@@ -2,9 +2,9 @@
   "description": "Nimbus Ledger Software as a 2001 FrontPage corporate site in the original Ledger Blue theme.",
   "include": ["spacer", "tile-ledger", "new", "counter", "badge-ie5", "ball-blue"],
   "assets": [
-    {"kind": "wordart", "out": "images/logo.gif", "params": {"text": "NIMBUS LEDGER", "scale": 3, "row_colors": ["#330099", "#330099", "#6633CC", "#6633CC", "#6666CC", "#0099FF", "#0099FF"], "shadow": "#CCCCCC", "bg": "#FFFFFF", "transparent": false, "pad": 6}},
-    {"kind": "banner", "out": "images/banner-welcome.gif", "params": {"text": "Welcome", "fg": "#330099", "bars": ["#330099", "#6633CC", "#0099FF", "#99CCFF"]}},
-    {"kind": "banner", "out": "images/banner-pricing.gif", "params": {"text": "Products & Pricing", "fg": "#330099", "bars": ["#330099", "#6633CC", "#0099FF", "#99CCFF"]}},
+    {"kind": "wordart", "out": "images/logo.gif", "params": {"text": "NIMBUS LEDGER", "scale": 3, "row_colors": ["#330099", "#330099", "#6600CC", "#6600CC", "#6666CC", "#3399CC", "#3399CC"], "shadow": "#CCCCCC", "bg": "#FFFFFF", "transparent": false, "pad": 6}},
+    {"kind": "banner", "out": "images/banner-welcome.gif", "params": {"text": "Welcome", "fg": "#330099", "bars": ["#330099", "#6600CC", "#3399CC", "#99CCFF"]}},
+    {"kind": "banner", "out": "images/banner-pricing.gif", "params": {"text": "Products & Pricing", "fg": "#330099", "bars": ["#330099", "#6600CC", "#3399CC", "#99CCFF"]}},
     {"kind": "navbutton", "out": "images/btn-home.gif", "params": {"label": "Home", "face": "#330099", "light": "#9999FF", "dark": "#000033"}},
     {"kind": "navbutton", "out": "images/btn-tour.gif", "params": {"label": "Product Tour", "face": "#330099", "light": "#9999FF", "dark": "#000033"}},
     {"kind": "navbutton", "out": "images/btn-pricing.gif", "params": {"label": "Pricing", "face": "#330099", "light": "#9999FF", "dark": "#000033"}},
