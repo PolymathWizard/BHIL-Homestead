@@ -2,6 +2,22 @@
 
 All notable changes to HOMESTEAD are recorded here. Versions follow semantic versioning.
 
+## [1.1.1] - 2026-11-10
+
+### Added
+
+- Intro GIF (`launch/media/bhil-homestead-intro.gif`, twelve-second seamless loop, 1200 x 675) and its poster frame, linked from the README to the new project page.
+- Project page and scroll-through tour at https://barryhurd.com/project/BHIL-Homestead.html, recorded in `canon/homestead.json` as `project_page`, with `docs_site` for GitHub Pages.
+
+### Changed
+
+- The repository publishes as github.com/PolymathWizard/BHIL-Homestead. Canon, mkdocs, CITATION.cff, schema `$id` values, the issue template, the survey user agent, and absolute doc links follow.
+- Launch copy closes each LinkedIn variant with the tour and code links, and the GitHub description notes set the website field.
+
+### Fixed
+
+- The worked example's brand colors now follow the web-safe snap rule the tool and figures already use: violet `#6600CC` and sky `#3399CC` (the per-channel values `#6633CC` and `#0099FF` moved more than delta E 10). Recipes, era specs, asset logs, the 2007 stylesheet, generated GIFs, screenshots, the example README, the preset B scorecard evidence, and the docs 03 and 06 tables agree again.
+
 ## [1.1.0] - 2026-11-10
 
 ### Added

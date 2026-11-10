@@ -14,4 +14,4 @@ Modules:
     schema   minimal JSON Schema subset validator
 """
 
-__version__ = "1.1.0"
+__version__ = "1.1.1"

@@ -2,7 +2,7 @@
 
 > Vendor-neutral instructions for Claude Code, Cursor, Codex, Copilot, and any AGENTS.md-compatible tool.
 > This file is the single source of agent context. CLAUDE.md imports it.
-> Framework: HOMESTEAD v1.1.0 | REF HOMESTEAD-001 | Barry Hurd Intelligence Lab
+> Framework: HOMESTEAD v1.1.1 | REF HOMESTEAD-001 | Barry Hurd Intelligence Lab
 
 ---
 
