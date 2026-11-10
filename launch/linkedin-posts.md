@@ -5,7 +5,7 @@ description: "Three launch posts: technical authority, inquiry-driving, and peer
 
 # LinkedIn launch variants
 
-Three variants, each closing with the BHIL tagline. Per BHIL storytelling practice they carry no statistics; the validator rejects digits other than era years.
+Three variants, each closing with the project page and repository addresses and the BHIL tagline. Attach `media/bhil-homestead-intro.gif` to whichever variant you post. Per BHIL storytelling practice they carry no statistics; the validator rejects digits other than era years.
 
 ## Variant 1: technical authority
 
@@ -22,6 +22,9 @@ Every page ships with Safe Mode: one control that stops motion and sound and rai
 
 Open source, standard library Python, Claude Code agents included.
 
+Take the tour: barryhurd.com/project/BHIL-Homestead.html
+Code: github.com/PolymathWizard/BHIL-Homestead
+
 Human-Directed. AI-Enabled. Commercially Tested.
 ```
 
@@ -37,6 +40,9 @@ HOMESTEAD is the process we built to answer that question rigorously for any bra
 It turns out to be a sharp mirror. Translating a modern site into an older vocabulary shows exactly which parts of it are substance and which are fashion.
 
 If you want to see your brand in a past life for a launch, an anniversary, or a team offsite, send me a message.
+
+Take the tour: barryhurd.com/project/BHIL-Homestead.html
+Code: github.com/PolymathWizard/BHIL-Homestead
 
 Human-Directed. AI-Enabled. Commercially Tested.
 ```
@@ -59,6 +65,9 @@ A blind auditor subagent with no write tools.
 A worked example: one fictional startup rebuilt as a 1998 homepage, a 2001 company site, and a 2007 profile. None of them scored perfect, and the rubric says exactly why.
 
 Repo, docs, and kits are open. Fork it, pick an era, and show me what you build.
+
+Take the tour: barryhurd.com/project/BHIL-Homestead.html
+Code: github.com/PolymathWizard/BHIL-Homestead
 
 Human-Directed. AI-Enabled. Commercially Tested.
 ```

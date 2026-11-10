@@ -35,6 +35,10 @@ Length: 287 characters.
 
 Option A. It names the three eras people recognize instantly, which is what makes someone click, then proves depth with the toolchain list. Option B suits a technical audience browsing agent frameworks. Option C suits a design audience and reads best on a profile pin.
 
+## Website field
+
+Set the About panel website to https://barryhurd.com/project/BHIL-Homestead.html, the project page and scroll-through tour.
+
 ## Suggested topics
 
 `retro-web` `geocities` `frontpage` `myspace` `web-design` `claude-code` `ai-agents` `accessibility` `python`

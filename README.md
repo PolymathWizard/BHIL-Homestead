@@ -10,6 +10,10 @@ HOMESTEAD is a repeatable process, a stdlib-only toolchain, and a Claude Code ag
 
 REF HOMESTEAD-001 | v1.1.0 | Barry Hurd Intelligence Lab
 
+**Take the tour:** [barryhurd.com/project/BHIL-Homestead.html](https://barryhurd.com/project/BHIL-Homestead.html) is a scroll-through story in which the worked example rebuilds itself as a 1998 homepage while you watch. Every number on it comes from this repository's canon.
+
+[![HOMESTEAD in twelve seconds: the masthead, then the Nimbus Ledger landing page beside its 1998, 2001, and 2007 rebuilds, then the repository and project page addresses.](launch/media/bhil-homestead-intro.gif)](https://barryhurd.com/project/BHIL-Homestead.html)
+
 | Modern source | Preset B, 1998 | Preset C, 2001 | Preset E, 2007 |
 |---|---|---|---|
 | [Nimbus Ledger, 2026](examples/nimbus-ledger/source/index.html) | [GeoCities homepage](examples/nimbus-ledger/builds/preset-b-1998/index.html) | [FrontPage company site](examples/nimbus-ledger/builds/preset-c-2001/index.html) | [Profile page](examples/nimbus-ledger/builds/preset-e-2007/index.html) |
@@ -20,6 +24,7 @@ REF HOMESTEAD-001 | v1.1.0 | Barry Hurd Intelligence Lab
 
 | If you want to | Go to |
 |---|---|
+| See it explained in one scroll | [Project page and tour](https://barryhurd.com/project/BHIL-Homestead.html) |
 | See a result in five minutes | [Quickstart](support/quickstart.md) |
 | Understand the method | [Overview](docs/01-overview.md), then [Process](docs/02-process.md) |
 | Run it with Claude Code | `/homestead <url> recommend`, see [Agent architecture](docs/11-agent-architecture.md) |
@@ -133,7 +138,7 @@ BHIL-Homestead/
   schemas/        inventory, era spec, scorecard
   assets/         figure kit (ten SVG figures, PNG renders, gallery) and the docs site stylesheet
   data/           CSV and JSON exports of canon
-  launch/         GitHub descriptions and LinkedIn copy
+  launch/         GitHub descriptions, LinkedIn copy, and the intro GIF
   engagements/    your work (gitignored)
 ```
 
@@ -146,7 +151,7 @@ BHIL-Homestead/
 | Agents and prompts | [Agent architecture](docs/11-agent-architecture.md), [Agent roster](docs/reference/agent-roster.md), [Prompts](prompts/README.md), [AGENTS.md](AGENTS.md) |
 | Reference | [Presets](docs/presets/README.md), [Mapping table](docs/reference/mapping-table.md), [Widgets](docs/reference/widget-registry.md), [Rubric](docs/reference/rubric.md), [Lint rules](docs/reference/lint-rules.md), [Technical vocabulary](docs/reference/technical-vocabulary.md), [Fonts](docs/reference/font-map.md), [Web-safe palette](docs/reference/web-safe-palette.md), [Evidence register](docs/reference/evidence-register.md) |
 | Kits | [Preset B](kits/preset-b-geocities/README.md), [Preset C](kits/preset-c-frontpage/README.md), [Preset E](kits/preset-e-myspace/README.md) |
-| Brand | [Figure kit](assets/figures/README.md), [gallery](assets/figures/gallery.html) |
+| Brand and launch | [Figure kit](assets/figures/README.md), [gallery](assets/figures/gallery.html), [launch kit and intro GIF](launch/README.md), [project page](https://barryhurd.com/project/BHIL-Homestead.html) |
 | Decisions | [ADR index](adr/README.md) |
 | Help | [Support](support/README.md) |
 
