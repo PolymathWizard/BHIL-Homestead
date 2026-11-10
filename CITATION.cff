@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use HOMESTEAD, please cite it as below."
+title: "BHIL-HOMESTEAD: Retro-Web Redesign Engine"
+version: 1.0.0
+date-released: 2026-11-10
+authors:
+  - name: "Barry Hurd Intelligence Lab"
+    alias: "PolymathWizard"
+repository-code: "https://github.com/PolymathWizard/BHIL-HOMESTEAD"
+license: MIT
+keywords:
+  - retro web
+  - geocities
+  - frontpage
+  - myspace
+  - web design
+  - claude code
+  - ai agents
+abstract: "A process, stdlib-only toolchain, and agent team for analyzing a modern website and rebuilding it as a convincing site from one earlier web era, with a safety layer and a 40-point authenticity rubric."

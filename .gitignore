@@ -1,0 +1,18 @@
+# Engagement work stays out of framework history
+engagements/*
+!engagements/.gitkeep
+
+# Build outputs
+site/
+site-src/
+*.tar.gz
+*.bundle
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
