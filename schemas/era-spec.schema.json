@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/PolymathWizard/BHIL-HOMESTEAD/schemas/era-spec.schema.json",
+  "$id": "https://github.com/PolymathWizard/BHIL-Homestead/schemas/era-spec.schema.json",
   "title": "HOMESTEAD era spec card",
   "type": "object",
   "required": ["preset", "year", "host_context", "target_browser", "canvas_width_px", "palette_mode", "base_bg", "fonts", "layout_mode", "nav_style", "required_widgets", "forbidden_elements", "voice_rules", "motion_budget", "audio", "easter_eggs", "time_capsule", "reference_urls"],

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/PolymathWizard/BHIL-HOMESTEAD/schemas/scorecard.schema.json",
+  "$id": "https://github.com/PolymathWizard/BHIL-Homestead/schemas/scorecard.schema.json",
   "title": "HOMESTEAD authenticity scorecard",
   "type": "object",
   "required": ["engagement", "preset", "auditor", "rows"],

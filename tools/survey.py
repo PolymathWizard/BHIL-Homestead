@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from hs_core import canon, color, htmlscan  # noqa: E402
 
-USER_AGENT = "HOMESTEAD-survey/1.0 (+https://github.com/PolymathWizard/BHIL-HOMESTEAD)"
+USER_AGENT = "HOMESTEAD-survey/1.0 (+https://github.com/PolymathWizard/BHIL-Homestead)"
 HEX_RE = re.compile(r"#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})\b")
 RGB_RE = re.compile(r"rgba?\(\s*(\d{1,3})[\s,]+(\d{1,3})[\s,]+(\d{1,3})")
 FONT_RE = re.compile(r"font-family\s*:\s*([^;}\"]+)", re.I)

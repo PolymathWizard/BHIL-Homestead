@@ -71,4 +71,4 @@ Convert them to an 8-bit PNG first, then run `tools/dither.py`.
 
 ### How do I add a widget, preset, or lint rule?
 
-Edit `canon/`, run `python3 scripts/build_derived.py`, update the expected counts in `scripts/validate.py`, and open a pull request. See [CONTRIBUTING](https://github.com/PolymathWizard/BHIL-HOMESTEAD/blob/main/CONTRIBUTING.md).
+Edit `canon/`, run `python3 scripts/build_derived.py`, update the expected counts in `scripts/validate.py`, and open a pull request. See [CONTRIBUTING](https://github.com/PolymathWizard/BHIL-Homestead/blob/main/CONTRIBUTING.md).

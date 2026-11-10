@@ -56,8 +56,8 @@ For the requester's own brand there is no issue beyond the asset rules above.
 
 | What | License |
 |---|---|
-| Code, schemas, and tools | MIT ([LICENSE](https://github.com/PolymathWizard/BHIL-HOMESTEAD/blob/main/LICENSE)) |
-| Documentation, prompts, kits, and generated assets | CC BY 4.0 ([LICENSE-CONTENT](https://github.com/PolymathWizard/BHIL-HOMESTEAD/blob/main/LICENSE-CONTENT)) |
+| Code, schemas, and tools | MIT ([LICENSE](https://github.com/PolymathWizard/BHIL-Homestead/blob/main/LICENSE)) |
+| Documentation, prompts, kits, and generated assets | CC BY 4.0 ([LICENSE-CONTENT](https://github.com/PolymathWizard/BHIL-Homestead/blob/main/LICENSE-CONTENT)) |
 | Ode to Joy track | Composition public domain; HOMESTEAD sequencing CC BY 4.0 |
 | HOMESTEAD riff | Original, CC BY 4.0 |
 

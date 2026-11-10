@@ -67,7 +67,7 @@ Each delegation passes paths, not file contents: the slug, the files the agent n
 |---|---|
 | Any chat tool | [P00](../prompts/P00-command-center.md) in one pass, or P01 to P10 in sequence |
 | A chat surface with skills | The [portable skill](../skill/README.md) |
-| Another agent tool | [AGENTS.md](https://github.com/PolymathWizard/BHIL-HOMESTEAD/blob/main/AGENTS.md) is vendor-neutral; map each subagent to a role with the same tool limits |
+| Another agent tool | [AGENTS.md](https://github.com/PolymathWizard/BHIL-Homestead/blob/main/AGENTS.md) is vendor-neutral; map each subagent to a role with the same tool limits |
 
 ## Related reading
 

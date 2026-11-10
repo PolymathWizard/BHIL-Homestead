@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/PolymathWizard/BHIL-HOMESTEAD/schemas/inventory.schema.json",
+  "$id": "https://github.com/PolymathWizard/BHIL-Homestead/schemas/inventory.schema.json",
   "title": "HOMESTEAD site inventory",
   "type": "object",
   "required": ["homestead_version", "source", "pages", "brand", "patterns", "summary"],

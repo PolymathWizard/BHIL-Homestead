@@ -7,7 +7,7 @@ description: Analyze an existing modern website and redesign it as an old-school
 
 Turn a modern website into a convincing site from one earlier web era. The work is a translation, not a costume: lock one era, inventory the site, map every component, build in period markup, then audit it strictly.
 
-If the BHIL-HOMESTEAD repository is available, use its tools (`tools/survey.py`, `map.py`, `websafe.py`, `gifsmith.py`, `era_lint.py`, `gif_audit.py`, `rubric.py`) and kits. Without the repository, follow the same steps by hand with the tables below.
+If the BHIL-Homestead repository (https://github.com/PolymathWizard/BHIL-Homestead) is available, use its tools (`tools/survey.py`, `map.py`, `websafe.py`, `gifsmith.py`, `era_lint.py`, `gif_audit.py`, `rubric.py`) and kits. Without the repository, follow the same steps by hand with the tables below.
 
 ## Step 1: Intake
 

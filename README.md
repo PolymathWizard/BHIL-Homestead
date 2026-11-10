@@ -2,7 +2,7 @@
   <img src="assets/figures/hs-01-masthead.svg" alt="HOMESTEAD masthead: a dot-matrix HOMESTEAD wordmark over the BHIL dot constellation, with preset badges for GeoCities 1998, FrontPage 2001, MySpace 2007, and Safe Mode." width="100%">
 </p>
 
-# BHIL-HOMESTEAD
+# BHIL-Homestead
 
 **Analyze any modern website and rebuild it the way GeoCities, FrontPage, or MySpace would have.**
 
@@ -117,7 +117,7 @@ Ten 1600 x 900 figures put period web specimens (pixel type, bevels, 88x31 badge
 ## Repository structure
 
 ```
-BHIL-HOMESTEAD/
+BHIL-Homestead/
   canon/          single source of truth: presets, widgets, mapping, rubric, lint rules, claims, brand
   tools/          stdlib engagement tools and the hs_core library (GIF codec, pixel font, PNG, audio)
   scripts/        derived-artifact generator, figure generator, drift gate, validator, site assembler, lint hook

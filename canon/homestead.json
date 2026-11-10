@@ -1,6 +1,6 @@
 {
   "framework": "HOMESTEAD",
-  "repo": "BHIL-HOMESTEAD",
+  "repo": "BHIL-Homestead",
   "ref": "HOMESTEAD-001",
   "version": "1.1.0",
   "released": "2026-11-10",
@@ -8,7 +8,9 @@
   "tagline": "Analyze any modern website and rebuild it the way GeoCities, FrontPage, or MySpace would have.",
   "bhil_tagline": "Human-Directed. AI-Enabled. Commercially Tested.",
   "naming_note": "GeoCities members were called Homesteaders. The framework borrows the word for the act of moving a modern site into an old neighborhood.",
-  "intended_url": "https://github.com/PolymathWizard/BHIL-HOMESTEAD",
+  "intended_url": "https://github.com/PolymathWizard/BHIL-Homestead",
+  "project_page": "https://barryhurd.com/project/BHIL-Homestead.html",
+  "docs_site": "https://polymathwizard.github.io/BHIL-Homestead/",
   "parameters": {
     "gif_min_frame_delay_ms": 340,
     "gif_min_frame_delay_basis": "House budget. Two-frame full-contrast alternation reaches the WCAG 2.3.1 three-flashes-per-second line at roughly 167 ms per frame; HOMESTEAD doubles that margin. Tier: INFERENCE from claim C-021.",

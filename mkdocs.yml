@@ -1,9 +1,9 @@
 site_name: HOMESTEAD
 site_description: Analyze any modern website and rebuild it the way GeoCities, FrontPage, or MySpace would have.
 site_author: Barry Hurd Intelligence Lab
-site_url: https://polymathwizard.github.io/BHIL-HOMESTEAD/
-repo_url: https://github.com/PolymathWizard/BHIL-HOMESTEAD
-repo_name: PolymathWizard/BHIL-HOMESTEAD
+site_url: https://polymathwizard.github.io/BHIL-Homestead/
+repo_url: https://github.com/PolymathWizard/BHIL-Homestead
+repo_name: PolymathWizard/BHIL-Homestead
 edit_uri: edit/main/
 copyright: "Code MIT, content CC BY 4.0. Barry Hurd Intelligence Lab. Human-Directed. AI-Enabled. Commercially Tested."
 
