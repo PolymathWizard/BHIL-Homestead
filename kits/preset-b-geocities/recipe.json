@@ -1,0 +1,7 @@
+{
+  "description": "Preset B kit assets. Library includes plus a WordArt title. Rendered into this folder by scripts/build_derived.py.",
+  "include": ["spacer", "stars-tile", "rainbow-rule", "under-construction", "new", "ball-red", "ball-blue", "ball-green", "ball-yellow", "counter", "badge-800x600", "badge-hand-coded", "badge-homestead", "badge-guestbook", "badge-webring", "badge-music", "email-me", "tune-ode"],
+  "assets": [
+    {"name": "title", "kind": "wordart", "out": "images/title.gif", "params": {"text": "MY HOMEPAGE", "scale": 5, "shadow": "#660066", "outline": "#000000", "bg": "#FF00FF"}}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Preset C kit assets for the original Ledger Blue theme. HOMESTEAD never ships Microsoft theme files; this theme is drawn from scratch.",
+  "include": ["spacer", "tile-ledger", "new", "counter", "badge-ie5", "ball-blue"],
+  "assets": [
+    {"name": "logo", "kind": "wordart", "out": "images/logo.gif", "params": {"text": "YOUR COMPANY", "scale": 3, "row_colors": ["#003399", "#003399", "#0033CC", "#3366CC", "#3366CC", "#6699CC", "#6699CC"], "shadow": "#CCCCCC", "bg": "#FFFFFF", "transparent": false, "pad": 6}},
+    {"name": "banner-home", "kind": "banner", "out": "images/banner-home.gif", "params": {"text": "Welcome"}},
+    {"name": "banner-feedback", "kind": "banner", "out": "images/banner-feedback.gif", "params": {"text": "Feedback"}},
+    {"name": "btn-home", "kind": "navbutton", "out": "images/btn-home.gif", "params": {"label": "Home"}},
+    {"name": "btn-products", "kind": "navbutton", "out": "images/btn-products.gif", "params": {"label": "Products"}},
+    {"name": "btn-about", "kind": "navbutton", "out": "images/btn-about.gif", "params": {"label": "About Us"}},
+    {"name": "btn-news", "kind": "navbutton", "out": "images/btn-news.gif", "params": {"label": "News"}},
+    {"name": "btn-feedback", "kind": "navbutton", "out": "images/btn-feedback.gif", "params": {"label": "Feedback"}}
+  ]
+}
