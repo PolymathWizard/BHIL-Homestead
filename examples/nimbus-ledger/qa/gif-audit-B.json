@@ -1,0 +1,382 @@
+{
+  "build": "examples/nimbus-ledger/builds/preset-b-1998",
+  "page_bg": "#000000",
+  "files": [
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/badge-800x600.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/badge-download.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/badge-guestbook.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/badge-hand-coded.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/badge-help-wanted.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/badge-homestead.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/badge-music.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/badge-webring.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/ball-blue.gif",
+      "width": 12,
+      "height": 12,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/ball-green.gif",
+      "width": 12,
+      "height": 12,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/ball-red.gif",
+      "width": 12,
+      "height": 12,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/ball-yellow.gif",
+      "width": 12,
+      "height": 12,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/email-me-still.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/email-me.gif",
+      "width": 88,
+      "height": 31,
+      "frames": 2,
+      "verdict": "WITHIN BUDGET (INCONCLUSIVE FOR SCALED OR TILED USE)",
+      "fail": false,
+      "min_delay_ms": 700,
+      "flashes_per_second": 0.0,
+      "max_transition_px": 108,
+      "max_red_transition_px": 0,
+      "notes": [
+        "largest luminance transition 108 px, below the 21824 px area threshold"
+      ]
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/new-still.gif",
+      "width": 29,
+      "height": 11,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/new.gif",
+      "width": 29,
+      "height": 11,
+      "frames": 2,
+      "verdict": "WITHIN BUDGET (INCONCLUSIVE FOR SCALED OR TILED USE)",
+      "fail": false,
+      "min_delay_ms": 600,
+      "flashes_per_second": 0.0,
+      "max_transition_px": 319,
+      "max_red_transition_px": 319,
+      "notes": [
+        "largest luminance transition 319 px, below the 21824 px area threshold"
+      ]
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/rainbow-rule.gif",
+      "width": 480,
+      "height": 6,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/screenshot.gif",
+      "width": 320,
+      "height": 200,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/spacer.gif",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/stars-tile.gif",
+      "width": 64,
+      "height": 64,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/title.gif",
+      "width": 398,
+      "height": 48,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/under-construction-still.gif",
+      "width": 120,
+      "height": 45,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/under-construction.gif",
+      "width": 120,
+      "height": 45,
+      "frames": 2,
+      "verdict": "WITHIN BUDGET (INCONCLUSIVE FOR SCALED OR TILED USE)",
+      "fail": false,
+      "min_delay_ms": 600,
+      "flashes_per_second": 0.0,
+      "max_transition_px": 1416,
+      "max_red_transition_px": 0,
+      "notes": [
+        "largest luminance transition 1416 px, below the 21824 px area threshold"
+      ]
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d0.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d1.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d2.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d3.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d4.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d5.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d6.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d7.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d8.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-b-1998/images/counter/d9.gif",
+      "width": 14,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    }
+  ],
+  "failures": 0
+}

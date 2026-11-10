@@ -1,0 +1,131 @@
+{
+  "engagement": "nimbus-ledger-E",
+  "preset": "E",
+  "auditor": "authenticity-auditor",
+  "date": "2026-11-10",
+  "rows": [
+    {
+      "row": 1,
+      "check": "Era locked to one preset",
+      "score": 2,
+      "evidence": "Lint HL022 silent; widgets are all preset E."
+    },
+    {
+      "row": 2,
+      "check": "Canvas width matches era",
+      "score": 2,
+      "evidence": "Profile tables fixed at 800 px."
+    },
+    {
+      "row": 3,
+      "check": "Colors",
+      "score": 2,
+      "evidence": "Full-color preset; palette taken from the era spec."
+    },
+    {
+      "row": 4,
+      "check": "Fonts",
+      "score": 2,
+      "evidence": "Verdana and Comic Sans MS stacks; no web fonts."
+    },
+    {
+      "row": 5,
+      "check": "Layout engine look",
+      "score": 2,
+      "evidence": "Default profile tables restyled by a pasted user CSS block, skeleton still visible."
+    },
+    {
+      "row": 6,
+      "check": "Images",
+      "score": 2,
+      "evidence": "Glitter, blinkies, avatars, and monogram are small GIFs."
+    },
+    {
+      "row": 7,
+      "check": "Widgets present",
+      "score": 2,
+      "evidence": "All 13 required E widgets marked."
+    },
+    {
+      "row": 8,
+      "check": "Widgets era-correct",
+      "score": 2,
+      "evidence": "No webring, hit counter, or shared borders."
+    },
+    {
+      "row": 9,
+      "check": "Copy voice",
+      "score": 2,
+      "evidence": "Brand voice written as a 2007 profile: lowercase, decorated punctuation, no lyrics."
+    },
+    {
+      "row": 10,
+      "check": "Navigation",
+      "score": 2,
+      "evidence": "Network text nav bar plus in-profile links."
+    },
+    {
+      "row": 11,
+      "check": "Brand legibility",
+      "score": 2,
+      "evidence": "Glitter name and violet layout make the brand obvious."
+    },
+    {
+      "row": 12,
+      "check": "Content parity",
+      "score": 1,
+      "evidence": "Most of the IA mapped; the demo video and login have no slot on this profile."
+    },
+    {
+      "row": 13,
+      "check": "View Source",
+      "score": 2,
+      "evidence": "User CSS inside About Me with profile-style class names; no modern framework."
+    },
+    {
+      "row": 14,
+      "check": "Lived-in details",
+      "score": 2,
+      "evidence": "Online Now, Last Login, profile views, friend and comment counts."
+    },
+    {
+      "row": 15,
+      "check": "Browser badges",
+      "score": 2,
+      "evidence": "Profiles carried no browser badges, so their absence is era-correct."
+    },
+    {
+      "row": 16,
+      "check": "Motion",
+      "score": 2,
+      "evidence": "Five moving items against a budget of six; gif audit within budget."
+    },
+    {
+      "row": 17,
+      "check": "Audio",
+      "score": 2,
+      "evidence": "Original profile song plays only after a click on PLAY."
+    },
+    {
+      "row": 18,
+      "check": "Safe Mode",
+      "score": 2,
+      "evidence": "Safe Mode verified: sparkle tile dropped, glitter and blinkies frozen."
+    },
+    {
+      "row": 19,
+      "check": "Accessibility basics",
+      "score": 2,
+      "evidence": "Alt text throughout, text-only profile linked from the nav bar and footer."
+    },
+    {
+      "row": 20,
+      "check": "Legal hygiene",
+      "score": 2,
+      "evidence": "Asset log covers every file; FriendGrid and The Reconcilers are fictional."
+    }
+  ],
+  "total": 39,
+  "verdict": "SHIP",
+  "notes": "Scored by hand in the worked example, then checked with tools/rubric.py against qa/lint-E.json."
+}

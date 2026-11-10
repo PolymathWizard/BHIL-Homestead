@@ -1,0 +1,14 @@
+file,kind,source,source_url,license,generator_or_author,era_check,notes
+images/title.gif,wordart,generated,,CC BY 4.0,tools/gifsmith.py wordart,pass,Brand violet snapped to 6633CC and shades on the web-safe cube
+images/screenshot.gif,appwindow,generated,,CC BY 4.0,tools/gifsmith.py appwindow,pass,Replaces the modern hero video and dashboard
+images/stars-tile.gif,stars,generated,,CC BY 4.0,tools/gifsmith.py stars,pass,Static tile; no animated backgrounds
+images/rainbow-rule.gif,rainbow,generated,,CC BY 4.0,tools/gifsmith.py rainbow,pass,Web-safe bands
+images/under-construction.gif,construction,generated,,CC BY 4.0,tools/gifsmith.py construction,pass,600 ms frames; still frame for Safe Mode
+images/new.gif,new,generated,,CC BY 4.0,tools/gifsmith.py new,pass,600 ms frames; still frame for Safe Mode
+images/email-me.gif,emailme,generated,,CC BY 4.0,tools/gifsmith.py emailme,pass,700 ms frames; still frame for Safe Mode
+images/ball-*.gif,ball,generated,,CC BY 4.0,tools/gifsmith.py ball,pass,Shading snapped to web-safe
+images/counter/d*.gif,digits,generated,,CC BY 4.0,tools/gifsmith.py digits,pass,Odometer digits
+images/badge-*.gif,badge,generated,,CC BY 4.0,tools/gifsmith.py badge,pass,Generic text badges; no browser logos
+images/spacer.gif,spacer,generated,,CC BY 4.0,tools/gifsmith.py spacer,pass,Transparent 1x1
+audio/ode-to-joy.wav,chiptune,public-domain composition,,CC BY 4.0 (sequencing),tools/chiptune.py,pass,Beethoven theme sequenced fresh; click to play only
+audio/ode-to-joy.mid,chiptune,public-domain composition,,CC BY 4.0 (sequencing),tools/chiptune.py,pass,Referenced only inside a commented bgsound line

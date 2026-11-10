@@ -1,0 +1,131 @@
+{
+  "engagement": "nimbus-ledger-C",
+  "preset": "C",
+  "auditor": "authenticity-auditor",
+  "date": "2026-11-10",
+  "rows": [
+    {
+      "row": 1,
+      "check": "Era locked to one preset",
+      "score": 2,
+      "evidence": "Lint HL022 silent; widgets are all preset C."
+    },
+    {
+      "row": 2,
+      "check": "Canvas width matches era",
+      "score": 2,
+      "evidence": "Outer table fixed at 760 px for 2001."
+    },
+    {
+      "row": 3,
+      "check": "Colors",
+      "score": 2,
+      "evidence": "HL020 silent; theme colors on the web-safe cube."
+    },
+    {
+      "row": 4,
+      "check": "Fonts",
+      "score": 2,
+      "evidence": "Verdana and Book Antiqua stacks only."
+    },
+    {
+      "row": 5,
+      "check": "Layout engine look",
+      "score": 2,
+      "evidence": "Shared border tables, nested product tour table, bordered catalog table."
+    },
+    {
+      "row": 6,
+      "check": "Images",
+      "score": 2,
+      "evidence": "Program window screenshots as small GIFs; no photos or SVG."
+    },
+    {
+      "row": 7,
+      "check": "Widgets present",
+      "score": 2,
+      "evidence": "All 12 required C widgets plus hit counter and placeholder marked."
+    },
+    {
+      "row": 8,
+      "check": "Widgets era-correct",
+      "score": 2,
+      "evidence": "No glitter, webring, or starry tile."
+    },
+    {
+      "row": 9,
+      "check": "Copy voice",
+      "score": 2,
+      "evidence": "Brochure voice: Welcome to our Web site!, Click here, Copyright with All rights reserved."
+    },
+    {
+      "row": 10,
+      "check": "Navigation",
+      "score": 2,
+      "evidence": "Left shared border of hover-swap buttons plus bottom text links."
+    },
+    {
+      "row": 11,
+      "check": "Brand legibility",
+      "score": 2,
+      "evidence": "Logo, violet theme, and product structure carry the brand."
+    },
+    {
+      "row": 12,
+      "check": "Content parity",
+      "score": 1,
+      "evidence": "Most of the IA mapped; the modern Log in has no period equivalent on the site (no Registration component page)."
+    },
+    {
+      "row": 13,
+      "check": "View Source",
+      "score": 2,
+      "evidence": "webbot comments, GENERATOR and theme meta tags, period swap script."
+    },
+    {
+      "row": 14,
+      "check": "Lived-in details",
+      "score": 2,
+      "evidence": "Timestamp line, odometer counter, [Hit Counter] placeholder on the pricing page."
+    },
+    {
+      "row": 15,
+      "check": "Browser badges",
+      "score": 2,
+      "evidence": "Text badge names IE 5 at 800 x 600, matching the 2001 target browser without a logo."
+    },
+    {
+      "row": 16,
+      "check": "Motion",
+      "score": 2,
+      "evidence": "One NEW graphic plus a text box ticker that pauses in Safe Mode."
+    },
+    {
+      "row": 17,
+      "check": "Audio",
+      "score": 2,
+      "evidence": "No audio on this build; nothing autoplays, which the preset allows."
+    },
+    {
+      "row": 18,
+      "check": "Safe Mode",
+      "score": 2,
+      "evidence": "Safe Mode verified on both pages; ticker reads window.homesteadSafe."
+    },
+    {
+      "row": 19,
+      "check": "Accessibility basics",
+      "score": 2,
+      "evidence": "Alt text, labeled form fields, hover swaps mirrored on focus and blur, text-only page."
+    },
+    {
+      "row": 20,
+      "check": "Legal hygiene",
+      "score": 2,
+      "evidence": "Asset log covers every file and records the GENERATOR tag as descriptive use."
+    }
+  ],
+  "total": 39,
+  "verdict": "SHIP",
+  "notes": "Scored by hand in the worked example, then checked with tools/rubric.py against qa/lint-C.json."
+}

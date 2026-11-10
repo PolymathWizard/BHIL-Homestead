@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nimbus Ledger | Bookkeeping that runs itself</title>
+<meta name="description" content="Nimbus Ledger is AI-powered bookkeeping for freelancers. Invoices, receipts, and tax-ready reports on autopilot.">
+<meta property="og:site_name" content="Nimbus Ledger">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NIMBUS000"></script>
+<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-NIMBUS000');</script>
+</head>
+<body>
+<!-- Fictional brand built for the HOMESTEAD worked example. Not a real company. -->
+<header class="site-header">
+  <nav class="nav" aria-label="Main menu">
+    <a class="brand" href="/"><img src="logo.svg" alt="Nimbus Ledger logo" width="140" height="32"></a>
+    <ul class="nav-links">
+      <li><a href="/product">Product</a></li>
+      <li><a href="/pricing">Pricing</a></li>
+      <li><a href="/customers">Customers</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/docs">Docs</a></li>
+      <li><a href="/careers">Careers</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" aria-label="Toggle dark mode">Dark mode</button>
+      <a href="https://app.nimbusledger.example/login">Log in</a>
+      <a class="btn btn-primary" href="https://app.nimbusledger.example/signup">Get started</a>
+    </div>
+    <button class="hamburger" aria-label="Open menu">Menu</button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Bookkeeping that runs itself.</h1>
+    <p class="lede">Nimbus Ledger is the AI-powered back office for freelancers. Send invoices, snap receipts, and walk into tax season with reports that are already done.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="https://app.nimbusledger.example/signup">Start free trial</a>
+      <a class="btn btn-ghost" href="/demo">Book a demo</a>
+    </div>
+    <div class="hero-video">
+      <iframe src="https://www.youtube.com/embed/NIMBUS-DEMO" title="Nimbus Ledger in 90 seconds" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="logos" aria-label="Trusted by">
+    <p>Trusted by 40,000 independent businesses</p>
+    <img src="logos/pixel-pine.svg" alt="Pixel and Pine Studio logo">
+    <img src="logos/margo-reyes.svg" alt="Margo Reyes Photography logo">
+    <img src="logos/two-forks.svg" alt="Two Forks Catering logo">
+    <img src="logos/lumen.svg" alt="Lumen Copywriting logo">
+    <img src="logos/byte-size.svg" alt="Byte Size Dev logo">
+  </section>
+
+  <section class="features" id="product">
+    <h2>Everything your books need. Nothing they don't.</h2>
+    <div class="feature-grid">
+      <article class="card feature">
+        <h3>Invoices on autopilot</h3>
+        <p>Recurring invoices, automatic reminders, and card payments that land in days, not weeks.</p>
+      </article>
+      <article class="card feature">
+        <h3>Receipts, sorted</h3>
+        <p>Snap a photo and Nimbus files it, tags it, and matches it to the right transaction. Seamlessly.</p>
+      </article>
+      <article class="card feature">
+        <h3>Tax-ready in one click</h3>
+        <p>Quarterly estimates and year-end reports your accountant will actually thank you for.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>Freelancers love their books again</h2>
+    <blockquote class="testimonial">
+      <p>Nimbus Ledger turned tax season from a week of panic into one afternoon.</p>
+      <cite>Margo Reyes, photographer</cite>
+    </blockquote>
+    <blockquote class="testimonial">
+      <p>I invoice from my phone between shoots and get paid three times faster.</p>
+      <cite>Dev Okafor, Byte Size Dev</cite>
+    </blockquote>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <h2>Simple pricing</h2>
+    <div class="pricing-grid">
+      <div class="plan"><h3>Starter</h3><p class="price">$0<span>/mo</span></p><p>One client, unlimited invoices.</p></div>
+      <div class="plan plan-featured"><h3>Pro</h3><p class="price">$12<span>/mo</span></p><p>Unlimited clients, receipts, and tax reports.</p></div>
+      <div class="plan"><h3>Studio</h3><p class="price">$29<span>/mo</span></p><p>Up to five team members, per seat after that.</p></div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>Frequently asked questions</h2>
+    <details><summary>Do I need an accountant?</summary><p>No, but Nimbus makes it easy to share reports with one.</p></details>
+    <details><summary>Can I import from spreadsheets?</summary><p>Yes. Drag in a CSV and Nimbus maps the columns for you.</p></details>
+    <details><summary>Is my data secure?</summary><p>Bank-level encryption, two-factor sign in, and daily backups.</p></details>
+  </section>
+
+  <section class="newsletter">
+    <h2>Get the Friday money memo</h2>
+    <form class="newsletter-form" action="/subscribe">
+      <label for="email">Email address</label>
+      <input type="email" id="email" placeholder="you@studio.com">
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <a href="/docs">Help center</a>
+  <a href="/changelog">Changelog</a>
+  <a href="/careers">We're hiring</a>
+  <a href="/accessibility">Accessibility</a>
+  <a href="/privacy">Privacy</a>
+  <a href="https://x.com/nimbusledger" aria-label="X">X</a>
+  <a href="https://www.linkedin.com/company/nimbusledger" aria-label="LinkedIn">LinkedIn</a>
+  <a href="https://www.instagram.com/nimbusledger" aria-label="Instagram">Instagram</a>
+  <p>&copy; 2026 Nimbus Ledger, Inc.</p>
+</footer>
+
+<div class="cookie-banner" id="cookie-banner">
+  <p>We use cookies to improve your experience.</p>
+  <button>Accept all</button>
+  <button>Cookie preferences</button>
+</div>
+
+<script src="https://widget.intercom.io/widget/nimbus"></script>
+</body>
+</html>

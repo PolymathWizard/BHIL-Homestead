@@ -1,0 +1,12 @@
+file,kind,source,source_url,license,generator_or_author,era_check,notes
+images/glitter-name.gif,glitter,generated,,CC BY 4.0,tools/gifsmith.py glitter,pass,400 ms frames; still frame for Safe Mode
+images/profile-photo.gif,wordart,generated,,CC BY 4.0,tools/gifsmith.py wordart,pass,Monogram stands in for the brand logo
+images/bg-sparkle.gif,stars,generated,,CC BY 4.0,tools/gifsmith.py stars,pass,Static sparkle tile in brand violet
+images/blinkie-*.gif,blinkie,generated,,CC BY 4.0,tools/gifsmith.py blinkie,pass,600 ms frames; still frames for Safe Mode
+images/online-now.gif,online,generated,,CC BY 4.0,tools/gifsmith.py online,pass,700 ms frames
+images/thanks-for-the-add.gif,glitter,generated,,CC BY 4.0,tools/gifsmith.py glitter,pass,400 ms frames
+images/avatar-*.gif,avatar,generated,,CC BY 4.0,tools/gifsmith.py avatar,pass,Identicons stand in for customer logos in the Top 8
+images/spacer.gif,spacer,generated,,CC BY 4.0,tools/gifsmith.py spacer,pass,Transparent 1x1
+audio/homestead-riff.wav,chiptune,original,,CC BY 4.0,tools/chiptune.py,pass,Original melody credited to the fictional band The Reconcilers; click to play only
+audio/homestead-riff.mid,chiptune,original,,CC BY 4.0,tools/chiptune.py,pass,Companion MIDI file
+FriendGrid network name,text,fictional,,n/a,hand-written,pass,No real network logo or wordmark

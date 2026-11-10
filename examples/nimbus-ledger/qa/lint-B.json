@@ -1,0 +1,27 @@
+{
+  "target": "examples/nimbus-ledger/builds/preset-b-1998",
+  "preset": "B",
+  "files_checked": 3,
+  "errors": 0,
+  "warnings": 0,
+  "verdict": "NO FINDINGS (INCONCLUSIVE)",
+  "rubric_rows_flagged": [],
+  "widget_markers": [
+    "aim-icq",
+    "browser-badge",
+    "email-me",
+    "guestbook",
+    "hit-counter",
+    "last-updated",
+    "midi-player",
+    "neighborhood-address",
+    "rainbow-rule",
+    "safe-mode-toggle",
+    "star-tile-bg",
+    "text-only-link",
+    "under-construction",
+    "webring",
+    "whats-new"
+  ],
+  "findings": []
+}

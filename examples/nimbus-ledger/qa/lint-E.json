@@ -1,0 +1,25 @@
+{
+  "target": "examples/nimbus-ledger/builds/preset-e-2007",
+  "preset": "E",
+  "files_checked": 2,
+  "errors": 0,
+  "warnings": 0,
+  "verdict": "NO FINDINGS (INCONCLUSIVE)",
+  "rubric_rows_flagged": [],
+  "widget_markers": [
+    "blinkies",
+    "comments-wall",
+    "contact-table",
+    "glitter-text",
+    "interests-details",
+    "online-now",
+    "profile-blurbs",
+    "profile-music-player",
+    "profile-views",
+    "safe-mode-toggle",
+    "text-only-link",
+    "top-8",
+    "user-css-layout"
+  ],
+  "findings": []
+}

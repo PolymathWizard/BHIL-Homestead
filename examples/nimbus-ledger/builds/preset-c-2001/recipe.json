@@ -1,0 +1,18 @@
+{
+  "description": "Nimbus Ledger Software as a 2001 FrontPage corporate site in the original Ledger Blue theme.",
+  "include": ["spacer", "tile-ledger", "new", "counter", "badge-ie5", "ball-blue"],
+  "assets": [
+    {"kind": "wordart", "out": "images/logo.gif", "params": {"text": "NIMBUS LEDGER", "scale": 3, "row_colors": ["#330099", "#330099", "#6633CC", "#6633CC", "#6666CC", "#0099FF", "#0099FF"], "shadow": "#CCCCCC", "bg": "#FFFFFF", "transparent": false, "pad": 6}},
+    {"kind": "banner", "out": "images/banner-welcome.gif", "params": {"text": "Welcome", "fg": "#330099", "bars": ["#330099", "#6633CC", "#0099FF", "#99CCFF"]}},
+    {"kind": "banner", "out": "images/banner-pricing.gif", "params": {"text": "Products & Pricing", "fg": "#330099", "bars": ["#330099", "#6633CC", "#0099FF", "#99CCFF"]}},
+    {"kind": "navbutton", "out": "images/btn-home.gif", "params": {"label": "Home", "face": "#330099", "light": "#9999FF", "dark": "#000033"}},
+    {"kind": "navbutton", "out": "images/btn-tour.gif", "params": {"label": "Product Tour", "face": "#330099", "light": "#9999FF", "dark": "#000033"}},
+    {"kind": "navbutton", "out": "images/btn-pricing.gif", "params": {"label": "Pricing", "face": "#330099", "light": "#9999FF", "dark": "#000033"}},
+    {"kind": "navbutton", "out": "images/btn-clients.gif", "params": {"label": "Our Clients", "face": "#330099", "light": "#9999FF", "dark": "#000033"}},
+    {"kind": "navbutton", "out": "images/btn-news.gif", "params": {"label": "News", "face": "#330099", "light": "#9999FF", "dark": "#000033"}},
+    {"kind": "navbutton", "out": "images/btn-contact.gif", "params": {"label": "Contact Us", "face": "#330099", "light": "#9999FF", "dark": "#000033"}},
+    {"kind": "appwindow", "out": "images/tour-1.gif", "params": {"title": "Invoices", "width": 240, "height": 150, "columns": ["Client", "Due", "Status"], "rows": [["Pixel+Pine", "04/01", "Sent"], ["Two Forks", "04/05", "Paid"], ["Lumen Copy", "04/12", "Late!"]], "status": "3 INVOICES"}},
+    {"kind": "appwindow", "out": "images/tour-2.gif", "params": {"title": "Receipts", "width": 240, "height": 150, "columns": ["Date", "Category"], "rows": [["03/28/01", "Software"], ["03/29/01", "Travel"], ["03/30/01", "Supplies"]], "status": "FILED"}},
+    {"kind": "appwindow", "out": "images/tour-3.gif", "params": {"title": "Tax Report 2000", "width": 240, "height": 150, "columns": ["Line", "Amount"], "rows": [["Income", "$48,210"], ["Expenses", "$9,334"], ["Net", "$38,876"]], "status": "READY TO PRINT"}}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "preset": "C",
+  "preset_name": "FrontPage / Dreamweaver small-business and corporate",
+  "year": 2001,
+  "host_context": "nimbusledger.example on a host with server extensions; company site for a boxed and downloadable Windows product",
+  "target_browser": "Internet Explorer 5.5 or Netscape Navigator 4.7",
+  "canvas_width_px": 760,
+  "palette_mode": "theme",
+  "base_bg": "#FFFFFF with images/tile-ledger.gif",
+  "palette": {"bg": "#FFFFFF", "text": "#000033", "link": "#003399", "vlink": "#663399", "alink": "#CC0000", "brand": "#6633CC", "brand_accent": "#0099FF", "border": "#CCCCFF"},
+  "fonts": {"body": "Verdana, Arial, Helvetica, sans-serif", "heading": "Book Antiqua, Times New Roman, serif", "display": "Impact, Arial Black, sans-serif", "mono": "Courier New, Courier, monospace"},
+  "layout_mode": "shared-borders",
+  "nav_style": "Left shared border with beveled Ledger Blue buttons and hover image swaps; text link row in the bottom border.",
+  "required_widgets": ["safe-mode-toggle", "text-only-link", "last-updated", "mailto-text", "browser-badge", "shared-borders", "theme-banner", "hover-buttons", "search-form", "feedback-form", "copyright-footer", "whats-new"],
+  "required_any": [["hit-counter", "broken-component-placeholder"]],
+  "forbidden_elements": ["glitter text", "webrings", "starry backgrounds", "neighborhood addresses", "rainbow rules", "web fonts", "rounded corners", "emoji"],
+  "voice_rules": [
+    "Small-business formal with a hint of brochure.",
+    "The company speaks as we; the product is Nimbus Ledger Professional 2001.",
+    "Boxed software vocabulary: edition, free 30-day trial, order form, CD-ROM.",
+    "Never use modern phrases such as get started, book a demo, or seamless."
+  ],
+  "motion_budget": 3,
+  "audio": "none-or-click-to-play",
+  "easter_eggs": ["webbot comments for shared borders, search, timestamp, and save results", "GENERATOR meta tag", "[Hit Counter] placeholder on the pricing page", "Scrolling message in a form text box"],
+  "time_capsule": false,
+  "time_capsule_story": "",
+  "allowed_extra_widgets": [],
+  "reference_urls": ["https://web.archive.org", "https://github.com/jamarks/ms-frontpage-visual-skill", "https://helparchive.huntertur.net/document/16630"],
+  "asset_policy": "originals-only"
+}

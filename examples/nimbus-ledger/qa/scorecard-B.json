@@ -1,0 +1,131 @@
+{
+  "engagement": "nimbus-ledger-B",
+  "preset": "B",
+  "auditor": "authenticity-auditor",
+  "date": "2026-11-10",
+  "rows": [
+    {
+      "row": 1,
+      "check": "Era locked to one preset",
+      "score": 2,
+      "evidence": "Lint HL022 silent; every widget marker is a preset B widget."
+    },
+    {
+      "row": 2,
+      "check": "Canvas width matches era",
+      "score": 2,
+      "evidence": "Outer table fixed at 600 px, matching the 1998 canvas."
+    },
+    {
+      "row": 3,
+      "check": "Colors",
+      "score": 2,
+      "evidence": "HL020 silent; flat colors on the web-safe cube, brand violet snapped to #6633CC."
+    },
+    {
+      "row": 4,
+      "check": "Fonts",
+      "score": 2,
+      "evidence": "Times New Roman, Arial, Comic Sans MS stacks only; no web fonts."
+    },
+    {
+      "row": 5,
+      "check": "Layout engine look",
+      "score": 2,
+      "evidence": "Nested tables, spacer GIFs, visible bordered price and webring tables."
+    },
+    {
+      "row": 6,
+      "check": "Images",
+      "score": 2,
+      "evidence": "All imagery is small GIF; the dashboard became a 320 x 200 program window screenshot."
+    },
+    {
+      "row": 7,
+      "check": "Widgets present",
+      "score": 2,
+      "evidence": "All 13 required B widgets marked; HL021 silent."
+    },
+    {
+      "row": 8,
+      "check": "Widgets era-correct",
+      "score": 2,
+      "evidence": "No widget from another era; no glitter, Top 8, or shared borders."
+    },
+    {
+      "row": 9,
+      "check": "Copy voice",
+      "score": 2,
+      "evidence": "Copy rewritten in first-person shareware voice; HL011 silent."
+    },
+    {
+      "row": 10,
+      "check": "Navigation",
+      "score": 2,
+      "evidence": "Pipe-separated text links top and bottom."
+    },
+    {
+      "row": 11,
+      "check": "Brand legibility",
+      "score": 2,
+      "evidence": "Name, violet palette, and product promise are instantly recognizable."
+    },
+    {
+      "row": 12,
+      "check": "Content parity",
+      "score": 2,
+      "evidence": "All 22 detected patterns mapped or dropped with a reason; login became Members only."
+    },
+    {
+      "row": 13,
+      "check": "View Source",
+      "score": 2,
+      "evidence": "Period markup with a commented bgsound line; only the two safety links are modern."
+    },
+    {
+      "row": 14,
+      "check": "Lived-in details",
+      "score": 2,
+      "evidence": "Last updated 3/14/98, visitor counter, Mac version under construction, neighborhood address."
+    },
+    {
+      "row": 15,
+      "check": "Browser badges",
+      "score": 1,
+      "evidence": "Badges are generic text (800 x 600, hand coded) under the originals-only policy, not era browser logos."
+    },
+    {
+      "row": 16,
+      "check": "Motion",
+      "score": 2,
+      "evidence": "Four moving items, all at 600 ms or slower; gif audit within budget."
+    },
+    {
+      "row": 17,
+      "check": "Audio",
+      "score": 2,
+      "evidence": "Ode to Joy chiptune plays only after a click on the music badge."
+    },
+    {
+      "row": 18,
+      "check": "Safe Mode",
+      "score": 2,
+      "evidence": "Safe Mode verified: tile dropped, contrast raised, marquee stopped, GIFs frozen."
+    },
+    {
+      "row": 19,
+      "check": "Accessibility basics",
+      "score": 2,
+      "evidence": "Alt text on every image, labeled form fields, text-only page linked from every page."
+    },
+    {
+      "row": 20,
+      "check": "Legal hygiene",
+      "score": 2,
+      "evidence": "Asset log covers every file; originals only; fictional-brand disclaimer in the footer."
+    }
+  ],
+  "total": 39,
+  "verdict": "SHIP",
+  "notes": "Scored by hand in the worked example, then checked with tools/rubric.py against qa/lint-B.json."
+}

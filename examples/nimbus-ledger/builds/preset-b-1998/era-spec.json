@@ -1,0 +1,31 @@
+{
+  "preset": "B",
+  "preset_name": "GeoCities / Angelfire / Tripod personal homepage",
+  "year": 1998,
+  "host_context": "Free homestead at Neighborhood: SiliconValley/Heights/4021, the founder's personal page for a shareware bookkeeping program",
+  "target_browser": "Netscape Navigator 4",
+  "canvas_width_px": 600,
+  "palette_mode": "web-safe-216",
+  "base_bg": "#000000 with images/stars-tile.gif",
+  "palette": {"bg": "#000000", "text": "#FFFFFF", "link": "#00FFFF", "vlink": "#FF00FF", "alink": "#FFFF00", "brand": "#6633CC", "brand_accent": "#0099FF"},
+  "fonts": {"body": "Times New Roman, Times, serif", "heading": "Arial, Helvetica, sans-serif", "display": "Comic Sans MS, cursive", "mono": "Courier New, Courier, monospace"},
+  "layout_mode": "centered-column",
+  "nav_style": "Text links separated by pipes at top and bottom.",
+  "required_widgets": ["safe-mode-toggle", "text-only-link", "last-updated", "email-me", "browser-badge", "hit-counter", "guestbook", "webring", "under-construction", "rainbow-rule", "neighborhood-address", "whats-new", "midi-player"],
+  "required_any": [],
+  "forbidden_elements": ["glitter text", "Top 8 grids", "shared borders", "theme banners", "web fonts", "rounded corners", "CSS gradients", "emoji"],
+  "voice_rules": [
+    "Exuberant, personal, generous with exclamation points and capital letters.",
+    "The founder speaks in first person about 'my program'.",
+    "Shareware vocabulary: download, register, 30 day trial, by mail.",
+    "Never use modern phrases such as get started, book a demo, or seamless."
+  ],
+  "motion_budget": 4,
+  "audio": "click-to-play",
+  "easter_eggs": ["Neighborhood SiliconValley/Heights/4021", "Last updated 3/14/98", "Download size quoted for a 28.8 modem", "ICQ number in place of live chat"],
+  "time_capsule": false,
+  "time_capsule_story": "",
+  "allowed_extra_widgets": [],
+  "reference_urls": ["https://geocities.restorativland.org", "https://blog.geocities.institute", "https://gifcities.org"],
+  "asset_policy": "originals-only"
+}

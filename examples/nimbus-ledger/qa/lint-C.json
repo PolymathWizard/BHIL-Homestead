@@ -1,0 +1,27 @@
+{
+  "target": "examples/nimbus-ledger/builds/preset-c-2001",
+  "preset": "C",
+  "files_checked": 3,
+  "errors": 0,
+  "warnings": 0,
+  "verdict": "NO FINDINGS (INCONCLUSIVE)",
+  "rubric_rows_flagged": [],
+  "widget_markers": [
+    "broken-component-placeholder",
+    "browser-badge",
+    "copyright-footer",
+    "feedback-form",
+    "hit-counter",
+    "hover-buttons",
+    "last-updated",
+    "mailto-text",
+    "safe-mode-toggle",
+    "search-form",
+    "shared-borders",
+    "status-bar-scroller",
+    "text-only-link",
+    "theme-banner",
+    "whats-new"
+  ],
+  "findings": []
+}

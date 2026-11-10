@@ -1,0 +1,106 @@
+/* Modern source stylesheet for the fictional Nimbus Ledger brand (HOMESTEAD worked example). */
+:root {
+  --violet: #6D28D9;
+  --sky: #0EA5E9;
+  --ink: #0F172A;
+  --paper: #F8FAFC;
+  --mint: #10B981;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.6;
+}
+
+code { font-family: "JetBrains Mono", monospace; }
+
+.site-header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(12px);
+  background: rgba(248, 250, 252, 0.85);
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--violet), var(--sky));
+  color: #FFFFFF;
+  box-shadow: 0 10px 30px rgba(109, 40, 217, 0.25);
+}
+
+.btn-ghost { border: 1px solid var(--violet); color: var(--violet); }
+
+.hero {
+  text-align: center;
+  padding: clamp(4rem, 10vw, 8rem) 2rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.feature-grid,
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.card,
+.plan {
+  background: #FFFFFF;
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
+
+.plan-featured { outline: 2px solid var(--violet); }
+
+.testimonial { border-left: 4px solid var(--mint); padding-left: 1rem; }
+
+.cookie-banner {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  border-radius: var(--radius);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+@media (max-width: 720px) {
+  .nav-links { display: none; }
+  .hamburger { display: block; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { --paper: #0F172A; --ink: #F8FAFC; }
+}

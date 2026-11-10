@@ -1,0 +1,13 @@
+file,kind,source,source_url,license,generator_or_author,era_check,notes
+images/logo.gif,wordart,generated,,CC BY 4.0,tools/gifsmith.py wordart,pass,Brand violet and sky snapped to 6633CC and 0099FF
+images/banner-welcome.gif,banner,generated,,CC BY 4.0,tools/gifsmith.py banner,pass,Original Ledger Blue theme banner
+images/banner-pricing.gif,banner,generated,,CC BY 4.0,tools/gifsmith.py banner,pass,Original Ledger Blue theme banner
+images/btn-*.gif,navbutton,generated,,CC BY 4.0,tools/gifsmith.py navbutton,pass,Six buttons with hover states; nav capped at six
+images/tour-*.gif,appwindow,generated,,CC BY 4.0,tools/gifsmith.py appwindow,pass,Replaces the modern hero video and dashboard
+images/tile-ledger.gif,tile,generated,,CC BY 4.0,tools/gifsmith.py tile,pass,Static ruled-paper background
+images/new.gif,new,generated,,CC BY 4.0,tools/gifsmith.py new,pass,600 ms frames; still frame for Safe Mode
+images/ball-blue.gif,ball,generated,,CC BY 4.0,tools/gifsmith.py ball,pass,Theme bullet
+images/counter/d*.gif,digits,generated,,CC BY 4.0,tools/gifsmith.py digits,pass,Odometer hit counter
+images/badge-ie5.gif,badge,generated,,CC BY 4.0,tools/gifsmith.py badge,pass,Text-only browser badge; no browser logo
+images/spacer.gif,spacer,generated,,CC BY 4.0,tools/gifsmith.py spacer,pass,Transparent 1x1
+GENERATOR meta tag,source detail,descriptive use,,n/a,hand-written,pass,Names a product descriptively for View Source; remove for client marketing if counsel prefers

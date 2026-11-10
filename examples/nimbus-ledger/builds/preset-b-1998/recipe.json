@@ -1,0 +1,11 @@
+{
+  "description": "Nimbus Ledger as a 1998 GeoCities homepage. Brand violet #6D28D9 snapped to #6633CC; sky #0EA5E9 snapped to #0099FF.",
+  "include": ["spacer", "stars-tile", "rainbow-rule", "under-construction", "new", "ball-red", "ball-blue", "ball-green", "ball-yellow", "counter", "badge-800x600", "badge-hand-coded", "badge-homestead", "badge-guestbook", "badge-music", "email-me", "tune-ode"],
+  "assets": [
+    {"kind": "wordart", "out": "images/title.gif", "params": {"text": "NIMBUS LEDGER", "scale": 5, "row_colors": ["#CCCCFF", "#9999FF", "#9966FF", "#6633CC", "#6633CC", "#330099", "#330066"], "shadow": "#0099FF", "outline": "#000000", "bg": "#FF00FF"}},
+    {"kind": "appwindow", "out": "images/screenshot.gif", "params": {"title": "Nimbus Ledger 1.0", "width": 320, "height": 200, "columns": ["Date", "Item", "Amount"], "rows": [["03/02/98", "Logo design", "$450.00"], ["03/05/98", "Paper + ink", "-$38.12"], ["03/09/98", "Web page", "$280.00"], ["03/11/98", "Modem bill", "-$19.95"], ["03/14/98", "Balance", "$671.93"]], "status": "READY  5 ENTRIES"}},
+    {"kind": "badge", "out": "images/badge-webring.gif", "params": {"lines": ["NUMBER", "CRUNCHERS RING"], "bg": "#006666", "fg": "#FFFF00", "fg2": "#FFFFFF"}},
+    {"kind": "badge", "out": "images/badge-download.gif", "params": {"lines": ["DOWNLOAD", "NOW! 1.4 MB"], "bg": "#6633CC", "fg": "#FFFFFF", "fg2": "#FFFF00", "accent": "#0099FF"}},
+    {"kind": "badge", "out": "images/badge-help-wanted.gif", "params": {"lines": ["HELP WANTED!", "BETA TESTERS"], "bg": "#990000", "fg": "#FFFF00", "fg2": "#FFFFFF"}}
+  ]
+}

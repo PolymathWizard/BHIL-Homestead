@@ -1,0 +1,258 @@
+{
+  "build": "examples/nimbus-ledger/builds/preset-e-2007",
+  "page_bg": "#000000",
+  "files": [
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/avatar-1.gif",
+      "width": 48,
+      "height": 48,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/avatar-2.gif",
+      "width": 48,
+      "height": 48,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/avatar-3.gif",
+      "width": 48,
+      "height": 48,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/avatar-4.gif",
+      "width": 48,
+      "height": 48,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/avatar-5.gif",
+      "width": 48,
+      "height": 48,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/avatar-6.gif",
+      "width": 48,
+      "height": 48,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/avatar-7.gif",
+      "width": 48,
+      "height": 48,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/avatar-8.gif",
+      "width": 48,
+      "height": 48,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/bg-sparkle.gif",
+      "width": 64,
+      "height": 64,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/blinkie-receipts-still.gif",
+      "width": 150,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/blinkie-receipts.gif",
+      "width": 150,
+      "height": 20,
+      "frames": 2,
+      "verdict": "WITHIN BUDGET (INCONCLUSIVE FOR SCALED OR TILED USE)",
+      "fail": false,
+      "min_delay_ms": 600,
+      "flashes_per_second": 0.0,
+      "max_transition_px": 2664,
+      "max_red_transition_px": 0,
+      "notes": [
+        "largest luminance transition 2664 px, below the 21824 px area threshold"
+      ]
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/blinkie-taxes-still.gif",
+      "width": 150,
+      "height": 20,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/blinkie-taxes.gif",
+      "width": 150,
+      "height": 20,
+      "frames": 2,
+      "verdict": "WITHIN BUDGET (INCONCLUSIVE FOR SCALED OR TILED USE)",
+      "fail": false,
+      "min_delay_ms": 600,
+      "flashes_per_second": 0.0,
+      "max_transition_px": 2664,
+      "max_red_transition_px": 0,
+      "notes": [
+        "largest luminance transition 2664 px, below the 21824 px area threshold"
+      ]
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/glitter-name-still.gif",
+      "width": 235,
+      "height": 25,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/glitter-name.gif",
+      "width": 235,
+      "height": 25,
+      "frames": 3,
+      "verdict": "WITHIN BUDGET (INCONCLUSIVE FOR SCALED OR TILED USE)",
+      "fail": false,
+      "min_delay_ms": 400,
+      "flashes_per_second": 0.0,
+      "max_transition_px": 1734,
+      "max_red_transition_px": 0,
+      "notes": [
+        "largest luminance transition 1734 px, below the 21824 px area threshold"
+      ]
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/online-now-still.gif",
+      "width": 69,
+      "height": 11,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/online-now.gif",
+      "width": 69,
+      "height": 11,
+      "frames": 2,
+      "verdict": "WITHIN BUDGET (INCONCLUSIVE FOR SCALED OR TILED USE)",
+      "fail": false,
+      "min_delay_ms": 700,
+      "flashes_per_second": 0.0,
+      "max_transition_px": 146,
+      "max_red_transition_px": 0,
+      "notes": [
+        "largest luminance transition 146 px, below the 21824 px area threshold"
+      ]
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/profile-photo.gif",
+      "width": 120,
+      "height": 88,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/spacer.gif",
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/thanks-for-the-add-still.gif",
+      "width": 117,
+      "height": 11,
+      "frames": 1,
+      "verdict": "STATIC",
+      "fail": false,
+      "min_delay_ms": null,
+      "flashes_per_second": 0.0,
+      "notes": []
+    },
+    {
+      "file": "examples/nimbus-ledger/builds/preset-e-2007/images/thanks-for-the-add.gif",
+      "width": 117,
+      "height": 11,
+      "frames": 3,
+      "verdict": "WITHIN BUDGET (INCONCLUSIVE FOR SCALED OR TILED USE)",
+      "fail": false,
+      "min_delay_ms": 400,
+      "flashes_per_second": 0.0,
+      "max_transition_px": 186,
+      "max_red_transition_px": 0,
+      "notes": [
+        "largest luminance transition 186 px, below the 21824 px area threshold"
+      ]
+    }
+  ],
+  "failures": 0
+}
