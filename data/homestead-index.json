@@ -3,7 +3,7 @@
     "framework": "HOMESTEAD",
     "repo": "BHIL-HOMESTEAD",
     "ref": "HOMESTEAD-001",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "released": "2026-11-10",
     "title": "HOMESTEAD: Retro-Web Redesign Engine",
     "tagline": "Analyze any modern website and rebuild it the way GeoCities, FrontPage, or MySpace would have.",

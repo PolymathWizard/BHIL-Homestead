@@ -8,7 +8,7 @@
 
 HOMESTEAD is a repeatable process, a stdlib-only toolchain, and a Claude Code agent team for retro web redesigns. Point it at a modern site, lock one era, and it walks you from inventory to a period build that survives View Source, ships with a Safe Mode for today's visitors, and carries a 40-point authenticity score. Every image and sound is generated from scratch, so builds carry no borrowed GIFs, fonts, or songs.
 
-REF HOMESTEAD-001 | v1.0.0 | Barry Hurd Intelligence Lab
+REF HOMESTEAD-001 | v1.1.0 | Barry Hurd Intelligence Lab
 
 | Modern source | Preset B, 1998 | Preset C, 2001 | Preset E, 2007 |
 |---|---|---|---|
