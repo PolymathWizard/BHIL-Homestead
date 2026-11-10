@@ -10,6 +10,10 @@ generated: true
 
 Each preset is a locked spec. Mixing elements across presets is allowed only when the era spec declares time_capsule true and names the story (for example a 1998 site last updated in 2006).
 
+![Timeline from 1993 to 2026 showing the six HOMESTEAD era presets, with kits for GeoCities, FrontPage, and MySpace.](../../assets/figures/hs-02-era-neighborhoods.svg)
+
+*FIG HS-02. Six neighborhoods. One address per build.*
+
 | Preset | Name | Years | Canvas | Palette | Status |
 |---|---|---|---|---|---|
 | [A](preset-a-proto-web.md) | Proto-Web / Academic | 1993-1996 | fluid | browser-default | spec-only |

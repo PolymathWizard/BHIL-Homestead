@@ -7,7 +7,9 @@ description: "The seven phases of the Retro-Web Redesign Architecture, with inpu
 
 The Retro-Web Redesign Architecture (RWRA) has seven phases. Each has one question, one owner, a worksheet, and a contract for what it hands to the next phase. The generated [phase map](reference/phase-map.md) lists every step; this page explains why the order matters.
 
-![Pipeline](../assets/diagrams/pipeline.svg)
+![BHIL ASCII pipeline on an ink panel: intake, survey, era lock, map, assets, build, and audit, with owners, outputs, and the revise loop.](../assets/figures/hs-03-pipeline.svg)
+
+*FIG HS-03. Seven phases. Every one leaves paper.*
 
 | Phase | Question | Owner | Output |
 |---|---|---|---|

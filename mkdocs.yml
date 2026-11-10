@@ -101,6 +101,7 @@ nav:
       - Preset C: kits/preset-c-frontpage/overview.md
       - Preset E: kits/preset-e-myspace/overview.md
   - Worked example: examples/nimbus-ledger/README.md
+  - Figure kit: assets/figures/README.md
   - Agents and prompts:
       - AGENTS.md: AGENTS.md
       - Prompt system: prompts/README.md

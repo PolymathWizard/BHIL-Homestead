@@ -15,6 +15,10 @@ Nimbus Ledger is a fictional bookkeeping app for freelancers, written as a typic
 
 Nimbus Ledger, its customers, the FriendGrid network, and the band The Reconcilers are all invented for this example.
 
+![Odometer showing 39 of 40 for the Nimbus Ledger 1998 build, the twenty rubric rows with their scores, the score bands, and the hard gates.](../../assets/figures/hs-09-rubric.svg)
+
+*FIG HS-09. Graded blind. Scored to forty.*
+
 ## Phase 0: Intake
 
 Purpose: portfolio demonstration. Asset policy: originals-only. Deliverable: live static pages. Brand owner: none (fictional), so no disclaimer beyond the footer line on each build.

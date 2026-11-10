@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d">
+<title id="t">HS-07 View Source never lies.</title>
+<desc id="d">A period source window with a web font, rounded corners, and modern copy flagged by the HOMESTEAD era lint, beside the lint report.</desc>
+<style>
+@keyframes hs-blink { 0%, 49.9% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes hs-twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+@keyframes hs-breathe { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+.hs-blink { animation: hs-blink 1s step-end infinite; }
+.hs-twinkle { animation: hs-twinkle 4s ease-in-out infinite; }
+.hs-breathe { animation: hs-breathe 2.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .hs-anim { display: none; } }
+</style>
+<defs><g id="px-2e"><rect x="1" y="5" width="2" height="1"/><rect x="1" y="6" width="2" height="1"/></g><g id="px-43"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-44"><rect x="0" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="0" y="6" width="3" height="1"/></g><g id="px-45"><rect x="0" y="0" width="5" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="0" y="6" width="5" height="1"/></g><g id="px-48"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="5" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-49"><rect x="1" y="0" width="3" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-4c"><rect x="0" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="0" y="6" width="5" height="1"/></g><g id="px-4d"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="2" height="1"/><rect x="3" y="1" width="2" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-4e"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="2" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="3" y="4" width="2" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-4f"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-52"><rect x="0" y="0" width="4" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-53"><rect x="1" y="0" width="4" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="1" y="3" width="3" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="4" height="1"/></g><g id="px-54"><rect x="0" y="0" width="5" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-55"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-56"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-57"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="1" height="1"/><rect x="3" y="6" width="1" height="1"/></g><g id="px-58"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-5f"><rect x="0" y="6" width="5" height="1"/></g><g id="px-b7"><rect x="1" y="3" width="2" height="1"/><rect x="1" y="4" width="2" height="1"/></g></defs>
+<rect width="1600" height="900" fill="#0D1B2E"/>
+<text x="80" y="44" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" letter-spacing="3.36" fill-opacity="0.62">BARRY HURD INTELLIGENCE LAB · HOMESTEAD</text>
+<text x="1520" y="44" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" text-anchor="end" letter-spacing="3.36" fill-opacity="0.62">REF HOMESTEAD-001 / V1 · FIG HS-07</text>
+<line x1="80" y1="62" x2="1520" y2="62" stroke="#1E3A5F" stroke-width="1"/>
+<text x="80" y="122" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6CC0E8" letter-spacing="3.3">▸ PHASE 5 · TOOLS/ERA_LINT.PY</text>
+<text x="80" y="184" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="52" fill="#FFFFFF">View Source never lies.</text>
+<text x="80" y="224" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" fill-opacity="0.72" font-style="italic">Period markup plus exactly two modern lines. Anything else that smells like 2026 is a finding.</text>
+<line x1="80" y1="842" x2="1520" y2="842" stroke="#1E3A5F" stroke-width="1"/>
+<text x="80" y="870" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" letter-spacing="3.36" fill-opacity="0.62">BHIL · HOMESTEAD RETRO-WEB REDESIGN ENGINE · FIG HS-07</text>
+<text x="1520" y="870" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" text-anchor="end" letter-spacing="3.36" fill-opacity="0.62">BARRYHURD.COM</text>
+<rect x="100" y="262" width="930" height="540" fill="#F3F3F0"/>
+<rect x="100" y="262" width="930" height="1" fill="#FFFFFF"/>
+<rect x="100" y="262" width="1" height="540" fill="#FFFFFF"/>
+<rect x="100" y="801" width="930" height="1" fill="#6B6258"/>
+<rect x="1029" y="262" width="1" height="540" fill="#6B6258"/>
+<rect x="101" y="263" width="928" height="1" fill="#FFFFFF"/>
+<rect x="101" y="263" width="1" height="538" fill="#FFFFFF"/>
+<rect x="101" y="800" width="928" height="1" fill="#6B6258"/>
+<rect x="1028" y="263" width="1" height="538" fill="#6B6258"/>
+<rect x="104" y="266" width="922" height="28" fill="#2E80B0"/>
+<g fill="#FFFFFF"><use href="#px-49" transform="translate(112 273) scale(2)"/><use href="#px-4e" transform="translate(124 273) scale(2)"/><use href="#px-44" transform="translate(136 273) scale(2)"/><use href="#px-45" transform="translate(148 273) scale(2)"/><use href="#px-58" transform="translate(160 273) scale(2)"/><use href="#px-2e" transform="translate(172 273) scale(2)"/><use href="#px-48" transform="translate(184 273) scale(2)"/><use href="#px-54" transform="translate(196 273) scale(2)"/><use href="#px-4d" transform="translate(208 273) scale(2)"/><use href="#px-4c" transform="translate(220 273) scale(2)"/><use href="#px-b7" transform="translate(244 273) scale(2)"/><use href="#px-56" transform="translate(268 273) scale(2)"/><use href="#px-49" transform="translate(280 273) scale(2)"/><use href="#px-45" transform="translate(292 273) scale(2)"/><use href="#px-57" transform="translate(304 273) scale(2)"/><use href="#px-53" transform="translate(328 273) scale(2)"/><use href="#px-4f" transform="translate(340 273) scale(2)"/><use href="#px-55" transform="translate(352 273) scale(2)"/><use href="#px-52" transform="translate(364 273) scale(2)"/><use href="#px-43" transform="translate(376 273) scale(2)"/><use href="#px-45" transform="translate(388 273) scale(2)"/></g>
+<rect x="1000" y="270" width="22" height="20" fill="#F3F3F0"/>
+<rect x="1000" y="270" width="22" height="1" fill="#FFFFFF"/>
+<rect x="1000" y="270" width="1" height="20" fill="#FFFFFF"/>
+<rect x="1000" y="289" width="22" height="1" fill="#6B6258"/>
+<rect x="1021" y="270" width="1" height="20" fill="#6B6258"/>
+<g fill="#0A0A0A"><use href="#px-58" transform="translate(1006 273) scale(2)"/></g>
+<rect x="974" y="270" width="22" height="20" fill="#F3F3F0"/>
+<rect x="974" y="270" width="22" height="1" fill="#FFFFFF"/>
+<rect x="974" y="270" width="1" height="20" fill="#FFFFFF"/>
+<rect x="974" y="289" width="22" height="1" fill="#6B6258"/>
+<rect x="995" y="270" width="1" height="20" fill="#6B6258"/>
+<g fill="#0A0A0A"><use href="#px-4f" transform="translate(980 273) scale(2)"/></g>
+<rect x="948" y="270" width="22" height="20" fill="#F3F3F0"/>
+<rect x="948" y="270" width="22" height="1" fill="#FFFFFF"/>
+<rect x="948" y="270" width="1" height="20" fill="#FFFFFF"/>
+<rect x="948" y="289" width="22" height="1" fill="#6B6258"/>
+<rect x="969" y="270" width="1" height="20" fill="#6B6258"/>
+<g fill="#0A0A0A"><use href="#px-5f" transform="translate(954 273) scale(2)"/></g>
+<rect x="108" y="302" width="914" height="492" fill="#FFFFFF"/>
+<rect x="108" y="302" width="914" height="1" fill="#6B6258"/>
+<rect x="108" y="302" width="1" height="492" fill="#6B6258"/>
+<rect x="108" y="793" width="914" height="1" fill="#FFFFFF"/>
+<rect x="1021" y="302" width="1" height="492" fill="#FFFFFF"/>
+<text x="126" y="332" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258"> 1</text>
+<text x="162" y="332" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;html&gt;&lt;head&gt;</text>
+<rect x="110" y="344" width="5" height="30" fill="#2E80B0"/>
+<text x="126" y="365" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258"> 2</text>
+<text x="162" y="365" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;link rel=&quot;stylesheet&quot; href=&quot;homestead-safe.css&quot;&gt;</text>
+<rect x="110" y="377" width="5" height="30" fill="#2E80B0"/>
+<text x="126" y="398" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258"> 3</text>
+<text x="162" y="398" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;script src=&quot;homestead-safe.js&quot; defer&gt;&lt;/script&gt;</text>
+<g class="hs-breathe"><rect x="110" y="410" width="910" height="30" fill="#D97757" fill-opacity="0.16"/><rect x="110" y="410" width="5" height="30" fill="#D97757"/></g>
+<text x="126" y="431" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258"> 4</text>
+<text x="162" y="431" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Inter&quot;&gt;</text>
+<text x="126" y="464" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258"> 5</text>
+<text x="162" y="464" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;/head&gt;</text>
+<text x="126" y="497" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258"> 6</text>
+<text x="162" y="497" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;body background=&quot;images/stars-tile.gif&quot; bgcolor=&quot;#000000&quot;&gt;</text>
+<text x="126" y="530" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258"> 7</text>
+<text x="162" y="530" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;!-- hs:widget hit-counter --&gt;</text>
+<text x="126" y="563" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258"> 8</text>
+<text x="162" y="563" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;table width=&quot;600&quot; border=&quot;0&quot; cellpadding=&quot;0&quot;&gt;</text>
+<g class="hs-breathe"><rect x="110" y="575" width="910" height="30" fill="#D97757" fill-opacity="0.16"/><rect x="110" y="575" width="5" height="30" fill="#D97757"/></g>
+<text x="126" y="596" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258"> 9</text>
+<text x="162" y="596" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;tr&gt;&lt;td style=&quot;border-radius: 12px&quot;&gt;</text>
+<text x="126" y="629" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258">10</text>
+<text x="162" y="629" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;font face=&quot;Comic Sans MS,Arial&quot; size=&quot;5&quot;&gt;Welcome!!!&lt;/font&gt;</text>
+<text x="126" y="662" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258">11</text>
+<text x="162" y="662" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;marquee&gt;Thanks for stopping by!!!&lt;/marquee&gt;</text>
+<g class="hs-breathe"><rect x="110" y="674" width="910" height="30" fill="#D97757" fill-opacity="0.16"/><rect x="110" y="674" width="5" height="30" fill="#D97757"/></g>
+<text x="126" y="695" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258">12</text>
+<text x="162" y="695" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;p&gt;Get started today.&lt;/p&gt;</text>
+<text x="126" y="728" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258">13</text>
+<text x="162" y="728" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;!--webbot bot=&quot;Timestamp&quot; S-Type=&quot;EDITED&quot; --&gt;</text>
+<text x="126" y="761" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6B6258">14</text>
+<text x="162" y="761" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15.5" fill="#0A0A0A">&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+<rect x="710.7" y="613" width="2" height="20" fill="#0A0A0A" class="hs-blink"/>
+<text x="1070" y="290" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#6CC0E8" letter-spacing="2.6">HOMESTEAD ERA LINT · PRESET B</text>
+<line x1="1070" y1="304" x2="1520" y2="304" stroke="#1E3A5F" stroke-width="1"/>
+<text x="1070" y="340" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#D97757" letter-spacing="1.12">ERROR HL001  LINE 4</text>
+<text x="1070" y="364" font-family="'IBM Plex Sans', Arial, Helvetica, sans-serif" font-size="17" fill="#FFFFFF">Web font loaded</text>
+<text x="1070" y="386" font-family="'IBM Plex Sans', Arial, Helvetica, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.66">Use a system font stack from canon/fonts.json.</text>
+<text x="1070" y="405" font-family="'IBM Plex Sans', Arial, Helvetica, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.66">Never self-host Comic Sans.</text>
+<text x="1070" y="452" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#D97757" letter-spacing="1.12">ERROR HL002  LINE 9</text>
+<text x="1070" y="476" font-family="'IBM Plex Sans', Arial, Helvetica, sans-serif" font-size="17" fill="#FFFFFF">Rounded corners</text>
+<text x="1070" y="498" font-family="'IBM Plex Sans', Arial, Helvetica, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.66">Draw rounded shapes as GIF corner images or</text>
+<text x="1070" y="517" font-family="'IBM Plex Sans', Arial, Helvetica, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.66">drop them.</text>
+<text x="1070" y="564" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#D97757" letter-spacing="1.12">WARN  HL011  LINE 12</text>
+<text x="1070" y="588" font-family="'IBM Plex Sans', Arial, Helvetica, sans-serif" font-size="17" fill="#FFFFFF">Modern marketing copy</text>
+<text x="1070" y="610" font-family="'IBM Plex Sans', Arial, Helvetica, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.66">Rewrite in the preset voice from</text>
+<text x="1070" y="629" font-family="'IBM Plex Sans', Arial, Helvetica, sans-serif" font-size="13.5" fill="#FFFFFF" fill-opacity="0.66">canon/presets.json.</text>
+<line x1="1070" y1="656" x2="1520" y2="656" stroke="#1E3A5F" stroke-width="1"/>
+<text x="1070" y="684" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#D97757" letter-spacing="1.04">VERDICT: FINDINGS · 2 ERRORS · 1 WARNING</text>
+<text x="1070" y="716" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#6CC0E8" letter-spacing="1.04">AFTER FIX: NO FINDINGS (INCONCLUSIVE)</text>
+<text x="1070" y="756" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="19" fill="#FFFFFF" fill-opacity="0.8" font-style="italic">Lint knows the tells. It cannot see the page,</text>
+<text x="1070" y="780" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="19" fill="#FFFFFF" fill-opacity="0.8" font-style="italic">so it never says clean.</text>
+</svg>

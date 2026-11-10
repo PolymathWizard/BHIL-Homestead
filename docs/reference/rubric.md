@@ -10,6 +10,10 @@ generated: true
 
 Score each row 0, 1, or 2. Maximum 40.
 
+![Odometer showing 39 of 40 for the Nimbus Ledger 1998 build, the twenty rubric rows with their scores, the score bands, and the hard gates.](../../assets/figures/hs-09-rubric.svg)
+
+*FIG HS-09. Graded blind. Scored to forty.*
+
 | Row | Check | 0 | 1 | 2 | Lint rules |
 |---|---|---|---|---|---|
 | 1 | Era locked to one preset | Mixed | Mostly consistent | Fully consistent or explicitly time-capsuled | HL022 |

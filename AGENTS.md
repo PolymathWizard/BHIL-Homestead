@@ -78,7 +78,7 @@ python3 -m unittest discover -s tests # regression tests
 - Shipping a build whose scorecard is below SHIP.
 
 ### NEVER
-- Hand-edit a derived artifact (`docs/presets/`, `docs/reference/`, `templates/era-spec-cards/`, `data/`, `assets/diagrams/`, kit and example images, `MANIFEST.sha256`). Edit canon and run `scripts/build_derived.py`.
+- Hand-edit a derived artifact (`docs/presets/`, `docs/reference/`, `templates/era-spec-cards/`, `data/`, `assets/figures/` (except `png/`), kit and example images, `MANIFEST.sha256`). Edit canon and run `scripts/build_derived.py`.
 - Load web fonts, `@font-face`, CSS gradients, rounded corners, flexbox, grid, or emoji in a preset A to E build.
 - Autoplay audio, ship frames faster than 340 ms, or ship without Safe Mode.
 - Use real song lyrics, recognizable third-party characters, network logos, or self-hosted Microsoft core fonts.

@@ -24,7 +24,9 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
 import build_derived  # noqa: E402
 
-DERIVED_ONLY_DIRS = ("docs/presets", "docs/reference", "templates/era-spec-cards", "assets/diagrams", "data")
+DERIVED_ONLY_DIRS = ("docs/presets", "docs/reference", "templates/era-spec-cards", "assets/figures", "data")
+# Renderer output, not generator output. scripts/validate.py checks its freshness instead.
+NOT_DERIVED = ("assets/figures/png/",)
 
 
 def sha(path):
@@ -49,7 +51,7 @@ def main():
             for root, _dirs, names in os.walk(base):
                 for name in names:
                     rel = os.path.relpath(os.path.join(root, name), ROOT).replace(os.sep, "/")
-                    if rel not in produced:
+                    if rel not in produced and not rel.startswith(NOT_DERIVED):
                         problems.append("stale derived file (not produced by canon): " + rel)
         if problems:
             for p in problems:

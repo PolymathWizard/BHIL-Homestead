@@ -15,3 +15,4 @@ description: "Why HOMESTEAD is built the way it is."
 | [ADR-006](ADR-006-dash-gate.md) | Repository-wide dash gate |
 | [ADR-007](ADR-007-no-clean-verdicts.md) | No component ever reports clean |
 | [ADR-008](ADR-008-evidence-tiers-and-open-questions.md) | Evidence tiers for claims; open questions with settling criteria |
+| [ADR-009](ADR-009-figure-kit.md) | A generated figure kit in the BHIL frame; PNGs are renderer output with a freshness check |

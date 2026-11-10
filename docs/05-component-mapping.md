@@ -7,7 +7,9 @@ description: "Map, merge, or drop every modern pattern; plan the period sitemap;
 
 Mapping turns the inventory into a plan. Every detected modern pattern gets one of three decisions, every required widget gets a page, and every word gets an era rewrite.
 
-![Mapping coverage](../assets/diagrams/mapping-coverage.svg)
+![Table mapping six modern patterns to their GeoCities, FrontPage, and MySpace equivalents, each with a period badge.](../assets/figures/hs-05-component-mapping.svg)
+
+*FIG HS-05. Translate component by component.*
 
 ## Generate the worksheet
 

@@ -10,7 +10,9 @@ generated: true
 
 CADRE: one orchestrator session over tool-isolated subagents. The orchestrator owns the engagement folder, sequencing, and human checkpoints. Subagents own one phase each and hand back a contract, not a conversation.
 
-![Agent topology](../../assets/diagrams/agent-topology.svg)
+![Profile-style friend grid of the human director, the orchestrator, and six subagents with their tools, the auditor marked read only.](../../assets/figures/hs-10-agent-crew.svg)
+
+*FIG HS-10. The crew's Top 8. One of them can't write.*
 
 | Agent | Phase | Model | Tools | Forbidden | Writes | Contract |
 |---|---|---|---|---|---|---|

@@ -29,7 +29,9 @@ The `authenticity-auditor` reads the era spec, the build, the inventory, and the
 
 ## The rubric
 
-![Rubric bands](../assets/diagrams/rubric-bands.svg)
+![Odometer showing 39 of 40 for the Nimbus Ledger 1998 build, the twenty rubric rows with their scores, the score bands, and the hard gates.](../assets/figures/hs-09-rubric.svg)
+
+*FIG HS-09. Graded blind. Scored to forty.*
 
 Twenty rows, each 0, 1, or 2, for a maximum of 40. Full descriptors: [rubric](reference/rubric.md).
 

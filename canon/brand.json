@@ -1,0 +1,157 @@
+{
+  "version": "1.0.0",
+  "source": "BHIL Brand Guidelines v1.0 (2026)",
+  "palette": {
+    "terminal_navy": "#0D1B2E",
+    "ink": "#0A0A0A",
+    "paper": "#FFFFFF",
+    "paper_3": "#F3F3F0",
+    "bh_blue": "#4FA3D1",
+    "bh_blue_2": "#2E80B0",
+    "bh_blue_3": "#1E3A5F",
+    "bh_blue_bright": "#6CC0E8",
+    "copper": "#D97757",
+    "stone": "#6B6258",
+    "sage": "#4A8A6E",
+    "signal": "#2E80B0"
+  },
+  "type": {
+    "serif": "Newsreader, Georgia, 'Times New Roman', serif",
+    "sans": "'IBM Plex Sans', Arial, Helvetica, sans-serif",
+    "mono": "'IBM Plex Mono', 'Courier New', Courier, monospace"
+  },
+  "strip": {
+    "lab": "BARRY HURD INTELLIGENCE LAB",
+    "product": "HOMESTEAD",
+    "ref": "REF HOMESTEAD-001 / V1",
+    "footer": "BHIL · HOMESTEAD RETRO-WEB REDESIGN ENGINE",
+    "site": "BARRYHURD.COM"
+  },
+  "rules": [
+    "Terminal Navy canvas, BH Blue accents, hairlines not boxes, square corners, no drop shadows, no gradients on motifs.",
+    "One BHIL motif per figure: the dot constellation only on HS-01, the ASCII pipeline only on HS-03, the prompt chevron in the eyebrow everywhere else.",
+    "Retro specimens (pixel type, bevels, badges, counters, period colors) sit inside the BHIL frame as content, never as the frame.",
+    "Every animation is CSS, slow, small in area, stops under prefers-reduced-motion, and frame zero is the designed static frame.",
+    "No em dashes or en dashes; the repository dash gate scans every SVG."
+  ],
+  "figures": [
+    {
+      "id": "HS-01",
+      "slug": "masthead",
+      "title": "Retro-Web Redesign Engine",
+      "alt": "HOMESTEAD masthead: a dot-matrix HOMESTEAD wordmark over the BHIL dot constellation, with period badges for presets B, C, and E and Safe Mode.",
+      "motion": "Stars in the dot constellation twinkle slowly; the dot-matrix cursor blinks once per second.",
+      "placements": [
+        "README.md",
+        "docs/01-overview.md"
+      ]
+    },
+    {
+      "id": "HS-02",
+      "slug": "era-neighborhoods",
+      "title": "Six neighborhoods. One address per build.",
+      "alt": "Timeline from 1993 to 2026 showing the six HOMESTEAD era presets, with kits for GeoCities, FrontPage, and MySpace.",
+      "motion": "A highlight frame visits one era at a time, every two seconds.",
+      "placements": [
+        "README.md",
+        "docs/04-era-lock.md",
+        "docs/presets/README.md"
+      ]
+    },
+    {
+      "id": "HS-03",
+      "slug": "pipeline",
+      "title": "Seven phases. Every one leaves paper.",
+      "alt": "BHIL ASCII pipeline on an ink panel: intake, survey, era lock, map, assets, build, and audit, with owners, outputs, and the revise loop.",
+      "motion": "A block cursor steps through the seven phases, two seconds each.",
+      "placements": [
+        "README.md",
+        "docs/01-overview.md",
+        "docs/02-process.md",
+        "docs/reference/phase-map.md",
+        "prompts/README.md"
+      ]
+    },
+    {
+      "id": "HS-04",
+      "slug": "site-survey",
+      "title": "Inventory before era.",
+      "alt": "A modern page being scanned into an inventory window listing detected patterns, brand colors with web-safe snaps, fonts, and tone.",
+      "motion": "A scan line sweeps down the modern page every four seconds.",
+      "placements": [
+        "docs/03-site-survey.md"
+      ]
+    },
+    {
+      "id": "HS-05",
+      "slug": "component-mapping",
+      "title": "Translate component by component.",
+      "alt": "Table mapping six modern patterns to their GeoCities, FrontPage, and MySpace equivalents, each with a period badge.",
+      "motion": "A highlight frame steps down the six rows.",
+      "placements": [
+        "README.md",
+        "docs/05-component-mapping.md",
+        "docs/reference/mapping-table.md"
+      ]
+    },
+    {
+      "id": "HS-06",
+      "slug": "asset-smithy",
+      "title": "Every glyph drawn here. Nothing borrowed.",
+      "alt": "The 216-color web-safe cube with BHIL brand colors snapped to it, beside real gifsmith outputs: a badge, a construction sign, odometer digits, nav buttons, glitter text, and the pixel font.",
+      "motion": "The construction sign and glitter specimens play their real frames at 600 ms and 400 ms.",
+      "placements": [
+        "docs/06-assets.md",
+        "docs/reference/web-safe-palette.md"
+      ]
+    },
+    {
+      "id": "HS-07",
+      "slug": "view-source",
+      "title": "View Source never lies.",
+      "alt": "A period source window with a web font, rounded corners, and modern copy flagged by the HOMESTEAD era lint, beside the lint report.",
+      "motion": "Flagged lines pulse copper; the editor cursor blinks.",
+      "placements": [
+        "docs/07-build.md",
+        "docs/reference/lint-rules.md"
+      ]
+    },
+    {
+      "id": "HS-08",
+      "slug": "safe-mode",
+      "title": "Keep the chaos. Give it an off switch.",
+      "alt": "The same period page as built, with starfield, marquee, and blinking badge, and in Safe Mode as plain black text on white.",
+      "motion": "Only the as-built side moves: twinkling stars, a slow marquee, and a once-per-second NEW badge.",
+      "placements": [
+        "README.md",
+        "docs/09-accessibility-and-safety.md",
+        "kits/safety-layer/README.md"
+      ]
+    },
+    {
+      "id": "HS-09",
+      "slug": "rubric",
+      "title": "Graded blind. Scored to forty.",
+      "alt": "Odometer showing 39 of 40 for the Nimbus Ledger 1998 build, the twenty rubric rows with their scores, the score bands, and the hard gates.",
+      "motion": "The SHIP stamp breathes slowly.",
+      "placements": [
+        "README.md",
+        "docs/08-authenticity-qa.md",
+        "docs/reference/rubric.md",
+        "examples/nimbus-ledger/README.md"
+      ]
+    },
+    {
+      "id": "HS-10",
+      "slug": "agent-crew",
+      "title": "The crew's Top 8. One of them can't write.",
+      "alt": "Profile-style friend grid of the human director, the orchestrator, and six subagents with their tools, the auditor marked read only.",
+      "motion": "The orchestrator's ONLINE NOW badge blinks once per second.",
+      "placements": [
+        "README.md",
+        "docs/11-agent-architecture.md",
+        "docs/reference/agent-roster.md"
+      ]
+    }
+  ]
+}

@@ -7,6 +7,10 @@ description: "Writing period markup that survives View Source, emulating dead te
 
 The build is hand-written period markup with two modern lines. Open View Source on a finished page and you should see what a designer in the era year would have written, plus links to the safety layer.
 
+![A period source window with a web font, rounded corners, and modern copy flagged by the HOMESTEAD era lint, beside the lint report.](../assets/figures/hs-07-view-source.svg)
+
+*FIG HS-07. View Source never lies.*
+
 ## Start from a kit
 
 ```bash

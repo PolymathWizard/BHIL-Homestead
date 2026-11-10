@@ -7,6 +7,10 @@ description: "The eleven-prompt HOMESTEAD system: a command center plus ten phas
 
 Eleven prompts built around the Retro-Web Redesign Architecture (RWRA). P00 runs every phase in one pass. P01 to P10 are specialists for a single phase, used directly in any chat tool or by the matching subagent in `.claude/agents/`.
 
+![BHIL ASCII pipeline on an ink panel: intake, survey, era lock, map, assets, build, and audit, with owners, outputs, and the revise loop.](../assets/figures/hs-03-pipeline.svg)
+
+*FIG HS-03. Seven phases. Every one leaves paper.*
+
 | Prompt | Name | Phase | Owner | Primary output |
 |---|---|---|---|---|
 | [P00](P00-command-center.md) | The Retro-Web Command Center | 0 to 6 | orchestrator | Full redesign in one pass |

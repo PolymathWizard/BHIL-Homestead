@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d">
+<title id="t">HS-04 Inventory before era.</title>
+<desc id="d">A modern page being scanned into an inventory window listing detected patterns, brand colors with web-safe snaps, fonts, and tone.</desc>
+<style>
+@keyframes hs-blink { 0%, 49.9% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes hs-twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+@keyframes hs-breathe { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+.hs-blink { animation: hs-blink 1s step-end infinite; }
+.hs-twinkle { animation: hs-twinkle 4s ease-in-out infinite; }
+.hs-breathe { animation: hs-breathe 2.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .hs-anim { display: none; } }
+@keyframes hs04-scan { 0% { transform: translate(0, 0); } 100% { transform: translate(0, 516px); } } .hs04-scan { animation: hs04-scan 4s linear infinite; }</style>
+<defs><clipPath id="pg"><rect x="100" y="270" width="540" height="520"/></clipPath><g id="px-2e"><rect x="1" y="5" width="2" height="1"/><rect x="1" y="6" width="2" height="1"/></g><g id="px-45"><rect x="0" y="0" width="5" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="0" y="6" width="5" height="1"/></g><g id="px-49"><rect x="1" y="0" width="3" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-4a"><rect x="2" y="0" width="3" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="1" y="6" width="2" height="1"/></g><g id="px-4e"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="2" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="3" y="4" width="2" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-4f"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-52"><rect x="0" y="0" width="4" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-53"><rect x="1" y="0" width="4" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="1" y="3" width="3" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="4" height="1"/></g><g id="px-54"><rect x="0" y="0" width="5" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-56"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-58"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-59"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-5f"><rect x="0" y="6" width="5" height="1"/></g></defs>
+<rect width="1600" height="900" fill="#0D1B2E"/>
+<text x="80" y="44" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" letter-spacing="3.36" fill-opacity="0.62">BARRY HURD INTELLIGENCE LAB · HOMESTEAD</text>
+<text x="1520" y="44" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" text-anchor="end" letter-spacing="3.36" fill-opacity="0.62">REF HOMESTEAD-001 / V1 · FIG HS-04</text>
+<line x1="80" y1="62" x2="1520" y2="62" stroke="#1E3A5F" stroke-width="1"/>
+<text x="80" y="122" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6CC0E8" letter-spacing="3.3">▸ PHASE 1 · TOOLS/SURVEY.PY</text>
+<text x="80" y="184" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="52" fill="#FFFFFF">Inventory before era.</text>
+<text x="80" y="224" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" fill-opacity="0.72" font-style="italic">The survey records what the modern site contains, so nothing important is lost in translation.</text>
+<line x1="80" y1="842" x2="1520" y2="842" stroke="#1E3A5F" stroke-width="1"/>
+<text x="80" y="870" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" letter-spacing="3.36" fill-opacity="0.62">BHIL · HOMESTEAD RETRO-WEB REDESIGN ENGINE · FIG HS-04</text>
+<text x="1520" y="870" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" text-anchor="end" letter-spacing="3.36" fill-opacity="0.62">BARRYHURD.COM</text>
+<text x="100" y="262" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" letter-spacing="2.16" fill-opacity="0.6">MODERN SOURCE · NIMBUS LEDGER · 2026</text>
+<rect x="100" y="270" width="540" height="520" fill="#FFFFFF"/>
+<rect x="100" y="270" width="540" height="44" fill="#F3F3F0"/>
+<rect x="118" y="284" width="80" height="16" fill="#6B6258"/>
+<rect x="250" y="288" width="40" height="8" fill="#D9D9D4"/>
+<rect x="306" y="288" width="40" height="8" fill="#D9D9D4"/>
+<rect x="362" y="288" width="40" height="8" fill="#D9D9D4"/>
+<rect x="418" y="288" width="40" height="8" fill="#D9D9D4"/>
+<rect x="474" y="288" width="40" height="8" fill="#D9D9D4"/>
+<rect x="544" y="281" width="78" height="22" fill="#0A0A0A"/>
+<rect x="170" y="354" width="400" height="26" fill="#0A0A0A"/>
+<rect x="220" y="390" width="300" height="14" fill="#D9D9D4"/>
+<rect x="240" y="412" width="260" height="10" fill="#D9D9D4"/>
+<rect x="260" y="442" width="100" height="26" fill="#0A0A0A"/>
+<rect x="380.5" y="442.5" width="99" height="25" fill="none" stroke="#6B6258" stroke-width="1"/>
+<rect x="126" y="500" width="150" height="104" fill="#F3F3F0"/>
+<rect x="140" y="516" width="70" height="10" fill="#6B6258"/>
+<rect x="140" y="536" width="120" height="6" fill="#D9D9D4"/>
+<rect x="140" y="548" width="110" height="6" fill="#D9D9D4"/>
+<rect x="140" y="560" width="90" height="6" fill="#D9D9D4"/>
+<rect x="296" y="500" width="150" height="104" fill="#F3F3F0"/>
+<rect x="310" y="516" width="70" height="10" fill="#6B6258"/>
+<rect x="310" y="536" width="120" height="6" fill="#D9D9D4"/>
+<rect x="310" y="548" width="110" height="6" fill="#D9D9D4"/>
+<rect x="310" y="560" width="90" height="6" fill="#D9D9D4"/>
+<rect x="466" y="500" width="150" height="104" fill="#F3F3F0"/>
+<rect x="480" y="516" width="70" height="10" fill="#6B6258"/>
+<rect x="480" y="536" width="120" height="6" fill="#D9D9D4"/>
+<rect x="480" y="548" width="110" height="6" fill="#D9D9D4"/>
+<rect x="480" y="560" width="90" height="6" fill="#D9D9D4"/>
+<rect x="126" y="622" width="4" height="50" fill="#4A8A6E"/>
+<rect x="140" y="630" width="300" height="10" fill="#D9D9D4"/>
+<rect x="140" y="650" width="200" height="8" fill="#D9D9D4"/>
+<rect x="110" y="726" width="520" height="48" fill="#0A0A0A"/>
+<rect x="126" y="744" width="220" height="10" fill="#3A3A3A"/>
+<rect x="470" y="738" width="70" height="24" fill="#F3F3F0"/>
+<circle cx="606" cy="690" r="20" fill="#2E80B0"/>
+<g clip-path="url(#pg)"><g class="hs04-scan"><rect x="100" y="256" width="540" height="18" fill="#6CC0E8" fill-opacity="0.14"/><rect x="100" y="272" width="540" height="2" fill="#6CC0E8"/></g></g>
+<line x1="664" y1="530" x2="726" y2="530" stroke="#4FA3D1" stroke-width="2"/>
+<path d="M726 522 L740 530 L726 538 Z" fill="#4FA3D1"/>
+<rect x="760" y="262" width="740" height="536" fill="#F3F3F0"/>
+<rect x="760" y="262" width="740" height="1" fill="#FFFFFF"/>
+<rect x="760" y="262" width="1" height="536" fill="#FFFFFF"/>
+<rect x="760" y="797" width="740" height="1" fill="#6B6258"/>
+<rect x="1499" y="262" width="1" height="536" fill="#6B6258"/>
+<rect x="761" y="263" width="738" height="1" fill="#FFFFFF"/>
+<rect x="761" y="263" width="1" height="534" fill="#FFFFFF"/>
+<rect x="761" y="796" width="738" height="1" fill="#6B6258"/>
+<rect x="1498" y="263" width="1" height="534" fill="#6B6258"/>
+<rect x="764" y="266" width="732" height="28" fill="#2E80B0"/>
+<g fill="#FFFFFF"><use href="#px-49" transform="translate(772 273) scale(2)"/><use href="#px-4e" transform="translate(784 273) scale(2)"/><use href="#px-56" transform="translate(796 273) scale(2)"/><use href="#px-45" transform="translate(808 273) scale(2)"/><use href="#px-4e" transform="translate(820 273) scale(2)"/><use href="#px-54" transform="translate(832 273) scale(2)"/><use href="#px-4f" transform="translate(844 273) scale(2)"/><use href="#px-52" transform="translate(856 273) scale(2)"/><use href="#px-59" transform="translate(868 273) scale(2)"/><use href="#px-2e" transform="translate(880 273) scale(2)"/><use href="#px-4a" transform="translate(892 273) scale(2)"/><use href="#px-53" transform="translate(904 273) scale(2)"/><use href="#px-4f" transform="translate(916 273) scale(2)"/><use href="#px-4e" transform="translate(928 273) scale(2)"/></g>
+<rect x="1470" y="270" width="22" height="20" fill="#F3F3F0"/>
+<rect x="1470" y="270" width="22" height="1" fill="#FFFFFF"/>
+<rect x="1470" y="270" width="1" height="20" fill="#FFFFFF"/>
+<rect x="1470" y="289" width="22" height="1" fill="#6B6258"/>
+<rect x="1491" y="270" width="1" height="20" fill="#6B6258"/>
+<g fill="#0A0A0A"><use href="#px-58" transform="translate(1476 273) scale(2)"/></g>
+<rect x="1444" y="270" width="22" height="20" fill="#F3F3F0"/>
+<rect x="1444" y="270" width="22" height="1" fill="#FFFFFF"/>
+<rect x="1444" y="270" width="1" height="20" fill="#FFFFFF"/>
+<rect x="1444" y="289" width="22" height="1" fill="#6B6258"/>
+<rect x="1465" y="270" width="1" height="20" fill="#6B6258"/>
+<g fill="#0A0A0A"><use href="#px-4f" transform="translate(1450 273) scale(2)"/></g>
+<rect x="1418" y="270" width="22" height="20" fill="#F3F3F0"/>
+<rect x="1418" y="270" width="22" height="1" fill="#FFFFFF"/>
+<rect x="1418" y="270" width="1" height="20" fill="#FFFFFF"/>
+<rect x="1418" y="289" width="22" height="1" fill="#6B6258"/>
+<rect x="1439" y="270" width="1" height="20" fill="#6B6258"/>
+<g fill="#0A0A0A"><use href="#px-5f" transform="translate(1424 273) scale(2)"/></g>
+<rect x="768" y="302" width="724" height="488" fill="#FFFFFF"/>
+<rect x="768" y="302" width="724" height="1" fill="#6B6258"/>
+<rect x="768" y="302" width="1" height="488" fill="#6B6258"/>
+<rect x="768" y="789" width="724" height="1" fill="#FFFFFF"/>
+<rect x="1491" y="302" width="1" height="488" fill="#FFFFFF"/>
+<text x="786" y="332" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#2E80B0" font-weight="600" letter-spacing="2.6">PATTERNS</text>
+<rect x="786" y="349" width="12" height="12" fill="#2E80B0"/>
+<text x="806" y="360" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">hero</text>
+<rect x="786" y="373" width="12" height="12" fill="#2E80B0"/>
+<text x="806" y="384" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">sticky-nav</text>
+<rect x="786.5" y="397.5" width="11" height="11" fill="none" stroke="#6B6258" stroke-width="1"/>
+<text x="806" y="408" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#6B6258">mega-menu</text>
+<rect x="786" y="421" width="12" height="12" fill="#2E80B0"/>
+<text x="806" y="432" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">feature-cards</text>
+<rect x="786" y="445" width="12" height="12" fill="#2E80B0"/>
+<text x="806" y="456" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">pricing</text>
+<rect x="786" y="469" width="12" height="12" fill="#2E80B0"/>
+<text x="806" y="480" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">testimonials</text>
+<rect x="786" y="493" width="12" height="12" fill="#2E80B0"/>
+<text x="806" y="504" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">blog-news</text>
+<rect x="786" y="517" width="12" height="12" fill="#2E80B0"/>
+<text x="806" y="528" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">social-icons</text>
+<rect x="1022" y="349" width="12" height="12" fill="#2E80B0"/>
+<text x="1042" y="360" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">analytics</text>
+<rect x="1022" y="373" width="12" height="12" fill="#2E80B0"/>
+<text x="1042" y="384" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">cookie-banner</text>
+<rect x="1022" y="397" width="12" height="12" fill="#2E80B0"/>
+<text x="1042" y="408" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">newsletter</text>
+<rect x="1022.5" y="421.5" width="11" height="11" fill="none" stroke="#6B6258" stroke-width="1"/>
+<text x="1042" y="432" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#6B6258">search</text>
+<rect x="1022" y="445" width="12" height="12" fill="#2E80B0"/>
+<text x="1042" y="456" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">product-pages</text>
+<rect x="1022" y="469" width="12" height="12" fill="#2E80B0"/>
+<text x="1042" y="480" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">saas-dashboard</text>
+<rect x="1022" y="493" width="12" height="12" fill="#2E80B0"/>
+<text x="1042" y="504" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">login</text>
+<rect x="1022" y="517" width="12" height="12" fill="#2E80B0"/>
+<text x="1042" y="528" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">chat-widget</text>
+<rect x="1258" y="349" width="12" height="12" fill="#2E80B0"/>
+<text x="1278" y="360" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">video</text>
+<rect x="1258" y="373" width="12" height="12" fill="#2E80B0"/>
+<text x="1278" y="384" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">docs-help</text>
+<rect x="1258" y="397" width="12" height="12" fill="#2E80B0"/>
+<text x="1278" y="408" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">faq</text>
+<rect x="1258" y="421" width="12" height="12" fill="#2E80B0"/>
+<text x="1278" y="432" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">dark-mode</text>
+<rect x="1258" y="445" width="12" height="12" fill="#2E80B0"/>
+<text x="1278" y="456" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">careers</text>
+<rect x="1258" y="469" width="12" height="12" fill="#2E80B0"/>
+<text x="1278" y="480" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">logo-strip</text>
+<rect x="1258" y="493" width="12" height="12" fill="#2E80B0"/>
+<text x="1278" y="504" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">footer</text>
+<rect x="1258" y="517" width="12" height="12" fill="#2E80B0"/>
+<text x="1278" y="528" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">accessibility-statement</text>
+<line x1="786" y1="556" x2="1474" y2="556" stroke="#D9D9D4" stroke-width="1"/>
+<text x="786" y="582" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#2E80B0" font-weight="600" letter-spacing="2.6">BRAND</text>
+<rect x="786" y="596" width="22" height="22" fill="#0F172A"/>
+<text x="816" y="613" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">→</text>
+<rect x="834" y="596" width="22" height="22" fill="#000000"/>
+<text x="786" y="638" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#0A0A0A">#0F172A #000000</text>
+<rect x="958" y="596" width="22" height="22" fill="#6D28D9"/>
+<text x="988" y="613" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">→</text>
+<rect x="1006" y="596" width="22" height="22" fill="#6600CC"/>
+<text x="958" y="638" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#0A0A0A">#6D28D9 #6600CC</text>
+<rect x="1130" y="596" width="22" height="22" fill="#0EA5E9"/>
+<text x="1160" y="613" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">→</text>
+<rect x="1178" y="596" width="22" height="22" fill="#3399CC"/>
+<text x="1130" y="638" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#0A0A0A">#0EA5E9 #3399CC</text>
+<rect x="1302" y="596" width="22" height="22" fill="#10B981"/>
+<text x="1332" y="613" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">→</text>
+<rect x="1350" y="596" width="22" height="22" fill="#00CC99"/>
+<text x="1302" y="638" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#0A0A0A">#10B981 #00CC99</text>
+<text x="786" y="676" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#2E80B0" font-weight="600" letter-spacing="2.6">FONTS</text>
+<text x="868" y="676" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#0A0A0A">Inter → Arial   JetBrains Mono → Courier New</text>
+<text x="786" y="708" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#2E80B0" font-weight="600" letter-spacing="2.6">TONE</text>
+<text x="868" y="708" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="14" fill="#D97757">modern tells: ai-powered, book a demo, get started, seamlessly</text>
+<rect x="786" y="746" width="688" height="24" fill="#FFFFFF"/>
+<rect x="786" y="746" width="688" height="1" fill="#6B6258"/>
+<rect x="786" y="746" width="1" height="24" fill="#6B6258"/>
+<rect x="786" y="769" width="688" height="1" fill="#FFFFFF"/>
+<rect x="1473" y="746" width="1" height="24" fill="#FFFFFF"/>
+<rect x="789" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="817.67" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="846.33" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="875" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="903.67" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="932.33" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="961" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="989.67" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1018.33" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1047" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1075.67" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1104.33" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1133" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1161.67" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1190.33" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1219" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1247.67" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1276.33" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1305" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1333.67" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1362.33" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<rect x="1391" y="749" width="25.67" height="18" fill="#2E80B0"/>
+<text x="1474" y="738" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#0A0A0A" text-anchor="end" letter-spacing="1.68">22 OF 24 CANON PATTERNS DETECTED</text>
+</svg>

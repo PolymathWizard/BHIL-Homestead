@@ -16,7 +16,7 @@ What it writes:
     templates/era-spec-cards/*.json    era spec card per preset
     templates/scorecard.json           blank scorecard
     data/*                             CSV and JSON exports for agents and sheets
-    assets/diagrams/*.svg              diagrams in BHIL brand tokens
+    assets/figures/*                   the ten-figure kit, its gallery, and its README (scripts/figures.py)
     MANIFEST.sha256                    hash of every derived file
 
 Usage:
@@ -43,18 +43,12 @@ import gif_audit  # noqa: E402
 import gifsmith  # noqa: E402
 import map as mapper  # noqa: E402
 import survey  # noqa: E402
-from hs_core import canon, color, raster  # noqa: E402
+from hs_core import canon, color  # noqa: E402
+
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+import figures  # noqa: E402
 
 GENERATED_NOTE = "<!-- Generated from canon/ by scripts/build_derived.py. Do not edit by hand; edit canon and rebuild. -->"
-
-COBALT = "#1B4FD8"
-COBALT_DARK = "#0F2F8A"
-COBALT_LIGHT = "#E8EEFF"
-NAVY = "#1C1C2E"
-ACCENT = "#6B9EFF"
-GRAY = "#8A8FA3"
-FONT = "IBM Plex Sans, Arial, Helvetica, sans-serif"
-MONO = "IBM Plex Mono, Courier New, monospace"
 
 
 class Writer:
@@ -101,6 +95,14 @@ def md_cell(text):
 # ---------------------------------------------------------------------------
 # Kits and example builds
 # ---------------------------------------------------------------------------
+
+def figure_embed(fid, page_rel):
+    """Markdown for one kit figure, linked relative to the page that embeds it."""
+    meta = next(f for f in canon.load("brand")["figures"] if f["id"] == fid)
+    target = "assets/figures/" + figures.figure_file(meta)
+    rel = os.path.relpath(target, os.path.dirname(page_rel) or ".").replace(os.sep, "/")
+    return "![%s](%s)\n\n*FIG %s. %s*" % (meta["alt"], rel, fid, meta["title"])
+
 
 def build_folders():
     folders = []
@@ -295,6 +297,8 @@ def presets_index(w):
     out.append("")
     out.append(canon.load("presets")["rule"])
     out.append("")
+    out.append(figure_embed("HS-02", "docs/presets/README.md"))
+    out.append("")
     out.append("| Preset | Name | Years | Canvas | Palette | Status |")
     out.append("|---|---|---|---|---|---|")
     for p in canon.presets():
@@ -316,6 +320,8 @@ def reference_pages(w):
     out.append("# Modern to retro mapping table")
     out.append("")
     out.append(canon.load("mapping")["rule"])
+    out.append("")
+    out.append(figure_embed("HS-05", "docs/reference/mapping-table.md"))
     out.append("")
     out.append("| Modern pattern | B: GeoCities | C: FrontPage | E: MySpace | Tier |")
     out.append("|---|---|---|---|---|")
@@ -358,6 +364,8 @@ def reference_pages(w):
     out.append("")
     out.append("Score each row 0, 1, or 2. Maximum %d." % rubric["max_score"])
     out.append("")
+    out.append(figure_embed("HS-09", "docs/reference/rubric.md"))
+    out.append("")
     out.append("| Row | Check | 0 | 1 | 2 | Lint rules |")
     out.append("|---|---|---|---|---|---|")
     for r in rubric["rows"]:
@@ -385,6 +393,8 @@ def reference_pages(w):
     out.append("# Lint rules")
     out.append("")
     out.append("Exempt files: %s. Severity is per preset; a blank cell means the rule does not apply." % ", ".join("`%s`" % f for f in lint["exempt_files"]))
+    out.append("")
+    out.append(figure_embed("HS-07", "docs/reference/lint-rules.md"))
     out.append("")
     out.append("| ID | Rule | A | B | C | D | E | F | Row | Fix |")
     out.append("|---|---|---|---|---|---|---|---|---|---|")
@@ -432,7 +442,7 @@ def reference_pages(w):
     out.append("")
     out.append("Every combination of 00, 33, 66, 99, CC, and FF across red, green, and blue ([C-003](evidence-register.md#c-003)). Snap brand colors with `python3 tools/websafe.py snap`.")
     out.append("")
-    out.append("![Web-safe cube](../../assets/diagrams/websafe-cube.svg)")
+    out.append(figure_embed("HS-06", "docs/reference/web-safe-palette.md"))
     out.append("")
     levels = ["00", "33", "66", "99", "CC", "FF"]
     for r in levels:
@@ -485,7 +495,7 @@ def reference_pages(w):
     out.append("")
     out.append(proc["core_principle"])
     out.append("")
-    out.append("![Pipeline](../../assets/diagrams/pipeline.svg)")
+    out.append(figure_embed("HS-03", "docs/reference/phase-map.md"))
     out.append("")
     for ph in proc["phases"]:
         out.append("## Phase %d: %s" % (ph["id"], ph["name"]))
@@ -509,7 +519,7 @@ def reference_pages(w):
     out.append("")
     out.append(agents["pattern"])
     out.append("")
-    out.append("![Agent topology](../../assets/diagrams/agent-topology.svg)")
+    out.append(figure_embed("HS-10", "docs/reference/agent-roster.md"))
     out.append("")
     out.append("| Agent | Phase | Model | Tools | Forbidden | Writes | Contract |")
     out.append("|---|---|---|---|---|---|---|")
@@ -587,212 +597,6 @@ def templates_and_data(w):
 
 
 # ---------------------------------------------------------------------------
-# SVG diagrams in BHIL brand tokens
-# ---------------------------------------------------------------------------
-
-def esc(text):
-    return str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-
-
-def svg_open(width, height, title, desc):
-    return [
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 %d %d\" width=\"%d\" height=\"%d\" role=\"img\" aria-labelledby=\"t d\">" % (width, height, width, height),
-        "<title id=\"t\">%s</title>" % esc(title),
-        "<desc id=\"d\">%s</desc>" % esc(desc),
-    ]
-
-
-def pixel_text(text, x, y, size, fill):
-    parts = []
-    cursor = x
-    for ch in text:
-        for ry, bits in enumerate(raster.glyph(ch)):
-            for rx, bit in enumerate(bits):
-                if bit == "1":
-                    parts.append("<rect x=\"%d\" y=\"%d\" width=\"%d\" height=\"%d\" fill=\"%s\"/>" % (cursor + rx * size, y + ry * size, size, size, fill))
-        cursor += 6 * size
-    return parts
-
-
-def diagram_hero(w):
-    W, H = 1200, 320
-    s = svg_open(W, H, "BHIL HOMESTEAD", "Retro-Web Redesign Engine banner in BHIL brand colors.")
-    s.append("<rect width=\"%d\" height=\"%d\" fill=\"%s\"/>" % (W, H, NAVY))
-    for i in range(0, W, 40):
-        s.append("<rect x=\"%d\" y=\"0\" width=\"1\" height=\"%d\" fill=\"%s\" opacity=\"0.25\"/>" % (i, H, COBALT_DARK))
-    for j in range(0, H, 40):
-        s.append("<rect x=\"0\" y=\"%d\" width=\"%d\" height=\"1\" fill=\"%s\" opacity=\"0.25\"/>" % (j, W, COBALT_DARK))
-    s += pixel_text("HOMESTEAD", 64, 64, 10, COBALT)
-    s += pixel_text("HOMESTEAD", 60, 60, 10, ACCENT)
-    s.append("<text x=\"64\" y=\"200\" font-family=\"%s\" font-size=\"30\" fill=\"#FFFFFF\" font-weight=\"600\">Retro-Web Redesign Engine</text>" % FONT)
-    s.append("<text x=\"64\" y=\"238\" font-family=\"%s\" font-size=\"18\" fill=\"%s\">Analyze any modern site. Rebuild it the way GeoCities, FrontPage, or MySpace would have.</text>" % (FONT, COBALT_LIGHT))
-    s.append("<rect x=\"64\" y=\"262\" width=\"420\" height=\"3\" fill=\"%s\"/>" % COBALT)
-    s.append("<text x=\"64\" y=\"292\" font-family=\"%s\" font-size=\"14\" fill=\"%s\">BHIL  |  Human-Directed. AI-Enabled. Commercially Tested.</text>" % (MONO, ACCENT))
-    swatches = [c for c in ("#FF0000", "#FF9900", "#FFFF00", "#00FF00", "#00FFFF", "#0000FF", "#FF00FF")]
-    for i, c in enumerate(swatches):
-        s.append("<rect x=\"%d\" y=\"%d\" width=\"18\" height=\"18\" fill=\"%s\"/>" % (1080 + (i % 2) * 22, 60 + i * 22, c))
-    s.append("</svg>")
-    w.text("assets/diagrams/hero-banner.svg", "\n".join(s) + "\n")
-
-
-def diagram_pipeline(w):
-    proc = canon.load("process")["phases"]
-    W, H = 1200, 300
-    s = svg_open(W, H, "HOMESTEAD pipeline", "Seven phases from intake to authenticity QA with owning agents.")
-    s.append("<rect width=\"%d\" height=\"%d\" fill=\"#FFFFFF\"/>" % (W, H))
-    s.append("<text x=\"32\" y=\"40\" font-family=\"%s\" font-size=\"22\" font-weight=\"600\" fill=\"%s\">Retro-Web Redesign Architecture: seven phases</text>" % (FONT, NAVY))
-    bw, gap, top = 148, 14, 80
-    for i, ph in enumerate(proc):
-        x = 32 + i * (bw + gap)
-        fill = COBALT if ph["id"] in (0, 6) else COBALT_LIGHT
-        ink = "#FFFFFF" if fill == COBALT else NAVY
-        s.append("<rect x=\"%d\" y=\"%d\" width=\"%d\" height=\"120\" rx=\"6\" fill=\"%s\" stroke=\"%s\"/>" % (x, top, bw, fill, COBALT_DARK))
-        s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"13\" fill=\"%s\">PHASE %d</text>" % (x + 12, top + 24, MONO, ink, ph["id"]))
-        words = ph["name"].split(" ")
-        lines, line = [], ""
-        for word in words:
-            if len(line + " " + word) > 15:
-                lines.append(line.strip())
-                line = word
-            else:
-                line += " " + word
-        lines.append(line.strip())
-        for k, ln in enumerate(lines[:2]):
-            s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"16\" font-weight=\"600\" fill=\"%s\">%s</text>" % (x + 12, top + 50 + k * 20, FONT, ink, esc(ln)))
-        s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"11\" fill=\"%s\">%s</text>" % (x + 12, top + 106, MONO, ink, esc(ph["agent"])))
-        if i < len(proc) - 1:
-            ax = x + bw
-            s.append("<path d=\"M%d %d L%d %d\" stroke=\"%s\" stroke-width=\"2\"/>" % (ax + 2, top + 60, ax + gap - 2, top + 60, NAVY))
-            s.append("<path d=\"M%d %d l-5 -4 l0 8 z\" fill=\"%s\"/>" % (ax + gap - 1, top + 60, NAVY))
-    s.append("<path d=\"M%d %d C %d %d, %d %d, %d %d\" stroke=\"%s\" stroke-width=\"2\" fill=\"none\" stroke-dasharray=\"6 4\"/>" % (
-        32 + 6 * (bw + gap) + bw // 2, top + 124, 900, 270, 700, 270, 32 + 3 * (bw + gap) + bw // 2, top + 124, ACCENT))
-    s.append("<text x=\"640\" y=\"286\" font-family=\"%s\" font-size=\"13\" fill=\"%s\">REVISE loops back to mapping; REBUILD re-locks the era</text>" % (FONT, GRAY))
-    s.append("</svg>")
-    w.text("assets/diagrams/pipeline.svg", "\n".join(s) + "\n")
-
-
-def diagram_timeline(w):
-    W, H = 1200, 360
-    s = svg_open(W, H, "HOMESTEAD era timeline", "Six era presets placed on a 1993 to 2026 axis.")
-    s.append("<rect width=\"%d\" height=\"%d\" fill=\"#FFFFFF\"/>" % (W, H))
-    s.append("<text x=\"32\" y=\"40\" font-family=\"%s\" font-size=\"22\" font-weight=\"600\" fill=\"%s\">Six locked era presets</text>" % (FONT, NAVY))
-    x0, x1, y_axis = 80, 1150, 320
-    lo, hi = 1993, 2026
-
-    def xpos(year):
-        return x0 + (x1 - x0) * (year - lo) / float(hi - lo)
-
-    s.append("<rect x=\"%d\" y=\"%d\" width=\"%d\" height=\"2\" fill=\"%s\"/>" % (x0, y_axis, x1 - x0, NAVY))
-    for year in range(lo, hi + 1):
-        if year % 3 == 0 or year in (lo, hi):
-            s.append("<rect x=\"%.1f\" y=\"%d\" width=\"1\" height=\"8\" fill=\"%s\"/>" % (xpos(year), y_axis, NAVY))
-            s.append("<text x=\"%.1f\" y=\"%d\" font-family=\"%s\" font-size=\"12\" text-anchor=\"middle\" fill=\"%s\">%d</text>" % (xpos(year), y_axis + 24, MONO, NAVY, year))
-    for i, p in enumerate(canon.presets()):
-        start = int(p["years"].split("-")[0])
-        end_text = p["years"].split("-")[1]
-        end = hi if end_text == "now" else int(end_text) + 1
-        y = 70 + i * 40
-        fill = COBALT if p["status"] == "kit" else COBALT_LIGHT
-        ink = "#FFFFFF" if p["status"] == "kit" else NAVY
-        s.append("<rect x=\"%.1f\" y=\"%d\" width=\"%.1f\" height=\"30\" rx=\"4\" fill=\"%s\" stroke=\"%s\"/>" % (xpos(start), y, xpos(end) - xpos(start), fill, COBALT_DARK))
-        label = "%s  %s" % (p["id"], p["name"].split(" / ")[0])
-        s.append("<text x=\"%.1f\" y=\"%d\" font-family=\"%s\" font-size=\"13\" fill=\"%s\">%s</text>" % (xpos(start) + 8, y + 20, FONT, ink, esc(label)))
-    s.append("<rect x=\"900\" y=\"30\" width=\"14\" height=\"14\" fill=\"%s\"/><text x=\"920\" y=\"42\" font-family=\"%s\" font-size=\"12\" fill=\"%s\">kit</text>" % (COBALT, FONT, NAVY))
-    s.append("<rect x=\"960\" y=\"30\" width=\"14\" height=\"14\" fill=\"%s\" stroke=\"%s\"/><text x=\"980\" y=\"42\" font-family=\"%s\" font-size=\"12\" fill=\"%s\">spec only</text>" % (COBALT_LIGHT, COBALT_DARK, FONT, NAVY))
-    s.append("</svg>")
-    w.text("assets/diagrams/era-timeline.svg", "\n".join(s) + "\n")
-
-
-def diagram_agents(w):
-    agents = canon.load("agents")
-    W, H = 1200, 420
-    s = svg_open(W, H, "HOMESTEAD agent topology", "One orchestrator over six tool-isolated subagents. The auditor has no write tools.")
-    s.append("<rect width=\"%d\" height=\"%d\" fill=\"#FFFFFF\"/>" % (W, H))
-    s.append("<text x=\"32\" y=\"40\" font-family=\"%s\" font-size=\"22\" font-weight=\"600\" fill=\"%s\">CADRE topology: orchestrator over tool-isolated subagents</text>" % (FONT, NAVY))
-    ox, oy, ow, oh = 450, 70, 300, 70
-    s.append("<rect x=\"%d\" y=\"%d\" width=\"%d\" height=\"%d\" rx=\"8\" fill=\"%s\"/>" % (ox, oy, ow, oh, NAVY))
-    s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"18\" font-weight=\"600\" fill=\"#FFFFFF\" text-anchor=\"middle\">orchestrator (%s)</text>" % (ox + ow // 2, oy + 30, FONT, agents["orchestrator"]["model"]))
-    s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"12\" fill=\"%s\" text-anchor=\"middle\">/homestead, intake, checkpoints, sign-off</text>" % (ox + ow // 2, oy + 52, MONO, ACCENT))
-    bw, gap = 176, 16
-    for i, a in enumerate(agents["agents"]):
-        x = 32 + i * (bw + gap)
-        y = 220
-        auditor = "Write" in a["forbidden"]
-        fill = "#FFFFFF" if auditor else COBALT_LIGHT
-        s.append("<path d=\"M%d %d L%d %d\" stroke=\"%s\" stroke-width=\"1.5\"/>" % (ox + ow // 2, oy + oh, x + bw // 2, y, GRAY))
-        s.append("<rect x=\"%d\" y=\"%d\" width=\"%d\" height=\"170\" rx=\"6\" fill=\"%s\" stroke=\"%s\" stroke-width=\"%s\"/>" % (
-            x, y, bw, fill, COBALT if auditor else COBALT_DARK, "3" if auditor else "1"))
-        s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"12\" fill=\"%s\">PHASE %d  %s</text>" % (x + 10, y + 20, MONO, GRAY, a["phase"], a["model"]))
-        s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"15\" font-weight=\"600\" fill=\"%s\">%s</text>" % (x + 10, y + 42, FONT, NAVY, esc(a["name"])))
-        for k, tool in enumerate(a["tools"]):
-            s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"11\" fill=\"%s\">+ %s</text>" % (x + 10, y + 66 + k * 15, MONO, COBALT_DARK, tool))
-        for k, tool in enumerate(a["forbidden"][:3]):
-            s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"11\" fill=\"#B00020\">- %s</text>" % (x + 100, y + 66 + k * 15, MONO, tool))
-    s.append("<text x=\"32\" y=\"408\" font-family=\"%s\" font-size=\"13\" fill=\"%s\">Bold outline: the auditor cannot write, so the work never grades itself.</text>" % (FONT, GRAY))
-    s.append("</svg>")
-    w.text("assets/diagrams/agent-topology.svg", "\n".join(s) + "\n")
-
-
-def diagram_websafe(w):
-    W, H = 1200, 300
-    s = svg_open(W, H, "Web-safe cube", "216 web-safe colors in six slices by red level.")
-    s.append("<rect width=\"%d\" height=\"%d\" fill=\"#FFFFFF\"/>" % (W, H))
-    levels = ["00", "33", "66", "99", "CC", "FF"]
-    cell = 30
-    for ri, r in enumerate(levels):
-        bx = 32 + ri * (6 * cell + 18)
-        s.append("<text x=\"%d\" y=\"40\" font-family=\"%s\" font-size=\"13\" fill=\"%s\">R = %s</text>" % (bx, MONO, NAVY, r))
-        for gi, g in enumerate(levels):
-            for bi, b in enumerate(levels):
-                s.append("<rect x=\"%d\" y=\"%d\" width=\"%d\" height=\"%d\" fill=\"#%s%s%s\"/>" % (bx + bi * cell, 56 + gi * cell, cell - 2, cell - 2, r, g, b))
-    s.append("<text x=\"32\" y=\"280\" font-family=\"%s\" font-size=\"13\" fill=\"%s\">Rows: green 00 to FF. Columns: blue 00 to FF. Claim C-003.</text>" % (FONT, GRAY))
-    s.append("</svg>")
-    w.text("assets/diagrams/websafe-cube.svg", "\n".join(s) + "\n")
-
-
-def diagram_rubric(w):
-    rubric = canon.load("rubric")
-    W, H = 1200, 220
-    s = svg_open(W, H, "Rubric bands", "Scores 0 to 40 split into REBUILD, REVISE, and SHIP bands.")
-    s.append("<rect width=\"%d\" height=\"%d\" fill=\"#FFFFFF\"/>" % (W, H))
-    s.append("<text x=\"32\" y=\"40\" font-family=\"%s\" font-size=\"22\" font-weight=\"600\" fill=\"%s\">40-point authenticity rubric</text>" % (FONT, NAVY))
-    x0, x1 = 40, 1160
-    colors = {"REBUILD": "#B00020", "REVISE": ACCENT, "SHIP": COBALT}
-    for b in rubric["bands"]:
-        a = x0 + (x1 - x0) * b["min"] / 40.0
-        z = x0 + (x1 - x0) * (b["max"] + 1) / 41.0 if b["max"] < 40 else x1
-        s.append("<rect x=\"%.1f\" y=\"70\" width=\"%.1f\" height=\"60\" fill=\"%s\"/>" % (a, z - a, colors[b["verdict"]]))
-        s.append("<text x=\"%.1f\" y=\"106\" font-family=\"%s\" font-size=\"16\" font-weight=\"600\" fill=\"#FFFFFF\">%s %d to %d</text>" % (a + 12, FONT, b["verdict"], b["min"], b["max"]))
-    gates = ", ".join("row %d" % g["row"] for g in rubric["hard_gates"])
-    s.append("<text x=\"40\" y=\"170\" font-family=\"%s\" font-size=\"14\" fill=\"%s\">Hard gates (%s) block SHIP at any total: audio, Safe Mode, flash thresholds.</text>" % (FONT, NAVY, gates))
-    s.append("</svg>")
-    w.text("assets/diagrams/rubric-bands.svg", "\n".join(s) + "\n")
-
-
-def diagram_mapping(w):
-    rows = canon.mapping_rows()
-    W = 1200
-    H = 90 + len(rows) * 26 + 30
-    s = svg_open(W, H, "Mapping coverage", "Each modern pattern and whether presets B, C, and E map or drop it.")
-    s.append("<rect width=\"%d\" height=\"%d\" fill=\"#FFFFFF\"/>" % (W, H))
-    s.append("<text x=\"32\" y=\"40\" font-family=\"%s\" font-size=\"22\" font-weight=\"600\" fill=\"%s\">Modern patterns mapped per preset</text>" % (FONT, NAVY))
-    cols = [("B", "GeoCities"), ("C", "FrontPage"), ("E", "MySpace")]
-    for j, (pid, name) in enumerate(cols):
-        s.append("<text x=\"%d\" y=\"72\" font-family=\"%s\" font-size=\"13\" fill=\"%s\">%s %s</text>" % (420 + j * 250, MONO, NAVY, pid, name))
-    for i, r in enumerate(rows):
-        y = 86 + i * 26
-        s.append("<text x=\"32\" y=\"%d\" font-family=\"%s\" font-size=\"13\" fill=\"%s\">%s</text>" % (y + 16, FONT, NAVY, esc(r["modern_pattern"])))
-        for j, (pid, _name) in enumerate(cols):
-            dropped = r[pid].lower().startswith("dropped")
-            fill = "#EEEEEE" if dropped else COBALT_LIGHT
-            s.append("<rect x=\"%d\" y=\"%d\" width=\"236\" height=\"22\" fill=\"%s\" stroke=\"%s\"/>" % (420 + j * 250, y, fill, ACCENT))
-            label = r[pid] if len(r[pid]) <= 36 else r[pid][:34] + ".."
-            s.append("<text x=\"%d\" y=\"%d\" font-family=\"%s\" font-size=\"10\" fill=\"%s\">%s</text>" % (426 + j * 250, y + 15, FONT, GRAY if dropped else NAVY, esc(label)))
-    s.append("</svg>")
-    w.text("assets/diagrams/mapping-coverage.svg", "\n".join(s) + "\n")
-
-
-# ---------------------------------------------------------------------------
 
 def manifest(w):
     lines = []
@@ -810,13 +614,7 @@ def build(out_root):
     presets_index(w)
     reference_pages(w)
     templates_and_data(w)
-    diagram_hero(w)
-    diagram_pipeline(w)
-    diagram_timeline(w)
-    diagram_agents(w)
-    diagram_websafe(w)
-    diagram_rubric(w)
-    diagram_mapping(w)
+    figures.build(w)
     manifest(w)
     return w.written
 

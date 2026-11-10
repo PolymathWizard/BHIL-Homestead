@@ -10,7 +10,9 @@ generated: true
 
 A retro redesign is a translation, not a costume. Lock one era, inventory the modern site, map every component to its period equivalent, build in period markup, then let a separate auditor grade it.
 
-![Pipeline](../../assets/diagrams/pipeline.svg)
+![BHIL ASCII pipeline on an ink panel: intake, survey, era lock, map, assets, build, and audit, with owners, outputs, and the revise loop.](../../assets/figures/hs-03-pipeline.svg)
+
+*FIG HS-03. Seven phases. Every one leaves paper.*
 
 ## Phase 0: Intake
 

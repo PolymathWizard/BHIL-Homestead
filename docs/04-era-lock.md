@@ -7,7 +7,9 @@ description: "How to choose one preset and year, fill the era spec card, and avo
 
 Era lock is the single most important design decision in HOMESTEAD. One preset, one year, one host context, written down so precisely that the builder cannot drift.
 
-![Era timeline](../assets/diagrams/era-timeline.svg)
+![Timeline from 1993 to 2026 showing the six HOMESTEAD era presets, with kits for GeoCities, FrontPage, and MySpace.](../assets/figures/hs-02-era-neighborhoods.svg)
+
+*FIG HS-02. Six neighborhoods. One address per build.*
 
 ## The six presets
 

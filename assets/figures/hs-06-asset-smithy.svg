@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d">
+<title id="t">HS-06 Every glyph drawn here. Nothing borrowed.</title>
+<desc id="d">The 216-color web-safe cube with BHIL brand colors snapped to it, beside real gifsmith outputs: a badge, a construction sign, odometer digits, nav buttons, glitter text, and the pixel font.</desc>
+<style>
+@keyframes hs-blink { 0%, 49.9% { opacity: 1; } 50%, 100% { opacity: 0; } }
+@keyframes hs-twinkle { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+@keyframes hs-breathe { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+.hs-blink { animation: hs-blink 1s step-end infinite; }
+.hs-twinkle { animation: hs-twinkle 4s ease-in-out infinite; }
+.hs-breathe { animation: hs-breathe 2.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .hs-anim { display: none; } }
+</style>
+<defs><g id="px-21"><rect x="2" y="0" width="1" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-2665"><rect x="1" y="1" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="0" y="2" width="5" height="1"/><rect x="0" y="3" width="5" height="1"/><rect x="1" y="4" width="3" height="1"/><rect x="2" y="5" width="1" height="1"/></g><g id="px-266a"><rect x="2" y="0" width="2" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="0" y="4" width="3" height="1"/><rect x="0" y="5" width="3" height="1"/></g><g id="px-30"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="3" y="2" width="2" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="2" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-31"><rect x="2" y="0" width="1" height="1"/><rect x="1" y="1" width="2" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-32"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="0" y="6" width="5" height="1"/></g><g id="px-33"><rect x="0" y="0" width="5" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-34"><rect x="3" y="0" width="1" height="1"/><rect x="2" y="1" width="2" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="0" y="4" width="5" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="3" y="6" width="1" height="1"/></g><g id="px-35"><rect x="0" y="0" width="5" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="4" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-36"><rect x="2" y="0" width="2" height="1"/><rect x="1" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-37"><rect x="0" y="0" width="5" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="1" y="6" width="1" height="1"/></g><g id="px-38"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="1" y="3" width="3" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-39"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="1" y="3" width="4" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="1" y="6" width="2" height="1"/></g><g id="px-3f"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-41"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="5" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-42"><rect x="0" y="0" width="4" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="4" height="1"/></g><g id="px-43"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-44"><rect x="0" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="0" y="6" width="3" height="1"/></g><g id="px-45"><rect x="0" y="0" width="5" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="0" y="6" width="5" height="1"/></g><g id="px-46"><rect x="0" y="0" width="5" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/></g><g id="px-47"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="2" y="3" width="3" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="4" height="1"/></g><g id="px-48"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="5" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-49"><rect x="1" y="0" width="3" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-4a"><rect x="2" y="0" width="3" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="1" y="6" width="2" height="1"/></g><g id="px-4b"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="0" y="3" width="2" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-4c"><rect x="0" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="0" y="6" width="5" height="1"/></g><g id="px-4d"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="2" height="1"/><rect x="3" y="1" width="2" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-4e"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="2" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="3" y="4" width="2" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-4f"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-50"><rect x="0" y="0" width="4" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/></g><g id="px-51"><rect x="1" y="0" width="3" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="1" y="6" width="2" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-52"><rect x="0" y="0" width="4" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="4" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-53"><rect x="1" y="0" width="4" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="1" y="3" width="3" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="4" height="1"/></g><g id="px-54"><rect x="0" y="0" width="5" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-55"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="3" height="1"/></g><g id="px-56"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-57"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="1" y="6" width="1" height="1"/><rect x="3" y="6" width="1" height="1"/></g><g id="px-58"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/></g><g id="px-59"><rect x="0" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/></g><g id="px-5a"><rect x="0" y="0" width="5" height="1"/><rect x="4" y="1" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="0" y="6" width="5" height="1"/></g></defs>
+<rect width="1600" height="900" fill="#0D1B2E"/>
+<text x="80" y="44" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" letter-spacing="3.36" fill-opacity="0.62">BARRY HURD INTELLIGENCE LAB · HOMESTEAD</text>
+<text x="1520" y="44" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" text-anchor="end" letter-spacing="3.36" fill-opacity="0.62">REF HOMESTEAD-001 / V1 · FIG HS-06</text>
+<line x1="80" y1="62" x2="1520" y2="62" stroke="#1E3A5F" stroke-width="1"/>
+<text x="80" y="122" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="15" fill="#6CC0E8" letter-spacing="3.3">▸ PHASE 4 · TOOLS/GIFSMITH.PY · TOOLS/WEBSAFE.PY</text>
+<text x="80" y="184" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="52" fill="#FFFFFF">Every glyph drawn here. Nothing borrowed.</text>
+<text x="80" y="224" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="22" fill="#FFFFFF" fill-opacity="0.72" font-style="italic">Brand colors snapped to the 216-color cube. Specimens below are real gifsmith output, drawn pixel for pixel.</text>
+<line x1="80" y1="842" x2="1520" y2="842" stroke="#1E3A5F" stroke-width="1"/>
+<text x="80" y="870" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" letter-spacing="3.36" fill-opacity="0.62">BHIL · HOMESTEAD RETRO-WEB REDESIGN ENGINE · FIG HS-06</text>
+<text x="1520" y="870" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#FFFFFF" text-anchor="end" letter-spacing="3.36" fill-opacity="0.62">BARRYHURD.COM</text>
+<text x="100" y="276" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#6CC0E8" letter-spacing="2.4">THE 216 · WEB-SAFE CUBE</text>
+<text x="100" y="398" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6">R 00</text>
+<rect x="100" y="290" width="14" height="14" fill="#000000"/>
+<rect x="115" y="290" width="14" height="14" fill="#000033"/>
+<rect x="130" y="290" width="14" height="14" fill="#000066"/>
+<rect x="145" y="290" width="14" height="14" fill="#000099"/>
+<rect x="160" y="290" width="14" height="14" fill="#0000CC"/>
+<rect x="175" y="290" width="14" height="14" fill="#0000FF"/>
+<rect x="100" y="305" width="14" height="14" fill="#003300"/>
+<rect x="115" y="305" width="14" height="14" fill="#003333"/>
+<rect x="130" y="305" width="14" height="14" fill="#003366"/>
+<rect x="145" y="305" width="14" height="14" fill="#003399"/>
+<rect x="160" y="305" width="14" height="14" fill="#0033CC"/>
+<rect x="175" y="305" width="14" height="14" fill="#0033FF"/>
+<rect x="100" y="320" width="14" height="14" fill="#006600"/>
+<rect x="115" y="320" width="14" height="14" fill="#006633"/>
+<rect x="130" y="320" width="14" height="14" fill="#006666"/>
+<rect x="145" y="320" width="14" height="14" fill="#006699"/>
+<rect x="160" y="320" width="14" height="14" fill="#0066CC"/>
+<rect x="175" y="320" width="14" height="14" fill="#0066FF"/>
+<rect x="100" y="335" width="14" height="14" fill="#009900"/>
+<rect x="115" y="335" width="14" height="14" fill="#009933"/>
+<rect x="130" y="335" width="14" height="14" fill="#009966"/>
+<rect x="145" y="335" width="14" height="14" fill="#009999"/>
+<rect x="160" y="335" width="14" height="14" fill="#0099CC"/>
+<rect x="175" y="335" width="14" height="14" fill="#0099FF"/>
+<rect x="100" y="350" width="14" height="14" fill="#00CC00"/>
+<rect x="115" y="350" width="14" height="14" fill="#00CC33"/>
+<rect x="130" y="350" width="14" height="14" fill="#00CC66"/>
+<rect x="145" y="350" width="14" height="14" fill="#00CC99"/>
+<rect x="160" y="350" width="14" height="14" fill="#00CCCC"/>
+<rect x="175" y="350" width="14" height="14" fill="#00CCFF"/>
+<rect x="100" y="365" width="14" height="14" fill="#00FF00"/>
+<rect x="115" y="365" width="14" height="14" fill="#00FF33"/>
+<rect x="130" y="365" width="14" height="14" fill="#00FF66"/>
+<rect x="145" y="365" width="14" height="14" fill="#00FF99"/>
+<rect x="160" y="365" width="14" height="14" fill="#00FFCC"/>
+<rect x="175" y="365" width="14" height="14" fill="#00FFFF"/>
+<text x="208" y="398" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6">R 33</text>
+<rect x="208" y="290" width="14" height="14" fill="#330000"/>
+<rect x="223" y="290" width="14" height="14" fill="#330033"/>
+<rect x="238" y="290" width="14" height="14" fill="#330066"/>
+<rect x="253" y="290" width="14" height="14" fill="#330099"/>
+<rect x="268" y="290" width="14" height="14" fill="#3300CC"/>
+<rect x="283" y="290" width="14" height="14" fill="#3300FF"/>
+<rect x="208" y="305" width="14" height="14" fill="#333300"/>
+<rect x="223" y="305" width="14" height="14" fill="#333333"/>
+<rect x="238" y="305" width="14" height="14" fill="#333366"/>
+<rect x="253" y="305" width="14" height="14" fill="#333399"/>
+<rect x="268" y="305" width="14" height="14" fill="#3333CC"/>
+<rect x="283" y="305" width="14" height="14" fill="#3333FF"/>
+<rect x="208" y="320" width="14" height="14" fill="#336600"/>
+<rect x="223" y="320" width="14" height="14" fill="#336633"/>
+<rect x="238" y="320" width="14" height="14" fill="#336666"/>
+<rect x="253" y="320" width="14" height="14" fill="#336699"/>
+<rect x="268" y="320" width="14" height="14" fill="#3366CC"/>
+<rect x="283" y="320" width="14" height="14" fill="#3366FF"/>
+<rect x="208" y="335" width="14" height="14" fill="#339900"/>
+<rect x="223" y="335" width="14" height="14" fill="#339933"/>
+<rect x="238" y="335" width="14" height="14" fill="#339966"/>
+<rect x="253" y="335" width="14" height="14" fill="#339999"/>
+<rect x="268" y="335" width="14" height="14" fill="#3399CC"/>
+<rect x="283" y="335" width="14" height="14" fill="#3399FF"/>
+<rect x="208" y="350" width="14" height="14" fill="#33CC00"/>
+<rect x="223" y="350" width="14" height="14" fill="#33CC33"/>
+<rect x="238" y="350" width="14" height="14" fill="#33CC66"/>
+<rect x="253" y="350" width="14" height="14" fill="#33CC99"/>
+<rect x="268" y="350" width="14" height="14" fill="#33CCCC"/>
+<rect x="283" y="350" width="14" height="14" fill="#33CCFF"/>
+<rect x="208" y="365" width="14" height="14" fill="#33FF00"/>
+<rect x="223" y="365" width="14" height="14" fill="#33FF33"/>
+<rect x="238" y="365" width="14" height="14" fill="#33FF66"/>
+<rect x="253" y="365" width="14" height="14" fill="#33FF99"/>
+<rect x="268" y="365" width="14" height="14" fill="#33FFCC"/>
+<rect x="283" y="365" width="14" height="14" fill="#33FFFF"/>
+<text x="316" y="398" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6">R 66</text>
+<rect x="316" y="290" width="14" height="14" fill="#660000"/>
+<rect x="331" y="290" width="14" height="14" fill="#660033"/>
+<rect x="346" y="290" width="14" height="14" fill="#660066"/>
+<rect x="361" y="290" width="14" height="14" fill="#660099"/>
+<rect x="376" y="290" width="14" height="14" fill="#6600CC"/>
+<rect x="391" y="290" width="14" height="14" fill="#6600FF"/>
+<rect x="316" y="305" width="14" height="14" fill="#663300"/>
+<rect x="331" y="305" width="14" height="14" fill="#663333"/>
+<rect x="346" y="305" width="14" height="14" fill="#663366"/>
+<rect x="361" y="305" width="14" height="14" fill="#663399"/>
+<rect x="376" y="305" width="14" height="14" fill="#6633CC"/>
+<rect x="391" y="305" width="14" height="14" fill="#6633FF"/>
+<rect x="316" y="320" width="14" height="14" fill="#666600"/>
+<rect x="331" y="320" width="14" height="14" fill="#666633"/>
+<rect x="346" y="320" width="14" height="14" fill="#666666"/>
+<rect x="361" y="320" width="14" height="14" fill="#666699"/>
+<rect x="376" y="320" width="14" height="14" fill="#6666CC"/>
+<rect x="391" y="320" width="14" height="14" fill="#6666FF"/>
+<rect x="316" y="335" width="14" height="14" fill="#669900"/>
+<rect x="331" y="335" width="14" height="14" fill="#669933"/>
+<rect x="346" y="335" width="14" height="14" fill="#669966"/>
+<rect x="361" y="335" width="14" height="14" fill="#669999"/>
+<rect x="376" y="335" width="14" height="14" fill="#6699CC"/>
+<rect x="391" y="335" width="14" height="14" fill="#6699FF"/>
+<rect x="316" y="350" width="14" height="14" fill="#66CC00"/>
+<rect x="331" y="350" width="14" height="14" fill="#66CC33"/>
+<rect x="346" y="350" width="14" height="14" fill="#66CC66"/>
+<rect x="361" y="350" width="14" height="14" fill="#66CC99"/>
+<rect x="376" y="350" width="14" height="14" fill="#66CCCC"/>
+<rect x="391" y="350" width="14" height="14" fill="#66CCFF"/>
+<rect x="316" y="365" width="14" height="14" fill="#66FF00"/>
+<rect x="331" y="365" width="14" height="14" fill="#66FF33"/>
+<rect x="346" y="365" width="14" height="14" fill="#66FF66"/>
+<rect x="361" y="365" width="14" height="14" fill="#66FF99"/>
+<rect x="376" y="365" width="14" height="14" fill="#66FFCC"/>
+<rect x="391" y="365" width="14" height="14" fill="#66FFFF"/>
+<text x="100" y="518" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6">R 99</text>
+<rect x="100" y="410" width="14" height="14" fill="#990000"/>
+<rect x="115" y="410" width="14" height="14" fill="#990033"/>
+<rect x="130" y="410" width="14" height="14" fill="#990066"/>
+<rect x="145" y="410" width="14" height="14" fill="#990099"/>
+<rect x="160" y="410" width="14" height="14" fill="#9900CC"/>
+<rect x="175" y="410" width="14" height="14" fill="#9900FF"/>
+<rect x="100" y="425" width="14" height="14" fill="#993300"/>
+<rect x="115" y="425" width="14" height="14" fill="#993333"/>
+<rect x="130" y="425" width="14" height="14" fill="#993366"/>
+<rect x="145" y="425" width="14" height="14" fill="#993399"/>
+<rect x="160" y="425" width="14" height="14" fill="#9933CC"/>
+<rect x="175" y="425" width="14" height="14" fill="#9933FF"/>
+<rect x="100" y="440" width="14" height="14" fill="#996600"/>
+<rect x="115" y="440" width="14" height="14" fill="#996633"/>
+<rect x="130" y="440" width="14" height="14" fill="#996666"/>
+<rect x="145" y="440" width="14" height="14" fill="#996699"/>
+<rect x="160" y="440" width="14" height="14" fill="#9966CC"/>
+<rect x="175" y="440" width="14" height="14" fill="#9966FF"/>
+<rect x="100" y="455" width="14" height="14" fill="#999900"/>
+<rect x="115" y="455" width="14" height="14" fill="#999933"/>
+<rect x="130" y="455" width="14" height="14" fill="#999966"/>
+<rect x="145" y="455" width="14" height="14" fill="#999999"/>
+<rect x="160" y="455" width="14" height="14" fill="#9999CC"/>
+<rect x="175" y="455" width="14" height="14" fill="#9999FF"/>
+<rect x="100" y="470" width="14" height="14" fill="#99CC00"/>
+<rect x="115" y="470" width="14" height="14" fill="#99CC33"/>
+<rect x="130" y="470" width="14" height="14" fill="#99CC66"/>
+<rect x="145" y="470" width="14" height="14" fill="#99CC99"/>
+<rect x="160" y="470" width="14" height="14" fill="#99CCCC"/>
+<rect x="175" y="470" width="14" height="14" fill="#99CCFF"/>
+<rect x="100" y="485" width="14" height="14" fill="#99FF00"/>
+<rect x="115" y="485" width="14" height="14" fill="#99FF33"/>
+<rect x="130" y="485" width="14" height="14" fill="#99FF66"/>
+<rect x="145" y="485" width="14" height="14" fill="#99FF99"/>
+<rect x="160" y="485" width="14" height="14" fill="#99FFCC"/>
+<rect x="175" y="485" width="14" height="14" fill="#99FFFF"/>
+<text x="208" y="518" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6">R CC</text>
+<rect x="208" y="410" width="14" height="14" fill="#CC0000"/>
+<rect x="223" y="410" width="14" height="14" fill="#CC0033"/>
+<rect x="238" y="410" width="14" height="14" fill="#CC0066"/>
+<rect x="253" y="410" width="14" height="14" fill="#CC0099"/>
+<rect x="268" y="410" width="14" height="14" fill="#CC00CC"/>
+<rect x="283" y="410" width="14" height="14" fill="#CC00FF"/>
+<rect x="208" y="425" width="14" height="14" fill="#CC3300"/>
+<rect x="223" y="425" width="14" height="14" fill="#CC3333"/>
+<rect x="238" y="425" width="14" height="14" fill="#CC3366"/>
+<rect x="253" y="425" width="14" height="14" fill="#CC3399"/>
+<rect x="268" y="425" width="14" height="14" fill="#CC33CC"/>
+<rect x="283" y="425" width="14" height="14" fill="#CC33FF"/>
+<rect x="208" y="440" width="14" height="14" fill="#CC6600"/>
+<rect x="223" y="440" width="14" height="14" fill="#CC6633"/>
+<rect x="238" y="440" width="14" height="14" fill="#CC6666"/>
+<rect x="253" y="440" width="14" height="14" fill="#CC6699"/>
+<rect x="268" y="440" width="14" height="14" fill="#CC66CC"/>
+<rect x="283" y="440" width="14" height="14" fill="#CC66FF"/>
+<rect x="208" y="455" width="14" height="14" fill="#CC9900"/>
+<rect x="223" y="455" width="14" height="14" fill="#CC9933"/>
+<rect x="238" y="455" width="14" height="14" fill="#CC9966"/>
+<rect x="253" y="455" width="14" height="14" fill="#CC9999"/>
+<rect x="268" y="455" width="14" height="14" fill="#CC99CC"/>
+<rect x="283" y="455" width="14" height="14" fill="#CC99FF"/>
+<rect x="208" y="470" width="14" height="14" fill="#CCCC00"/>
+<rect x="223" y="470" width="14" height="14" fill="#CCCC33"/>
+<rect x="238" y="470" width="14" height="14" fill="#CCCC66"/>
+<rect x="253" y="470" width="14" height="14" fill="#CCCC99"/>
+<rect x="268" y="470" width="14" height="14" fill="#CCCCCC"/>
+<rect x="283" y="470" width="14" height="14" fill="#CCCCFF"/>
+<rect x="208" y="485" width="14" height="14" fill="#CCFF00"/>
+<rect x="223" y="485" width="14" height="14" fill="#CCFF33"/>
+<rect x="238" y="485" width="14" height="14" fill="#CCFF66"/>
+<rect x="253" y="485" width="14" height="14" fill="#CCFF99"/>
+<rect x="268" y="485" width="14" height="14" fill="#CCFFCC"/>
+<rect x="283" y="485" width="14" height="14" fill="#CCFFFF"/>
+<text x="316" y="518" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6">R FF</text>
+<rect x="316" y="410" width="14" height="14" fill="#FF0000"/>
+<rect x="331" y="410" width="14" height="14" fill="#FF0033"/>
+<rect x="346" y="410" width="14" height="14" fill="#FF0066"/>
+<rect x="361" y="410" width="14" height="14" fill="#FF0099"/>
+<rect x="376" y="410" width="14" height="14" fill="#FF00CC"/>
+<rect x="391" y="410" width="14" height="14" fill="#FF00FF"/>
+<rect x="316" y="425" width="14" height="14" fill="#FF3300"/>
+<rect x="331" y="425" width="14" height="14" fill="#FF3333"/>
+<rect x="346" y="425" width="14" height="14" fill="#FF3366"/>
+<rect x="361" y="425" width="14" height="14" fill="#FF3399"/>
+<rect x="376" y="425" width="14" height="14" fill="#FF33CC"/>
+<rect x="391" y="425" width="14" height="14" fill="#FF33FF"/>
+<rect x="316" y="440" width="14" height="14" fill="#FF6600"/>
+<rect x="331" y="440" width="14" height="14" fill="#FF6633"/>
+<rect x="346" y="440" width="14" height="14" fill="#FF6666"/>
+<rect x="361" y="440" width="14" height="14" fill="#FF6699"/>
+<rect x="376" y="440" width="14" height="14" fill="#FF66CC"/>
+<rect x="391" y="440" width="14" height="14" fill="#FF66FF"/>
+<rect x="316" y="455" width="14" height="14" fill="#FF9900"/>
+<rect x="331" y="455" width="14" height="14" fill="#FF9933"/>
+<rect x="346" y="455" width="14" height="14" fill="#FF9966"/>
+<rect x="361" y="455" width="14" height="14" fill="#FF9999"/>
+<rect x="376" y="455" width="14" height="14" fill="#FF99CC"/>
+<rect x="391" y="455" width="14" height="14" fill="#FF99FF"/>
+<rect x="316" y="470" width="14" height="14" fill="#FFCC00"/>
+<rect x="331" y="470" width="14" height="14" fill="#FFCC33"/>
+<rect x="346" y="470" width="14" height="14" fill="#FFCC66"/>
+<rect x="361" y="470" width="14" height="14" fill="#FFCC99"/>
+<rect x="376" y="470" width="14" height="14" fill="#FFCCCC"/>
+<rect x="391" y="470" width="14" height="14" fill="#FFCCFF"/>
+<rect x="316" y="485" width="14" height="14" fill="#FFFF00"/>
+<rect x="331" y="485" width="14" height="14" fill="#FFFF33"/>
+<rect x="346" y="485" width="14" height="14" fill="#FFFF66"/>
+<rect x="361" y="485" width="14" height="14" fill="#FFFF99"/>
+<rect x="376" y="485" width="14" height="14" fill="#FFFFCC"/>
+<rect x="391" y="485" width="14" height="14" fill="#FFFFFF"/>
+<text x="100" y="560" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="12" fill="#6CC0E8" letter-spacing="2.4">BHIL PALETTE, SNAPPED</text>
+<rect x="100" y="582" width="30" height="30" fill="#4FA3D1" stroke="#1E3A5F" stroke-width="1"/>
+<text x="142" y="603" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="16" fill="#FFFFFF">→</text>
+<rect x="166" y="582" width="30" height="30" fill="#6699CC" stroke="#1E3A5F" stroke-width="1"/>
+<text x="210" y="595" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#FFFFFF">#4FA3D1 → #6699CC</text>
+<text x="210" y="611" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" letter-spacing="1.1" fill-opacity="0.6">BH BLUE · ΔE 9.1</text>
+<rect x="100" y="626" width="30" height="30" fill="#2E80B0" stroke="#1E3A5F" stroke-width="1"/>
+<text x="142" y="647" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="16" fill="#FFFFFF">→</text>
+<rect x="166" y="626" width="30" height="30" fill="#3399CC" stroke="#1E3A5F" stroke-width="1"/>
+<text x="210" y="639" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#FFFFFF">#2E80B0 → #3399CC</text>
+<text x="210" y="655" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" letter-spacing="1.1" fill-opacity="0.6">BH BLUE 2 · ΔE 9.8</text>
+<rect x="100" y="670" width="30" height="30" fill="#1E3A5F" stroke="#1E3A5F" stroke-width="1"/>
+<text x="142" y="691" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="16" fill="#FFFFFF">→</text>
+<rect x="166" y="670" width="30" height="30" fill="#003366" stroke="#1E3A5F" stroke-width="1"/>
+<text x="210" y="683" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#FFFFFF">#1E3A5F → #003366</text>
+<text x="210" y="699" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" letter-spacing="1.1" fill-opacity="0.6">BH BLUE 3 · ΔE 10.3</text>
+<rect x="100" y="714" width="30" height="30" fill="#0D1B2E" stroke="#1E3A5F" stroke-width="1"/>
+<text x="142" y="735" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="16" fill="#FFFFFF">→</text>
+<rect x="166" y="714" width="30" height="30" fill="#000000" stroke="#1E3A5F" stroke-width="1"/>
+<text x="210" y="727" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#FFFFFF">#0D1B2E → #000000</text>
+<text x="210" y="743" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" letter-spacing="1.1" fill-opacity="0.6">TERMINAL NAVY · ΔE 17.4</text>
+<rect x="100" y="758" width="30" height="30" fill="#D97757" stroke="#1E3A5F" stroke-width="1"/>
+<text x="142" y="779" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="16" fill="#FFFFFF">→</text>
+<rect x="166" y="758" width="30" height="30" fill="#CC6633" stroke="#1E3A5F" stroke-width="1"/>
+<text x="210" y="771" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="13" fill="#FFFFFF">#D97757 → #CC6633</text>
+<text x="210" y="787" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11" fill="#FFFFFF" letter-spacing="1.1" fill-opacity="0.6">COPPER · ΔE 13.2</text>
+<line x1="560" y1="280" x2="560" y2="800" stroke="#1E3A5F" stroke-width="1"/>
+<image x="610" y="290" width="264" height="93" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlhWAAfAKIAAAAAZv///2ZmZv//AAD//wAAAAAAAAAAACwAAAAAWAAfAAAD/xi63P4wykmjCCDrzbv/YCiO30WeaKqK5uq+sNfGdI3Odq5z+O7bpoFwkBkKi0OAkdhhKpHM5bOoNFadnuT1CAhqiNgpJ7xxmr9jdDj6OVM1Xuo6C3KL5/L0W3/fBLVWUGV1aHuBYE+HhWOBYl0YZ2SLkoaTaYh4jpZ7j32UfYRYdnmIg5qbjn9cUo2nfFdQq1OsXHSVcBg/ujU9u74pvb/CLLkoBMcaxwTJyB7LGc/O0crM0TfFJNMA2tod3d4b3MkqwSDi28vPzeDW4Rzq6dDtI+XmzfH42+b29/r588RScFOHDtqHeM7G9esHDNuIc/7GgTM4MaLBbyfqHVxHTS8eQH0UvXEc+TGExmEocaVcCeIkS2EuX/qKKVMXzZo+BOjcybOnz59AgwodSnRoAgA7"/>
+<text x="610" y="405" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#FFFFFF" letter-spacing="1.84" fill-opacity="0.62">BADGE · 88 X 31</text>
+<image x="940" y="290" width="360" height="135" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlheAAtAIAAAP/MAAAAACwAAAAAeAAtAAAC/4yPqcvtD6OcB1iALq43d255IbgZmlgGJ4m27Kt+phyPs12n663Te+7iBYGwn9GHxB2VyR7z6YwOm1MqjCi8LqVaK6cKBXOzZKx5K1aMz152uPsuo7U8jf2Oz+v3/L7/D1gHOEhYaHiYJ4i4yNi4qOgYKTlpB0l5iXlomcnZubfpGSoKylmjYlpCc0oiWpnTGtKBIRtTWykL65p7QmuL+oq6+yEcG3s6+/vFukua+Tsya3z7KtyM+SwdDVxMvNGdGo18kxBODWv9ne6Hrt6eaE4I8oWbQe4RrJwvww0/yI6HDRktgLgEZit3ix9CRv/ubDPmi6DCgLwqIpzRL1DGdZMJBR4Dx2/eQYsKpX18tLHPQ4N1ghm8KLEgtoYOU/IJeHIlvokyO+JsRNOVKYy9hPQEyWLHvoUo3Tk1FPSpuqhSv1GtSuwqVmY2tzrV6rUV2LChTKSBs2aOnDZq3ehQwzZuHLdn1849Qk5uWr116aIF07etYL5/C9sFufcu4cOBF2MZrDhy4smN51K4jDmz5s0MCgAAOw=="/><image x="940" y="290" width="360" height="135" style="image-rendering: crisp-edges; image-rendering: pixelated" class="hs-anim" href="data:image/gif;base64,R0lGODlheAAtAIAAAP/MAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQEPAAAACwAAAAAeAAtAAAC/4yPqcvtD6OcB1iALq43d255IbgZmlgGJ4m27Kt+phyPs12n663Te+7iBYGwn9GHxB2VyR7z6YwOm1MqjCi8LqVaK6cKBXOzZKx5K1aMz152uPsuo7U8jf2Oz+v3/L7/D1gHOEhYaHiYJ4i4yNi4qOgYKTlpB0l5iXlomcnZubfpGSoKylmjYlpCc0oiWpnTGtKBIRtTWykL65p7QmuL+oq6+yEcG3s6+/vFukua+Tsya3z7KtyM+SwdDVxMvNGdGo18kxBODWv9ne6Hrt6eaE4I8oWbQe4RrJwvww0/yI6HDRktgLgEZit3ix9CRv/ubDPmi6DCgLwqIpzRL1DGdZMJBR4Dx2/eQYsKpX18tLHPQ4N1ghm8KLEgtoYOU/IJeHIlvokyO+JsRNOVKYy9hPQEyWLHvoUo3Tk1FPSpuqhSv1GtSuwqVmY2tzrV6rUV2LChTKSBs2aOnDZq3ehQwzZuHLdn1849Qk5uWr116aIF07etYL5/C9sFufcu4cOBF2MZrDhy4smN51K4jDmz5s0MCgAAIfkEBDwAAAAsAAAAAHgALQAAAv+Mj6nL7Q+jnAEAZC3OW598fZzoGWAXmqNaVqvbnmT6ofZ8s7Ss5/D+4v18QloPhzwqh0nmshiMxqIJ6PQKxBKl2e5WS/p6m9bxkytOJ8vqM9htdsrZa5D9js/r9/y+/w84EjhIWGh4iKeDuMjYaKjoGCk5KUhpeckIibnJuafZCRr62QlTUZryYjoTKsNqdwqrIXvC4fr64wrrYlqLe2pbCRzLq6uCIozLGhty0fvaDNwavdy8O1sLHc2sLVKcmp2sHK5Njjhajh54/hdmjI1RtfHbLc/SjW0+DkjNKxv+W83ZNV/4+mU7tK4PQX/W/hUEdxDfwF7WFiXkszBgPxyOVAQ+ozWRWCZ97D4G3PbQ30OHICHuIskOpkKPBjPOC5kyZ82RI0u5Y9gjZbshPFZMtCgznVI9F5c6lfY0KsakUp02rar0KlZ0WreS6+p1Gpw2c9CQMTv27Bs6aduWffM2Dtu3ZOfaRRu3Lt6Xbu/C9SsX71wTev8KPmw4sVwFgAsHVux4C4XJlCtbvuygAAA7"/>
+<text x="940" y="447" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#FFFFFF" letter-spacing="1.84" fill-opacity="0.62">CONSTRUCTION · 2 FRAMES · 600 MS</text>
+<image x="940" y="476" width="240" height="48" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlheAAYAJEAADNmmZnM/wAzZv///ywAAAAAeAAYAAACw4yPqcvtD6OUYtqLs46iBgCG4kiW5omm6sqmndHG8kzXrmfn+s4D79cLCoejH/GI1BmTzOZqiRxIB6AptSrFXgHb61Sb5X6Z0GOXG6KevdU0ug1/O3245Np9b+dH5zkdZjdmFaeGZ0iyJZaIVEa0WEgoB4m2GCdSOdQ49AiXx6bnZhmapCnE2Rk2ppUWRqhKWucnO1c6aytUe6urFLvru5P7K8wSPGx8UnysLPLS4fwMHS09TV1tfY2drb3N3e39DU5dAAA7"/>
+<text x="940" y="546" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#FFFFFF" letter-spacing="1.84" fill-opacity="0.62">NAVBUTTON · NORMAL AND HOVER</text>
+<image x="1200" y="476" width="240" height="48" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlheAAYAJEAAP/MAAAzZpnM/wAAMywAAAAAeAAYAAACwoyPqcvtD6OUYtqLs46iBgCG4kiW5omm6sqmndHG8kzXrmfn+s4D79cLCoejH/GI1BmTzOZq6YxKQ1Dk4DoAYbPaa5cLAHOxX2+YnKwexeFQlj3WutvyOt2pJsLne3l/xBaVN7RVZvfGl0gCdsZ4NCjkiHh4N9nmaCeCKQQZJFnXF+c3l0mK1NnzCWqG9uVmdth6ijNVi0drm/uIq9vbg+ob3AIsXIxCbJxcVNHR7PwMHS09TV1tfY2drb3N3e39PV0AADs="/>
+<image x="610" y="606" width="330" height="54" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlhbgASAKIAAAAAAGaZzAAzZv///5nM/8z//2bM////zCwAAAAAbgASAAAD/wi63P4wykmrvTjrzWkIAiMMRAgIBFEYnykEh6mg5RukBnsXLq6nAtvgkDvcah/f51Ca4QqtWZIwMMgY0CstFGTmWlzwbGvzDQrAE+0bIAU/pO/BbSusdG41mh08Tat9DWkLI1ZkQUEGPChVhj5BKoiSXECTgZJgfYeTJ5GTOV01QQMDVwCDM6BbIqqPa6WrDygxFDZaqA2xM3OQPE6wDKAiYMKExI5IIALFDstWtbjOpoTMfsrMbwfBsJjXtMbXyG/hltSGkrLRqui754jHWqQMUytT47fJiTFkH3s6MpAI8GlmoNSwI198WYuDp4YRfPOOVCFF5Z4IJvcEHFhUycKIFwMPRShRlqvaCzQC/0k5QsTei28z0DCoJElRQC2tmmjKWS7Xp2fgtKDpeYJOTXGsDDDIYy4Uzn3qkF6QdhDfNCcwT/AkpFHbAiJa4FWlamxRtVohCWFMelUr0JWJFEq7YrJNIncZV4QlZ8lF3yiEovblYlNElrl3TQF2onONIpIaQYhMNrLAvil8TJFdqeILiXyTx1FR5SAt4x4pAZ+0Wma0SxgpqixuejBFyyNvDAZGwuRO2w7AgwsfTry48Q4JAAA7"/><image x="610" y="606" width="330" height="54" style="image-rendering: crisp-edges; image-rendering: pixelated" class="hs-anim" href="data:image/gif;base64,R0lGODlhbgASAKIAAAAAAGaZzAAzZv///5nM/8z//2bM////zCH/C05FVFNDQVBFMi4wAwEAAAAh+QQEKAAAACwAAAAAbgASAAAD/wi63P4wykmrvTjrzWkIAiMMRAgIBFEYnykEh6mg5RukBnsXLq6nAtvgkDvcah/f51Ca4QqtWZIwMMgY0CstFGTmWlzwbGvzDQrAE+0bIAU/pO/BbSusdG41mh08Tat9DWkLI1ZkQUEGPChVhj5BKoiSXECTgZJgfYeTJ5GTOV01QQMDVwCDM6BbIqqPa6WrDygxFDZaqA2xM3OQPE6wDKAiYMKExI5IIALFDstWtbjOpoTMfsrMbwfBsJjXtMbXyG/hltSGkrLRqui754jHWqQMUytT47fJiTFkH3s6MpAI8GlmoNSwI198WYuDp4YRfPOOVCFF5Z4IJvcEHFhUycKIFwMPRShRlqvaCzQC/0k5QsTei28z0DCoJElRQC2tmmjKWS7Xp2fgtKDpeYJOTXGsDDDIYy4Uzn3qkF6QdhDfNCcwT/AkpFHbAiJa4FWlamxRtVohCWFMelUr0JWJFEq7YrJNIncZV4QlZ8lF3yiEovblYlNElrl3TQF2onONIpIaQYhMNrLAvil8TJFdqeILiXyTx1FR5SAt4x4pAZ+0Wma0SxgpqixuejBFyyNvDAZGwuRO2w7AgwsfTry48Q4JAAAh+QQEKAAAACwAAAAAbgASAAAD/wi63P4wykmrvTjrzSkhAiMYRgiMRhB8psCKpOASpPoZR1ukxV3OtR7tNxjaCIOSAqUqDFoHY8HUeC1GuRNzBQq5nq0R2FfgFqbaQ4obExTUa5+MPCjuvIJkINo9+VQyDjEigCgyh24BMjWKW4s/iIGGkYFaczmHJ3eUXmqUhZuPVAqDV4WlS6drj3uiEGKjr1ZLqA1YowKqLW0MrSIsuYq/XbozMoCvyBO3hMIPuWhXwMpaH72NiFHHzkvTjXUy2sGUptiZDobN5KmYiN641gsEcEdtZ7ht02D2SSl8VDL0cIl1gpofI0VAdJvnT44xGAYYRKmRMMkchVc2vZv0J71AEVwCgdky6ALOgIELd6goku8JRAZtEOkiNGUEGknFEKGLRHLWCRzrfkI6NLMcTCXlXJnCVGucAE8Yxv1yeaUWDKpLDjRCtU0it4PHoi0MC6+mQQpuMNJCuuQkwVRiwT6NBq2Sgp7EzF0M+NWY03WcHlZlW1BvJqnS8sr8CsBnOlZ7+gheeynkkIs1/sWqOywzkpb4fvhwS9BxKTEBhLQw/eMMI4cdfabqG5sGJtNjjDDuwLu379/Agwv3nQAAIfkEBCgAAAAsAAAAAG4AEgAAA/8Iutz+MMpJq704681pKQIjBEEIjAdBGIYpGIOpjOBrBIPKFodL6reSDQcM1AyHX4FF8gUIB6SL+STIGKzrqHSipbIhm8C1HVNz1PBWFR0ImakP8g2rLpvdpGrQClNVYw44WjljTWOIgFsFVmuNg4iRJ26Rkl1jUZIClJWBZZWKRpF4DKQzoVwLAqisj6kOAklXEGIisrSmJ6hOgQuMWgc9qz0iMGO7L8KAtMsTIzEizbDSJ2DSZgYMipFLx1bFfYqcBjXbiKrmvQ1l0Y2Wuu6I1t+qLAxRPys3Mclah/OGhP3RJ8NQlSzT6M2482RJixkD09RSRQILkgJogmDzR8fGm0Ezbuw8VDUgB8FZqxRWK0CEIMQ5RTqKqLjgUCQohqChc6UG3sdKsCr9AsexE0UhN3m2K/XKJzt0/ES1+4ghpRaER2dlnfq0iwptKsVsCgsmxdVwKikI6DazqVVmZNG6wHmF2to+ZitlGnt2TKFOZDoZa6sl3blVIIhaTUSMAdutY1gyAnMiE+FNQTLKGnKwzzq7VCZrnDjjXxBFDrCWTrXly0jSJ0znk8iE0YrEn+POdsNPdew3JQOY7UC8uPHjyJMrX54AADs="/>
+<text x="610" y="682" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#FFFFFF" letter-spacing="1.84" fill-opacity="0.62">GLITTER · 3 FRAMES · 400 MS</text>
+<image x="610" y="470" width="42" height="60" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlhDgAUAJEAAAAAAGZmZjMzMwD/ACwAAAAADgAUAAACPYyPJwHt3xacQLaBs7Mg68hgkyiJEBkOj1elq1aqnYzOF63G5t3Oux0b5VynocOz4yBlPcqD42wJptQqtQAAOw=="/>
+<image x="652" y="470" width="42" height="60" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlhDgAUAJEAAAAAAGZmZjMzMwD/ACwAAAAADgAUAAACPYyPJwHt3xacQLaBs7Mg68hgkyiJEBkOj1elq1aqnYzOF63G5t3Oux0b5VynocOz4yBlPcqD42wJptQqtQAAOw=="/>
+<image x="694" y="470" width="42" height="60" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlhDgAUAJEAAAAAAGZmZjMzMwD/ACwAAAAADgAUAAACOYyPJwHt3xacQM4xnIVYs4d10eeE2VieYkWKq7QCLxPPsomzNx7q1+njADegIanooUCIyoXgCY1CCwA7"/>
+<image x="736" y="470" width="42" height="60" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlhDgAUAJEAAAAAAGZmZjMzMwD/ACwAAAAADgAUAAACOYyPJwHt3xacQLaBs7Mg68hgkyiJEMlQ3VClFPqyYLy5l1yf+HxTnAkpeYat1VDDURWVIIHzCX0WAAA7"/>
+<image x="778" y="470" width="42" height="60" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlhDgAUAJEAAAAAAGZmZjMzMwD/ACwAAAAADgAUAAACN4yPJwHt3xacQL4xoHVYs4Z1zxZm48eZzgaqEdp6kLjCAP3ObmXjvC5rlWqpYY5yQp4EzKazWQAAOw=="/>
+<image x="820" y="470" width="42" height="60" style="image-rendering: crisp-edges; image-rendering: pixelated" href="data:image/gif;base64,R0lGODlhDgAUAJEAAAAAAGZmZjMzMwD/ACwAAAAADgAUAAACOIyPJwHt3xacQI6Lc2W5j001FxiO0jRGDPqpUOqcDuyKLSTT8QrodX975IK7GfEXIiU3gqbz6SwAADs="/>
+<text x="610" y="552" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#FFFFFF" letter-spacing="1.84" fill-opacity="0.62">DIGITS · ODOMETER</text>
+<g fill="#6CC0E8"><use href="#px-41" transform="translate(610 740) scale(3)"/><use href="#px-42" transform="translate(628 740) scale(3)"/><use href="#px-43" transform="translate(646 740) scale(3)"/><use href="#px-44" transform="translate(664 740) scale(3)"/><use href="#px-45" transform="translate(682 740) scale(3)"/><use href="#px-46" transform="translate(700 740) scale(3)"/><use href="#px-47" transform="translate(718 740) scale(3)"/><use href="#px-48" transform="translate(736 740) scale(3)"/><use href="#px-49" transform="translate(754 740) scale(3)"/><use href="#px-4a" transform="translate(772 740) scale(3)"/><use href="#px-4b" transform="translate(790 740) scale(3)"/><use href="#px-4c" transform="translate(808 740) scale(3)"/><use href="#px-4d" transform="translate(826 740) scale(3)"/><use href="#px-4e" transform="translate(862 740) scale(3)"/><use href="#px-4f" transform="translate(880 740) scale(3)"/><use href="#px-50" transform="translate(898 740) scale(3)"/><use href="#px-51" transform="translate(916 740) scale(3)"/><use href="#px-52" transform="translate(934 740) scale(3)"/><use href="#px-53" transform="translate(952 740) scale(3)"/><use href="#px-54" transform="translate(970 740) scale(3)"/><use href="#px-55" transform="translate(988 740) scale(3)"/><use href="#px-56" transform="translate(1006 740) scale(3)"/><use href="#px-57" transform="translate(1024 740) scale(3)"/><use href="#px-58" transform="translate(1042 740) scale(3)"/><use href="#px-59" transform="translate(1060 740) scale(3)"/><use href="#px-5a" transform="translate(1078 740) scale(3)"/><use href="#px-30" transform="translate(1114 740) scale(3)"/><use href="#px-31" transform="translate(1132 740) scale(3)"/><use href="#px-32" transform="translate(1150 740) scale(3)"/><use href="#px-33" transform="translate(1168 740) scale(3)"/><use href="#px-34" transform="translate(1186 740) scale(3)"/><use href="#px-35" transform="translate(1204 740) scale(3)"/><use href="#px-36" transform="translate(1222 740) scale(3)"/><use href="#px-37" transform="translate(1240 740) scale(3)"/><use href="#px-38" transform="translate(1258 740) scale(3)"/><use href="#px-39" transform="translate(1276 740) scale(3)"/><use href="#px-21" transform="translate(1312 740) scale(3)"/><use href="#px-3f" transform="translate(1330 740) scale(3)"/><use href="#px-2665" transform="translate(1348 740) scale(3)"/><use href="#px-266a" transform="translate(1366 740) scale(3)"/></g>
+<text x="610" y="788" font-family="'IBM Plex Mono', 'Courier New', Courier, monospace" font-size="11.5" fill="#FFFFFF" letter-spacing="1.84" fill-opacity="0.62">5 X 7 PIXEL FONT · HAND-ENTERED · NO THIRD-PARTY GLYPHS</text>
+</svg>

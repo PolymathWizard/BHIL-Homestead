@@ -5,7 +5,7 @@ Thanks for helping. HOMESTEAD has three kinds of content, and each changes diffe
 | Kind | Where | How to change it |
 |---|---|---|
 | Canon | `canon/*.json` | Edit the JSON, run `python3 scripts/build_derived.py`, update `EXPECTED` counts in `scripts/validate.py` if a count changed, commit everything together |
-| Derived artifacts | `docs/presets/`, `docs/reference/`, `templates/era-spec-cards/`, `data/`, `assets/diagrams/`, kit and example images and audio, `MANIFEST.sha256` | Never by hand. The drift gate fails on any hand edit |
+| Derived artifacts | `docs/presets/`, `docs/reference/`, `templates/era-spec-cards/`, `data/`, `assets/figures/` (except `png/`), kit and example images and audio, `MANIFEST.sha256` | Never by hand. The drift gate fails on any hand edit |
 | Hand-written content | `docs/0*.md` to `docs/11*.md`, `support/`, `adr/`, `prompts/`, `.claude/`, kit and example HTML, `tools/`, `scripts/`, `tests/` | Edit directly |
 
 ## Before you open a pull request

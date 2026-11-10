@@ -10,7 +10,9 @@ generated: true
 
 Every combination of 00, 33, 66, 99, CC, and FF across red, green, and blue ([C-003](evidence-register.md#c-003)). Snap brand colors with `python3 tools/websafe.py snap`.
 
-![Web-safe cube](../../assets/diagrams/websafe-cube.svg)
+![The 216-color web-safe cube with BHIL brand colors snapped to it, beside real gifsmith outputs: a badge, a construction sign, odometer digits, nav buttons, glitter text, and the pixel font.](../../assets/figures/hs-06-asset-smithy.svg)
+
+*FIG HS-06. Every glyph drawn here. Nothing borrowed.*
 
 ## Red 00
 

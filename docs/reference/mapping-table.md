@@ -10,6 +10,10 @@ generated: true
 
 Translate component by component, not page by page. Every inventoried pattern gets a row decision: map, merge, or drop with a reason.
 
+![Table mapping six modern patterns to their GeoCities, FrontPage, and MySpace equivalents, each with a period badge.](../../assets/figures/hs-05-component-mapping.svg)
+
+*FIG HS-05. Translate component by component.*
+
 | Modern pattern | B: GeoCities | C: FrontPage | E: MySpace | Tier |
 |---|---|---|---|---|
 | Hero section | Big centered WordArt title, an animated GIF, and Welcome to my homepage! | Splash page with logo and ENTER link, or a Flash-style intro with Skip Intro | Profile banner image plus a glitter display name | STATED |

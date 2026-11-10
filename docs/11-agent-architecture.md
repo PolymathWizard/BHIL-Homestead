@@ -7,7 +7,9 @@ description: "The CADRE orchestrator and six tool-isolated subagents, their cont
 
 HOMESTEAD follows the BHIL CADRE pattern: one orchestrator over specialist subagents, each with a narrow job, a restricted tool list, and a written contract. Governing agents is a delegation and management discipline, not a prompting exercise.
 
-![Agent topology](../assets/diagrams/agent-topology.svg)
+![Profile-style friend grid of the human director, the orchestrator, and six subagents with their tools, the auditor marked read only.](../assets/figures/hs-10-agent-crew.svg)
+
+*FIG HS-10. The crew's Top 8. One of them can't write.*
 
 ## Roster
 

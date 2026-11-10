@@ -7,6 +7,10 @@ description: "Safe Mode, blink emulation, and click-to-play audio shipped next t
 
 Two small files that make period pages safe for 2026 visitors without changing how they look by default. They are modern by design and exempt from the era lint ([ADR-003](../../adr/ADR-003-period-markup-with-safety-layer.md)). Every kit and build carries byte-identical copies; the quality gate fails if a copy drifts from this folder.
 
+![The same period page as built, with starfield, marquee, and blinking badge, and in Safe Mode as plain black text on white.](../../assets/figures/hs-08-safe-mode.svg)
+
+*FIG HS-08. Keep the chaos. Give it an off switch.*
+
 | File | What it does |
 |---|---|
 | [homestead-safe.css](homestead-safe.css) | Emulates `blink` at one cycle per second, styles the Safe Mode toggle, and defines Safe Mode: no background images, white backgrounds, black text, standard link colors, no custom cursors. Hides animated images under reduced motion until still frames are swapped in. |

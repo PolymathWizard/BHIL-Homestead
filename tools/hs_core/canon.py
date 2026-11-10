@@ -23,6 +23,7 @@ CANON_FILES = (
     "process",
     "agents",
     "sources",
+    "brand",
 )
 
 _cache = {}

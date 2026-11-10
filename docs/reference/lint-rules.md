@@ -10,6 +10,10 @@ generated: true
 
 Exempt files: `homestead-safe.css`, `homestead-safe.js`. Severity is per preset; a blank cell means the rule does not apply.
 
+![A period source window with a web font, rounded corners, and modern copy flagged by the HOMESTEAD era lint, beside the lint report.](../../assets/figures/hs-07-view-source.svg)
+
+*FIG HS-07. View Source never lies.*
+
 | ID | Rule | A | B | C | D | E | F | Row | Fix |
 |---|---|---|---|---|---|---|---|---|---|
 | HL001 | Web font loaded | error | error | error | error | error |  | 4 | Use a system font stack from canon/fonts.json. Never self-host Comic Sans. |

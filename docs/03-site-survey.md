@@ -7,6 +7,10 @@ description: "How to inventory a modern site, what the survey tool detects, and 
 
 The survey records what the modern site contains so nothing important is lost in translation. It does not judge or redesign.
 
+![A modern page being scanned into an inventory window listing detected patterns, brand colors with web-safe snaps, fonts, and tone.](../assets/figures/hs-04-site-survey.svg)
+
+*FIG HS-04. Inventory before era.*
+
 ## Run it
 
 ```bash

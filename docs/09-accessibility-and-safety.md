@@ -7,6 +7,10 @@ description: "Flash, motion, audio, contrast, keyboard, and text alternatives fo
 
 The old web was bright, busy, slow, and loud. HOMESTEAD keeps the look and removes the harm: every effect has an off switch, nothing makes noise uninvited, and no animation can strobe.
 
+![The same period page as built, with starfield, marquee, and blinking badge, and in Safe Mode as plain black text on white.](../assets/figures/hs-08-safe-mode.svg)
+
+*FIG HS-08. Keep the chaos. Give it an off switch.*
+
 ## Standards in play
 
 | Standard | Requirement | HOMESTEAD answer |

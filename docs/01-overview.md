@@ -7,6 +7,10 @@ description: "What HOMESTEAD is, why it exists, and how its parts fit together."
 
 HOMESTEAD is a repeatable way to take any modern website and rebuild it as if it had been made in an earlier era of the web: a GeoCities homepage in 1998, a FrontPage company site in 2001, a MySpace profile in 2007. It is a process, a set of stdlib-only tools, three working kits, an agent team, and a rubric that grades the result.
 
+![HOMESTEAD masthead: a dot-matrix HOMESTEAD wordmark over the BHIL dot constellation, with period badges for presets B, C, and E and Safe Mode.](../assets/figures/hs-01-masthead.svg)
+
+*FIG HS-01. Retro-Web Redesign Engine*
+
 The name comes from GeoCities, whose members were called Homesteaders and whose pages lived in themed neighborhoods such as SiliconValley and Hollywood (STATED, [C-010](reference/evidence-register.md#c-010); CORROBORATED, [C-011](reference/evidence-register.md#c-011)).
 
 ## Why a process and not a style
@@ -34,7 +38,9 @@ HOMESTEAD treats the old web as six dated presets with checkable specs, and trea
 | Rubric | 40-point scorecard with hard gates | [reference/rubric.md](reference/rubric.md) |
 | Worked example | One fictional SaaS site rebuilt three ways | [examples/nimbus-ledger](../examples/nimbus-ledger/README.md) |
 
-![Pipeline](../assets/diagrams/pipeline.svg)
+![BHIL ASCII pipeline on an ink panel: intake, survey, era lock, map, assets, build, and audit, with owners, outputs, and the revise loop.](../assets/figures/hs-03-pipeline.svg)
+
+*FIG HS-03. Seven phases. Every one leaves paper.*
 
 ## What HOMESTEAD produces
 

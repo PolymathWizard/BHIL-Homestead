@@ -15,6 +15,9 @@ Checks, in order:
   8. Frontmatter on every Markdown file in content folders.
   9. Relative Markdown links resolve.
  10. Required root files exist; launch copy obeys its limits.
+ 11. Figure kit: every figure exists, is accessible, honors reduced motion,
+     stays under its size budget, is embedded on every page canon places it,
+     and has a PNG render made from the current SVG (ADR-009).
 
 Usage:
     python3 scripts/validate.py
@@ -48,9 +51,12 @@ EXPECTED = {
     "phases": 7,
     "agents": 6,
     "prompts": 11,
-    "adrs": 8,
+    "adrs": 9,
     "example_builds": 3,
+    "figures": 10,
 }
+
+FIGURE_BUDGET_BYTES = 96 * 1024
 
 SKIP_DIRS = {".git", "site", "site-src", "__pycache__", "node_modules"}
 BINARY_EXT = {".gif", ".png", ".jpg", ".jpeg", ".wav", ".mid", ".ico", ".zip", ".gz", ".bundle", ".pdf"}
@@ -74,6 +80,7 @@ class Gate:
             self.passes += 1
         else:
             self.failures.append(message)
+        return ok
 
 
 def walk_files():
@@ -200,6 +207,7 @@ def counts_gate(g):
         "agents": len(canon.load("agents")["agents"]),
         "prompts": len([n for n in os.listdir(os.path.join(ROOT, "prompts")) if re.match(r"P\d\d-.*\.md$", n)]),
         "adrs": len([n for n in os.listdir(os.path.join(ROOT, "adr")) if re.match(r"ADR-\d{3}-.*\.md$", n)]),
+        "figures": len(canon.load("brand")["figures"]),
         "example_builds": sum(len(os.listdir(os.path.join(ROOT, "examples", e, "builds")))
                               for e in os.listdir(os.path.join(ROOT, "examples"))
                               if os.path.isdir(os.path.join(ROOT, "examples", e, "builds"))),
@@ -365,11 +373,62 @@ def root_gate(g):
             g.check(not re.search(r"\d|%", stripped), "launch: LinkedIn variant %d carries numbers; storytelling posts omit statistics" % i)
 
 
+def png_size(path):
+    with open(path, "rb") as handle:
+        head = handle.read(24)
+    if head[:8] != b"\x89PNG\r\n\x1a\n" or head[12:16] != b"IHDR":
+        return None
+    return int.from_bytes(head[16:20], "big"), int.from_bytes(head[20:24], "big")
+
+
+def figures_gate(g):
+    import hashlib
+    fig_dir = os.path.join(ROOT, "assets", "figures")
+    png_dir = os.path.join(fig_dir, "png")
+    sources = {}
+    src_path = os.path.join(png_dir, "SOURCES.sha256")
+    if g.check(os.path.isfile(src_path), "figures: png/SOURCES.sha256 missing; run python3 scripts/render_figures.py"):
+        with open(src_path, "r", encoding="utf-8") as handle:
+            for line in handle:
+                if line.strip():
+                    digest, name = line.split()
+                    sources[name] = digest
+    figures = canon.load("brand")["figures"]
+    ids = [f["id"] for f in figures]
+    g.check(ids == ["HS-%02d" % i for i in range(1, len(ids) + 1)], "figures: ids must run HS-01 upward without gaps")
+    for meta in figures:
+        name = "%s-%s.svg" % (meta["id"].lower(), meta["slug"])
+        path = os.path.join(fig_dir, name)
+        if not g.check(os.path.isfile(path), "figures: %s missing" % name):
+            continue
+        with open(path, "rb") as handle:
+            data = handle.read()
+        text = data.decode("utf-8")
+        g.check(len(data) <= FIGURE_BUDGET_BYTES, "figures: %s is %d bytes (budget %d)" % (name, len(data), FIGURE_BUDGET_BYTES))
+        g.check('role="img"' in text and "<title" in text and "<desc" in text, "figures: %s needs role, title, and desc" % name)
+        g.check("prefers-reduced-motion" in text, "figures: %s must stop motion under prefers-reduced-motion" % name)
+        g.check(len(meta["alt"]) >= 40 and len(meta["placements"]) >= 1, "figures: %s needs real alt text and a placement" % meta["id"])
+        for page in meta["placements"]:
+            page_path = os.path.join(ROOT, page)
+            if not g.check(os.path.isfile(page_path), "figures: %s placement %s does not exist" % (meta["id"], page)):
+                continue
+            with open(page_path, "r", encoding="utf-8") as handle:
+                g.check("assets/figures/" + name in handle.read(), "figures: %s is placed in %s but not embedded there" % (meta["id"], page))
+        png = os.path.join(png_dir, name[:-4] + ".png")
+        if g.check(os.path.isfile(png), "figures: png/%s.png missing; run python3 scripts/render_figures.py" % name[:-4]):
+            g.check(png_size(png) == (1600, 900), "figures: png/%s.png must be 1600 x 900" % name[:-4])
+            g.check(sources.get(name) == hashlib.sha256(data).hexdigest(),
+                    "figures: png/%s.png is stale (rendered from an older SVG); run python3 scripts/render_figures.py" % name[:-4])
+    on_disk = sorted(n for n in os.listdir(fig_dir) if n.endswith(".svg"))
+    g.check(len(on_disk) == len(figures), "figures: %d SVGs on disk for %d figures in canon" % (len(on_disk), len(figures)))
+
+
 def main():
     g = Gate()
     for name, fn in (("dash", dash_gate), ("json", json_gate), ("canon", canon_gate), ("counts", counts_gate),
                      ("schema", schema_gate), ("agents", agents_gate), ("builds", builds_gate),
-                     ("frontmatter", frontmatter_gate), ("links", links_gate), ("root", root_gate)):
+                     ("frontmatter", frontmatter_gate), ("links", links_gate), ("root", root_gate),
+                     ("figures", figures_gate)):
         before = len(g.failures)
         try:
             fn(g)
