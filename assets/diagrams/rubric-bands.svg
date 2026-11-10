@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-labelledby="t d">
+<title id="t">Rubric bands</title>
+<desc id="d">Scores 0 to 40 split into REBUILD, REVISE, and SHIP bands.</desc>
+<rect width="1200" height="220" fill="#FFFFFF"/>
+<text x="32" y="40" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="600" fill="#1C1C2E">40-point authenticity rubric</text>
+<rect x="992.0" y="70" width="168.0" height="60" fill="#1B4FD8"/>
+<text x="1004.0" y="106" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">SHIP 34 to 40</text>
+<rect x="768.0" y="70" width="200.8" height="60" fill="#6B9EFF"/>
+<text x="780.0" y="106" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">REVISE 26 to 33</text>
+<rect x="40.0" y="70" width="710.2" height="60" fill="#B00020"/>
+<text x="52.0" y="106" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">REBUILD 0 to 25</text>
+<text x="40" y="170" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="14" fill="#1C1C2E">Hard gates (row 17, row 18, row 16) block SHIP at any total: audio, Safe Mode, flash thresholds.</text>
+</svg>

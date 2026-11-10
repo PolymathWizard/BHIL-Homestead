@@ -1,0 +1,54 @@
+{
+  "preset": "F",
+  "preset_name": "Modern revival (Neocities / small web)",
+  "year": 2019,
+  "host_context": "Neocities or another static host",
+  "target_browser": "Any current browser",
+  "canvas_width_px": null,
+  "palette_mode": "full",
+  "base_bg": "#000033",
+  "palette": {
+    "bg": "#000033",
+    "text": "#FFFFFF",
+    "link": "#66FFFF",
+    "vlink": "#FF99FF",
+    "alink": "#FFFF66"
+  },
+  "fonts": {
+    "body": "Verdana, Arial, sans-serif",
+    "heading": "Arial Black, Arial, sans-serif",
+    "display": "Comic Sans MS, cursive",
+    "mono": "Courier New, Courier, monospace"
+  },
+  "layout_mode": "hand-coded",
+  "nav_style": "Sidebar or button wall.",
+  "required_widgets": [
+    "safe-mode-toggle",
+    "text-only-link",
+    "button-88x31",
+    "webring",
+    "guestbook"
+  ],
+  "required_any": [],
+  "forbidden_elements": [
+    "tracking scripts",
+    "cookie banners"
+  ],
+  "voice_rules": [
+    "Knowing and affectionate.",
+    "Example: welcome to my little corner of the web",
+    "Example: sign the guestbook, it's real",
+    "Example: best viewed with your heart"
+  ],
+  "motion_budget": 5,
+  "audio": "click-to-play",
+  "easter_eggs": [
+    "Button wall of friends",
+    "Small web manifesto link"
+  ],
+  "time_capsule": false,
+  "time_capsule_story": "",
+  "allowed_extra_widgets": [],
+  "reference_urls": [],
+  "asset_policy": "originals-only"
+}

@@ -1,0 +1,76 @@
+{
+  "preset": "C",
+  "preset_name": "FrontPage / Dreamweaver small-business and corporate",
+  "year": 2000,
+  "host_context": "Company domain on a host with server extensions",
+  "target_browser": "Internet Explorer 5 or Netscape Navigator 4",
+  "canvas_width_px": 760,
+  "palette_mode": "theme",
+  "base_bg": "#FFFFFF",
+  "palette": {
+    "bg": "#FFFFFF",
+    "text": "#000033",
+    "link": "#003399",
+    "vlink": "#663399",
+    "alink": "#CC0000"
+  },
+  "fonts": {
+    "body": "Verdana, Arial, Helvetica, sans-serif",
+    "heading": "Book Antiqua, Times New Roman, serif",
+    "display": "Impact, Arial Black, sans-serif",
+    "mono": "Courier New, Courier, monospace"
+  },
+  "layout_mode": "shared-borders",
+  "nav_style": "Left shared border with beveled theme buttons and hover image swaps, plus a text link row in the bottom border.",
+  "required_widgets": [
+    "safe-mode-toggle",
+    "text-only-link",
+    "last-updated",
+    "mailto-text",
+    "browser-badge",
+    "shared-borders",
+    "theme-banner",
+    "hover-buttons",
+    "search-form",
+    "feedback-form",
+    "copyright-footer",
+    "whats-new"
+  ],
+  "required_any": [
+    [
+      "hit-counter",
+      "broken-component-placeholder"
+    ]
+  ],
+  "forbidden_elements": [
+    "glitter text",
+    "webrings",
+    "starry backgrounds",
+    "neighborhood addresses",
+    "rainbow rules",
+    "web fonts",
+    "rounded corners",
+    "emoji"
+  ],
+  "voice_rules": [
+    "Small-business formal with a hint of brochure.",
+    "Example: Welcome to our Web site!",
+    "Example: Click here for more information.",
+    "Example: Copyright 2001 All rights reserved.",
+    "Example: Please send comments to our Webmaster.",
+    "Example: This page was last updated on"
+  ],
+  "motion_budget": 3,
+  "audio": "none-or-click-to-play",
+  "easter_eggs": [
+    "A [Hit Counter] placeholder where extensions are missing",
+    "webbot comments in the source",
+    "A GENERATOR meta tag",
+    "References to _borders and _vti_cnf folders"
+  ],
+  "time_capsule": false,
+  "time_capsule_story": "",
+  "allowed_extra_widgets": [],
+  "reference_urls": [],
+  "asset_policy": "originals-only"
+}

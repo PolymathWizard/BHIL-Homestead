@@ -1,0 +1,131 @@
+{
+  "engagement": "TEMPLATE",
+  "preset": "B",
+  "auditor": "authenticity-auditor",
+  "date": "",
+  "rows": [
+    {
+      "row": 1,
+      "check": "Era locked to one preset",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 2,
+      "check": "Canvas width matches era",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 3,
+      "check": "Colors",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 4,
+      "check": "Fonts",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 5,
+      "check": "Layout engine look",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 6,
+      "check": "Images",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 7,
+      "check": "Widgets present",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 8,
+      "check": "Widgets era-correct",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 9,
+      "check": "Copy voice",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 10,
+      "check": "Navigation",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 11,
+      "check": "Brand legibility",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 12,
+      "check": "Content parity",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 13,
+      "check": "View Source",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 14,
+      "check": "Lived-in details",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 15,
+      "check": "Browser badges",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 16,
+      "check": "Motion",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 17,
+      "check": "Audio",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 18,
+      "check": "Safe Mode",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 19,
+      "check": "Accessibility basics",
+      "score": null,
+      "evidence": ""
+    },
+    {
+      "row": 20,
+      "check": "Legal hygiene",
+      "score": null,
+      "evidence": ""
+    }
+  ],
+  "total": null,
+  "verdict": null,
+  "notes": ""
+}

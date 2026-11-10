@@ -1,0 +1,25 @@
+id,modern_pattern,tier,B,C,E,widgets_B,widgets_C,widgets_E
+hero,Hero section,STATED,"Big centered WordArt title, an animated GIF, and Welcome to my homepage!","Splash page with logo and ENTER link, or a Flash-style intro with Skip Intro",Profile banner image plus a glitter display name,neighborhood-address,splash-page;theme-banner,glitter-text
+sticky-nav,Sticky header or hamburger menu,STATED,Text links separated by pipes at top and bottom,"Left shared border of theme buttons, or a left frame emulation",Thin network nav bar across the top,,shared-borders;hover-buttons,
+mega-menu,Mega-menu,STATED,A Site Map page,Image map navigation banner,Links typed into About Me,,,profile-blurbs
+feature-cards,Cards or feature grid,STATED,Bulleted list with ball bullet GIFs,Two or three column table with border=1 and theme bullets,Interests table rows,,,interests-details
+pricing,Pricing table,STATED,Prices page with a bordered table,Catalog table with an Order Form that posts to mailto or Save Results,Details table rows,,feedback-form,interests-details
+testimonials,Testimonials,STATED,Guestbook entries such as Cool site!!,What Our Customers Say page with italic quotes,Comments wall with Thanks for the add graphics,guestbook,,comments-wall
+blog-news,"Blog, changelog, or news",STATED,What's New log with dated entries and NEW graphics,Press Releases page with a Timestamp line,Blog or Bulletins box,whats-new,whats-new;last-updated,
+social-icons,Social icons,STATED,"Webring box, an Email me graphic, and an ICQ number or AIM screen name",Contact Us feedback form,"Contact table with Send Message, Add to Friends, and Instant Message",webring;email-me;aim-icq,feedback-form,contact-table
+analytics,Analytics,STATED,Visible hit counter: You are visitor #004217,"Odometer hit counter, or a [Hit Counter] placeholder",Profile Views count,hit-counter,hit-counter;broken-component-placeholder,profile-views
+cookie-banner,Cookie banner,STATED,Best viewed at 800x600 badge,This site uses frames or requires a newer browser notice,Dropped: profiles carried no equivalent,browser-badge,frames-notice;browser-badge,
+newsletter,Newsletter signup,STATED,"Join my mailing list form, or Sign my guestbook",Subscribe to our e-Newsletter form,Add to Friends,guestbook,feedback-form,contact-table
+search,Site search,STATED,"Search this site box, FreeFind style",Search component form,Network search bar,search-form,search-form,
+product-pages,Product pages or shop,STATED,"Photo, description, and price in a table",Catalog table with thumbnails linking to larger JPEGs,Dropped: list items in About Me instead,,,
+saas-dashboard,SaaS app or dashboard,STATED,Screenshots page of a desktop program window and a Download Now! (2.3 MB) link,Product Tour with numbered screenshots and a Free 30-Day Trial download,My Apps module,,,
+login,Login,STATED,Members Only password page,Registration component or login form in a gray table,Network login box,,,
+chat-widget,Chatbot or live chat,STATED,"Chat Room link, or Leave a message on my ICQ","Live Help pop-up, or Email our Webmaster",Instant Message link in the contact table,aim-icq,mailto-text,contact-table
+video,Video,STATED,"Click here to download (QuickTime, 4.1 MB)",Embedded media box with a player-style frame,Embedded video player box,,,
+docs-help,Docs or help center,STATED,FAQ page with anchor links,Support section with a Table of Contents line,Dropped,,,
+faq,FAQ accordion,INFERENCE,FAQ page with Q: and A: pairs and a Back to top link,FAQ page with a numbered question list and bookmarks,Who I'd Like to Meet written as questions,,,profile-blurbs
+dark-mode,Dark mode,STATED,Black or starry background is already the default; add a text-only version link,Printer-friendly version link,Pick a dark user layout,text-only-link;star-tile-bg,printer-friendly-link,user-css-layout
+careers,Careers,STATED,Help Wanted! graphic,Employment Opportunities page,Dropped,,,
+logo-strip,Customer logo strip,INFERENCE,Cool Sites I Like list or an 88x31 button wall,Our Clients bulleted list with small logo GIFs,Top 8 friends,button-88x31,,top-8
+footer,Footer,STATED,"Last updated date, mailto, webring, award badges, and the counter","Copyright company Inc. All rights reserved, Webmaster line, and Best viewed with a browser badge",Network footer links,last-updated;email-me;webring;hit-counter,copyright-footer;mailto-text;browser-badge,
+accessibility-statement,Accessibility statement,STATED,Text-only version link,Text-only version link,Text-only version link,text-only-link,text-only-link,text-only-link

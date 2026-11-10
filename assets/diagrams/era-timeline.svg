@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="t d">
+<title id="t">HOMESTEAD era timeline</title>
+<desc id="d">Six era presets placed on a 1993 to 2026 axis.</desc>
+<rect width="1200" height="360" fill="#FFFFFF"/>
+<text x="32" y="40" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="22" font-weight="600" fill="#1C1C2E">Six locked era presets</text>
+<rect x="80" y="320" width="1070" height="2" fill="#1C1C2E"/>
+<rect x="80.0" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="80.0" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">1993</text>
+<rect x="144.8" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="144.8" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">1995</text>
+<rect x="242.1" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="242.1" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">1998</text>
+<rect x="339.4" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="339.4" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2001</text>
+<rect x="436.7" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="436.7" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2004</text>
+<rect x="533.9" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="533.9" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2007</text>
+<rect x="631.2" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="631.2" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2010</text>
+<rect x="728.5" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="728.5" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2013</text>
+<rect x="825.8" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="825.8" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2016</text>
+<rect x="923.0" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="923.0" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2019</text>
+<rect x="1020.3" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="1020.3" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2022</text>
+<rect x="1117.6" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="1117.6" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2025</text>
+<rect x="1150.0" y="320" width="1" height="8" fill="#1C1C2E"/>
+<text x="1150.0" y="344" font-family="IBM Plex Mono, Courier New, monospace" font-size="12" text-anchor="middle" fill="#1C1C2E">2026</text>
+<rect x="80.0" y="70" width="129.7" height="30" rx="4" fill="#E8EEFF" stroke="#0F2F8A"/>
+<text x="88.0" y="90" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="13" fill="#1C1C2E">A  Proto-Web</text>
+<rect x="144.8" y="110" width="194.5" height="30" rx="4" fill="#1B4FD8" stroke="#0F2F8A"/>
+<text x="152.8" y="130" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="13" fill="#FFFFFF">B  GeoCities</text>
+<rect x="209.7" y="150" width="227.0" height="30" rx="4" fill="#1B4FD8" stroke="#0F2F8A"/>
+<text x="217.7" y="170" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="13" fill="#FFFFFF">C  FrontPage</text>
+<rect x="274.5" y="190" width="194.5" height="30" rx="4" fill="#E8EEFF" stroke="#0F2F8A"/>
+<text x="282.5" y="210" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="13" fill="#1C1C2E">D  Web 1.5 portal</text>
+<rect x="436.7" y="230" width="194.5" height="30" rx="4" fill="#1B4FD8" stroke="#0F2F8A"/>
+<text x="444.7" y="250" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="13" fill="#FFFFFF">E  MySpace profile</text>
+<rect x="728.5" y="270" width="421.5" height="30" rx="4" fill="#E8EEFF" stroke="#0F2F8A"/>
+<text x="736.5" y="290" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="13" fill="#1C1C2E">F  Modern revival (Neocities</text>
+<rect x="900" y="30" width="14" height="14" fill="#1B4FD8"/><text x="920" y="42" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="12" fill="#1C1C2E">kit</text>
+<rect x="960" y="30" width="14" height="14" fill="#E8EEFF" stroke="#0F2F8A"/><text x="980" y="42" font-family="IBM Plex Sans, Arial, Helvetica, sans-serif" font-size="12" fill="#1C1C2E">spec only</text>
+</svg>

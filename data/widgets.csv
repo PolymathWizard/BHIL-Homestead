@@ -1,0 +1,45 @@
+id,label,A,B,C,D,E,F,description
+safe-mode-toggle,Safe Mode toggle,1,1,1,1,1,1,"Persistent control that pauses animation, stops marquees, mutes audio, and raises contrast. Provided by the safety layer and required on every build."
+text-only-link,Text-only version link,1,1,1,1,1,1,"A plain link to a stripped, high-contrast version of the page. Period-correct and the main accessibility escape hatch."
+last-updated,Last updated stamp,1,1,1,1,0,1,A hand-typed or Timestamp-component date such as Last updated 3/14/98.
+mailto-text,Plain mailto footer,1,0,1,1,0,0,An address element or webmaster line with a mailto link.
+email-me,Email me graphic,0,1,0,0,0,1,An animated or static Email Me graphic wrapped in a mailto link.
+browser-badge,Best viewed badge,1,1,1,1,0,0,Best viewed with a named browser at a named resolution. Use generic text or an original badge for client work.
+hit-counter,Visible hit counter,0,1,1,1,0,1,Odometer digits such as You are visitor #004217.
+guestbook,Guestbook,0,1,1,0,0,1,Sign my guestbook page with dated visitor entries. Replaces testimonials.
+webring,Webring box,0,1,0,0,0,1,"Bordered table with previous, next, random, and list links for a themed ring."
+under-construction,Under construction sign,0,1,1,0,0,1,Construction sign on unfinished sections. On FrontPage sites usually a single small GIF on a stub page.
+rainbow-rule,Rainbow horizontal rule,0,1,0,0,0,1,A GIF divider used in place of the hr element.
+star-tile-bg,Starry tiled background,0,1,0,0,0,1,"Black, dark blue, or purple tile scattered with stars."
+neighborhood-address,Neighborhood address,0,1,0,0,0,0,A themed homestead address such as SiliconValley/Heights/4021 matching the site topic.
+whats-new,What's New log,0,1,1,0,0,1,Dated update log with NEW graphics. On corporate sites it becomes Press Releases or News.
+midi-player,Click-to-play background music,0,1,1,0,0,1,A Turn on music control that plays a pre-rendered MIDI-style track only after a click.
+splash-page,Splash or Enter page,0,1,1,1,0,0,Logo plus an ENTER link before the real home page.
+cursor-trail,Cursor trail,0,1,1,0,0,0,DHTML sparkle or dot trail following the pointer. Disabled in Safe Mode.
+aim-icq,Instant messenger handle,0,1,0,1,1,0,ICQ number or AIM screen name in place of chat or social links.
+button-88x31,88x31 button wall,0,1,0,0,0,1,"A cluster of 88 by 31 pixel link buttons for friends, tools, and causes."
+status-bar-scroller,Status bar or text box scroller,0,1,1,0,0,0,"Scrolling message, faked in a form text field or a styled status strip because browsers ignore window.status."
+shared-borders,Shared borders,0,0,1,0,0,0,"FrontPage-style top, left, and bottom regions repeated on every page."
+theme-banner,Theme page banner,0,0,1,0,0,0,"A themed banner graphic carrying the page title, generated per page."
+hover-buttons,Hover button navigation,0,0,1,0,0,0,"Beveled nav buttons with a hover state, rebuilt as image swaps the way careful developers did after Java applets failed."
+search-form,Search this site form,0,1,1,1,0,0,"A small search form, FreeFind style on personal pages or the Search component on corporate pages."
+feedback-form,Feedback form,0,0,1,1,0,0,"Contact Us form with name, email, comments, and a gray Submit button."
+copyright-footer,Corporate copyright footer,0,0,1,1,0,0,"Copyright, company, All rights reserved, and a Webmaster mailto."
+printer-friendly-link,Printer-friendly link,0,0,1,1,0,0,"Printer-friendly version link, the period answer to alternate color schemes."
+broken-component-placeholder,Broken component placeholder,0,0,1,0,0,0,A bracketed placeholder such as [Hit Counter] shown when a host lacked server extensions. A lived-in detail.
+frames-notice,Frames or browser notice,0,1,1,0,0,0,"This site uses frames or requires a newer browser notice, the period equivalent of a cookie banner."
+banner-ad-manager,Rotating banner ad,0,0,1,1,0,0,"468 by 60 rotating banner, originally a Java applet, rebuilt as an image swap."
+flash-intro,Flash-style intro,0,0,1,1,0,0,"Fixed 550 by 400 stage with an animated intro and Skip Intro link, rebuilt in HTML and CSS."
+web-portal-modules,Portal modules,0,0,0,1,0,0,"Weather, stocks, headlines, and My Page style boxes in a three-column table."
+user-css-layout,User CSS layout,0,0,0,0,1,0,A pasted style block that restyles the default profile tables. The layering is the point.
+profile-blurbs,Profile blurbs,0,0,0,0,1,0,About Me and Who I'd Like to Meet sections.
+interests-details,Interests and Details tables,0,0,0,0,1,0,"Interests rows and a Details table with status, hometown, and similar fields."
+contact-table,Contact table,0,0,0,0,1,0,"Send Message, Add to Friends, Instant Message, and similar actions in a grid."
+top-8,Top 8 friends,0,0,0,0,1,0,Grid of eight friend avatars with names. Replaces customer logo strips.
+comments-wall,Comments wall,0,0,0,0,1,0,"Friend comments with avatars, timestamps, and graphics such as Thanks for the add."
+profile-music-player,Profile song player,0,0,0,0,1,0,"Small player box for the profile song, click to play only."
+glitter-text,Glitter text,0,0,0,0,1,1,Sparkling animated text graphic for the display name or headings.
+blinkies,Blinkies,0,0,0,0,1,1,Small 150 by 20 animated text strips that declare likes and moods.
+online-now,Online Now indicator,0,0,0,0,1,0,Small Online Now graphic next to the profile photo.
+profile-views,Profile views count,0,0,0,0,1,0,"Profile Views count in plain text, the profile era replacement for the hit counter."
+custom-cursor,Custom cursor,0,0,0,0,1,0,Custom cursor image set through user CSS.

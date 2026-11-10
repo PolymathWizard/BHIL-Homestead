@@ -1,0 +1,62 @@
+{
+  "preset": "D",
+  "preset_name": "Web 1.5 portal / Y2K corporate",
+  "year": 2001,
+  "host_context": "Corporate or media domain",
+  "target_browser": "Internet Explorer 5.5 or 6",
+  "canvas_width_px": 760,
+  "palette_mode": "full",
+  "base_bg": "#FFFFFF",
+  "palette": {
+    "bg": "#FFFFFF",
+    "text": "#000000",
+    "link": "#003399",
+    "vlink": "#666699",
+    "alink": "#CC0000"
+  },
+  "fonts": {
+    "body": "Verdana, Tahoma, Arial, sans-serif",
+    "heading": "Tahoma, Verdana, sans-serif",
+    "display": "Arial Black, Arial, sans-serif",
+    "mono": "Courier New, Courier, monospace"
+  },
+  "layout_mode": "three-column",
+  "nav_style": "Tab GIF row across the top and a dense left link rail.",
+  "required_widgets": [
+    "safe-mode-toggle",
+    "text-only-link",
+    "last-updated",
+    "web-portal-modules",
+    "search-form",
+    "banner-ad-manager",
+    "copyright-footer",
+    "printer-friendly-link"
+  ],
+  "required_any": [],
+  "forbidden_elements": [
+    "glitter text",
+    "webrings",
+    "starry backgrounds",
+    "web fonts",
+    "rounded corners",
+    "emoji"
+  ],
+  "voice_rules": [
+    "Corporate-cheerful. e-everything.",
+    "Example: Your e-business solution",
+    "Example: Personalize this page",
+    "Example: Click here to make us your home page"
+  ],
+  "motion_budget": 3,
+  "audio": "none",
+  "easter_eggs": [
+    "Make this my home page link",
+    "Weather box for a default city",
+    "Flash banner slot"
+  ],
+  "time_capsule": false,
+  "time_capsule_story": "",
+  "allowed_extra_widgets": [],
+  "reference_urls": [],
+  "asset_policy": "originals-only"
+}

@@ -1,0 +1,60 @@
+{
+  "preset": "A",
+  "preset_name": "Proto-Web / Academic",
+  "year": 1994,
+  "host_context": "University or ISP home directory, for example /~username/",
+  "target_browser": "NCSA Mosaic 2 or Netscape Navigator 1.x",
+  "canvas_width_px": null,
+  "palette_mode": "browser-default",
+  "base_bg": "#C0C0C0",
+  "palette": {
+    "bg": "#C0C0C0",
+    "text": "#000000",
+    "link": "#0000EE",
+    "vlink": "#551A8B",
+    "alink": "#FF0000"
+  },
+  "fonts": {
+    "body": "Times New Roman, Times, serif",
+    "heading": "Times New Roman, Times, serif",
+    "display": "Times New Roman, Times, serif",
+    "mono": "Courier New, Courier, monospace"
+  },
+  "layout_mode": "single-column",
+  "nav_style": "Inline text links and a Back to Home link at the foot of each page.",
+  "required_widgets": [
+    "safe-mode-toggle",
+    "last-updated",
+    "mailto-text",
+    "browser-badge"
+  ],
+  "required_any": [],
+  "forbidden_elements": [
+    "background images",
+    "animated GIFs",
+    "tables used for layout",
+    "font color attributes",
+    "marquee",
+    "web fonts",
+    "CSS of any kind beyond the safety layer"
+  ],
+  "voice_rules": [
+    "Dry and first-person. Pages describe themselves.",
+    "Example: This page is maintained by",
+    "Example: Last modified:",
+    "Example: Comments to",
+    "Example: Back to my home page"
+  ],
+  "motion_budget": 0,
+  "audio": "none",
+  "easter_eggs": [
+    "A tilde username path",
+    "Last modified date in the footer",
+    "A text-only access counter line"
+  ],
+  "time_capsule": false,
+  "time_capsule_story": "",
+  "allowed_extra_widgets": [],
+  "reference_urls": [],
+  "asset_policy": "originals-only"
+}
