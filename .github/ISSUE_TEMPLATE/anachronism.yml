@@ -1,0 +1,30 @@
+name: Anachronism report
+description: Something in a kit or example would not have existed in its era.
+labels: ["type:anachronism", "status:triage"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Kit or example file
+      placeholder: kits/preset-e-myspace/index.html
+    validations:
+      required: true
+  - type: textarea
+    id: element
+    attributes:
+      label: The anachronistic element
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Why it is out of era
+      description: Dates, archived examples, or sources.
+    validations:
+      required: true
+  - type: checkboxes
+    id: lint
+    attributes:
+      label: Lint
+      options:
+        - label: The era lint should have caught this (suggest a rule)

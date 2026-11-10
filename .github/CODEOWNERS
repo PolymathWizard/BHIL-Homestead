@@ -1,0 +1,6 @@
+# Canon and safety-critical files need maintainer review
+/canon/                    @PolymathWizard
+/kits/safety-layer/        @PolymathWizard
+/tools/gif_audit.py        @PolymathWizard
+/tools/era_lint.py         @PolymathWizard
+/.claude/                  @PolymathWizard

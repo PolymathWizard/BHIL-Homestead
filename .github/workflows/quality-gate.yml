@@ -1,0 +1,31 @@
+name: quality-gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Byte-compile tools and scripts
+        run: python -m compileall -q tools scripts tests
+      - name: Regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Validator (dash gate, canon, counts, schemas, agents, builds, links)
+        run: python scripts/validate.py
+      - name: Lint every kit strictly
+        run: |
+          python tools/era_lint.py kits/preset-b-geocities --preset B --strict
+          python tools/era_lint.py kits/preset-c-frontpage --preset C --strict
+          python tools/era_lint.py kits/preset-e-myspace --preset E --strict
+      - name: GIF audit
+        run: python tools/gif_audit.py kits examples

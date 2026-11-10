@@ -1,0 +1,28 @@
+name: New preset or kit
+description: Propose an era preset, or a kit for a spec-only preset (A, D, F).
+labels: ["type:preset", "status:triage"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Era name and years
+      placeholder: Xanga journal, 2001 to 2006
+    validations:
+      required: true
+  - type: textarea
+    id: signatures
+    attributes:
+      label: Visual and technical signatures
+      description: Canvas, palette, fonts, layout, widgets, voice.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Archive references
+    validations:
+      required: true
+  - type: textarea
+    id: distinct
+    attributes:
+      label: Why it is distinct from existing presets

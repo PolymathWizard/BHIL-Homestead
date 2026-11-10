@@ -1,0 +1,10 @@
+[
+  {"name": "type:correction", "color": "d73a4a", "description": "Factual error or correction"},
+  {"name": "type:question", "color": "0075ca", "description": "Reader question"},
+  {"name": "type:suggestion", "color": "0e8a16", "description": "Content or feature suggestion"},
+  {"name": "type:anachronism", "color": "fbca04", "description": "Something out of era in a kit or example"},
+  {"name": "type:preset", "color": "5319e7", "description": "New preset or kit proposal"},
+  {"name": "status:triage", "color": "ededed", "description": "Needs review"},
+  {"name": "status:accepted", "color": "0e8a16", "description": "Approved for work"},
+  {"name": "safety", "color": "b60205", "description": "Flash, motion, audio, or accessibility"}
+]

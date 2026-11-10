@@ -1,0 +1,127 @@
+site_name: HOMESTEAD
+site_description: Analyze any modern website and rebuild it the way GeoCities, FrontPage, or MySpace would have.
+site_author: Barry Hurd Intelligence Lab
+site_url: https://polymathwizard.github.io/BHIL-HOMESTEAD/
+repo_url: https://github.com/PolymathWizard/BHIL-HOMESTEAD
+repo_name: PolymathWizard/BHIL-HOMESTEAD
+edit_uri: edit/main/
+copyright: "Code MIT, content CC BY 4.0. Barry Hurd Intelligence Lab. Human-Directed. AI-Enabled. Commercially Tested."
+
+docs_dir: site-src
+site_dir: site
+
+# MkDocs excludes /templates/ by default; HOMESTEAD publishes its templates.
+exclude_docs: |
+  .*
+  __pycache__/
+
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - search.highlight
+
+extra_css:
+  - assets/site/bhil.css
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+
+validation:
+  omitted_files: info
+  absolute_links: info
+  unrecognized_links: warn
+  anchors: warn
+
+nav:
+  - Home: index.md
+  - Method:
+      - docs/README.md
+      - Overview: docs/01-overview.md
+      - Process: docs/02-process.md
+      - Site survey: docs/03-site-survey.md
+      - Era lock: docs/04-era-lock.md
+      - Component mapping: docs/05-component-mapping.md
+      - Assets: docs/06-assets.md
+      - Build: docs/07-build.md
+      - Authenticity QA: docs/08-authenticity-qa.md
+      - Accessibility and safety: docs/09-accessibility-and-safety.md
+      - Legal and licensing: docs/10-legal-and-licensing.md
+      - Agent architecture: docs/11-agent-architecture.md
+  - Presets:
+      - docs/presets/README.md
+      - A Proto-Web: docs/presets/preset-a-proto-web.md
+      - B GeoCities: docs/presets/preset-b-geocities.md
+      - C FrontPage: docs/presets/preset-c-frontpage.md
+      - D Portal: docs/presets/preset-d-portal.md
+      - E MySpace: docs/presets/preset-e-myspace.md
+      - F Revival: docs/presets/preset-f-revival.md
+  - Reference:
+      - docs/reference/README.md
+      - Phase map: docs/reference/phase-map.md
+      - Mapping table: docs/reference/mapping-table.md
+      - Widget registry: docs/reference/widget-registry.md
+      - Rubric: docs/reference/rubric.md
+      - Lint rules: docs/reference/lint-rules.md
+      - Technical vocabulary: docs/reference/technical-vocabulary.md
+      - Font map: docs/reference/font-map.md
+      - Web-safe palette: docs/reference/web-safe-palette.md
+      - Agent roster: docs/reference/agent-roster.md
+      - Evidence register: docs/reference/evidence-register.md
+  - Kits:
+      - Safety layer: kits/safety-layer/README.md
+      - Preset B: kits/preset-b-geocities/overview.md
+      - Preset C: kits/preset-c-frontpage/overview.md
+      - Preset E: kits/preset-e-myspace/overview.md
+  - Worked example: examples/nimbus-ledger/README.md
+  - Agents and prompts:
+      - AGENTS.md: AGENTS.md
+      - Prompt system: prompts/README.md
+      - P00 Command Center: prompts/P00-command-center.md
+      - P01 Intake: prompts/P01-intake.md
+      - P02 Site survey: prompts/P02-site-survey.md
+      - P03 Era lock: prompts/P03-era-lock.md
+      - P04 Component mapping: prompts/P04-component-mapping.md
+      - P05 Era copy deck: prompts/P05-era-copy-deck.md
+      - P06 Asset plan: prompts/P06-asset-plan.md
+      - P07 Period build: prompts/P07-period-build.md
+      - P08 Safety pass: prompts/P08-safety-pass.md
+      - P09 Authenticity audit: prompts/P09-authenticity-audit.md
+      - P10 Fix loop and ship: prompts/P10-fix-loop-and-ship.md
+      - Portable skill: skill/README.md
+  - Decisions: adr/README.md
+  - Support:
+      - support/README.md
+      - Quickstart: support/quickstart.md
+      - FAQ: support/faq.md
+      - Troubleshooting: support/troubleshooting.md
+      - Glossary: support/glossary.md
+  - Contributing: CONTRIBUTING.md
+  - Changelog: CHANGELOG.md

@@ -1,0 +1,28 @@
+name: Correction
+description: Report a factual error in the docs, canon, or evidence register.
+labels: ["type:correction", "status:triage"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or file
+      placeholder: docs/04-era-lock.md or canon/sources.json C-012
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source or evidence
+      description: Links to primary sources help us promote a claim's evidence tier.
+    validations:
+      required: true

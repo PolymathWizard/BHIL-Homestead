@@ -1,0 +1,20 @@
+name: Question
+description: Ask how to do something with HOMESTEAD.
+labels: ["type:question", "status:triage"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: checked
+    attributes:
+      label: What you already checked
+      description: Quickstart, FAQ, troubleshooting, the relevant docs page.
+  - type: input
+    id: preset
+    attributes:
+      label: Preset, if relevant
+      placeholder: B

@@ -1,0 +1,24 @@
+name: Suggestion
+description: Propose a new mapping row, widget, lint rule, tool feature, or doc.
+labels: ["type:suggestion", "status:triage"]
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why it helps
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [canon, tools, kits, agents, prompts, docs, other]
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Period evidence
+      description: For era claims, link archived pages or sources.
