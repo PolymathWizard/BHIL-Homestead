@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Bash(python3 tools/*)",
+      "Bash(python3 scripts/validate.py)",
+      "Bash(python3 scripts/verify_drift.py)",
+      "Bash(python3 -m unittest *)",
+      "Bash(ls *)",
+      "Bash(mkdir -p engagements/*)",
+      "Write(engagements/**)",
+      "Edit(engagements/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force *)",
+      "Write(canon/**)",
+      "Edit(canon/**)",
+      "Write(docs/presets/**)",
+      "Write(docs/reference/**)",
+      "Write(templates/era-spec-cards/**)",
+      "Write(MANIFEST.sha256)",
+      "Write(.claude/settings.json)",
+      "Edit(.claude/settings.json)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/hook_era_lint.py\""
+          }
+        ]
+      }
+    ]
+  }
+}
